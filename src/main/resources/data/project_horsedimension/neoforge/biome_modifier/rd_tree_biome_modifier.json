@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "project_horsedimension:pasture",
+  "features": "project_horsedimension:rd_tree",
+  "step": "vegetal_decoration"
+}

@@ -1,0 +1,10 @@
+{
+  "parent": "block/slab_top",
+  "textures": {
+    "particle": "project_horsedimension:block/asphalt_shingles",
+    "bottom": "project_horsedimension:block/asphalt_shingles",
+    "top": "project_horsedimension:block/asphalt_shingles",
+    "side": "project_horsedimension:block/asphalt_shingles"
+  },
+  "render_type": "solid"
+}

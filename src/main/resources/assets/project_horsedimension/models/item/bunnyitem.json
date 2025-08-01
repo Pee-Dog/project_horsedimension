@@ -1,0 +1,10 @@
+{
+  "forge_marker": 1,
+  "parent": "neoforge:item/default",
+  "loader": "neoforge:obj",
+  "model": "project_horsedimension:models/item/bunny.obj",
+  "textures": {
+    "Material__26": "project_horsedimension:block/bunny_flipped",
+    "particle": "project_horsedimension:item/bunny"
+  }
+}

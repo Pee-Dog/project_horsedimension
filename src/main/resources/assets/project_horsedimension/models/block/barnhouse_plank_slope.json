@@ -1,0 +1,20 @@
+{
+  "parent": "neoforge:item/default",
+  "loader": "neoforge:composite",
+  "children": {
+    "part1": {
+      "loader": "neoforge:obj",
+      "render_type": "solid",
+      "model": "project_horsedimension:models/item/slop2.obj",
+      "emissive_ambient": true,
+      "textures": {
+        "Material.001": "project_horsedimension:block/barnhouse_plank",
+        "particle": "project_horsedimension:block/barnhouse_plank"
+      }
+    }
+  },
+  "textures": {
+    "particle": "project_horsedimension:block/barnhouse_plank"
+  },
+  "render_type": "solid"
+}

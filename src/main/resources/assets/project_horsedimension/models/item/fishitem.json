@@ -1,0 +1,10 @@
+{
+  "forge_marker": 1,
+  "parent": "neoforge:item/default",
+  "loader": "neoforge:obj",
+  "model": "project_horsedimension:models/item/fish.obj",
+  "textures": {
+    "Material.001": "project_horsedimension:block/fish_texture_flipped",
+    "particle": "project_horsedimension:item/fish_texture_flipped"
+  }
+}

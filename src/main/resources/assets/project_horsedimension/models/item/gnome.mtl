@@ -1,0 +1,4 @@
+newmtl gnome
+map_Kd gnome
+newmtl gnomeback
+map_Kd gnomeback

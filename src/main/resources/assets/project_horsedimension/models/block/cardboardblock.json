@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "project_horsedimension:block/cardboard",
+    "up": "project_horsedimension:block/cardboard",
+    "north": "project_horsedimension:block/cardboard",
+    "east": "project_horsedimension:block/cardboard",
+    "south": "project_horsedimension:block/cardboard",
+    "west": "project_horsedimension:block/cardboard",
+    "particle": "project_horsedimension:block/cardboard"
+  },
+  "render_type": "solid"
+}

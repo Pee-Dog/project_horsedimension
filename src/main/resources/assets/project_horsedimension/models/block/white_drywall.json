@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "project_horsedimension:block/drywall_white",
+    "particle": "project_horsedimension:block/drywall_white"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "lambert2SG.001": "horse_upsidedown"
+      },
+      "name": "default"
+    }
+  }
+}

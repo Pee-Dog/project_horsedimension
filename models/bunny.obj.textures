@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "Material__26": "bunny_flipped"
+      },
+      "name": "default"
+    }
+  }
+}

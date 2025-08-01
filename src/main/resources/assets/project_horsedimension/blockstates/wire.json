@@ -1,0 +1,27 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "project_horsedimension:block/wire"
+    },
+    "facing=east": {
+      "model": "project_horsedimension:block/wire",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "project_horsedimension:block/wire",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "project_horsedimension:block/wire",
+      "y": 270
+    },
+    "facing=up": {
+      "model": "project_horsedimension:block/wire",
+      "x": 270
+    },
+    "facing=down": {
+      "model": "project_horsedimension:block/wire",
+      "x": 90
+    }
+  }
+}

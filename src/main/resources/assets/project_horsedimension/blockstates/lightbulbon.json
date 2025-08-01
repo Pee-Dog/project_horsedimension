@@ -1,0 +1,27 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "project_horsedimension:block/lightbulbon"
+    },
+    "facing=east": {
+      "model": "project_horsedimension:block/lightbulbon",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "project_horsedimension:block/lightbulbon",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "project_horsedimension:block/lightbulbon",
+      "y": 270
+    },
+    "facing=up": {
+      "model": "project_horsedimension:block/lightbulbon",
+      "x": 270
+    },
+    "facing=down": {
+      "model": "project_horsedimension:block/lightbulbon",
+      "x": 90
+    }
+  }
+}

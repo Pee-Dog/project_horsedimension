@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "project_horsedimension:block/aggregate",
+    "particle": "project_horsedimension:block/aggregate"
+  },
+  "render_type": "solid"
+}

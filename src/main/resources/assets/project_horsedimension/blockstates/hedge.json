@@ -1,0 +1,21 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "project_horsedimension:block/hedge"
+      },
+      {
+        "model": "project_horsedimension:block/hedge",
+        "y": 90
+      },
+      {
+        "model": "project_horsedimension:block/hedge",
+        "y": 180
+      },
+      {
+        "model": "project_horsedimension:block/hedge",
+        "y": 270
+      }
+    ]
+  }
+}

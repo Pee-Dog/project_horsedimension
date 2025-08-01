@@ -1,0 +1,81 @@
+{
+  "_fv": 79,
+  "_type": "dimension",
+  "definition": {
+    "biomesInDimension": [
+      {
+        "value": "CUSTOM:Pasture"
+      },
+      {
+        "value": "CUSTOM:Oasis"
+      },
+      {
+        "value": "CUSTOM:DeepBlue"
+      },
+      {
+        "value": "CUSTOM:Garden"
+      },
+      {
+        "value": "CUSTOM:Maine"
+      }
+    ],
+    "worldGenType": "Normal world gen",
+    "mainFillerBlock": {
+      "value": "CUSTOM:Asphalt"
+    },
+    "fluidBlock": {
+      "value": "CUSTOM:Asphalt"
+    },
+    "seaLevel": 0,
+    "generateOreVeins": false,
+    "generateAquifers": false,
+    "horizontalNoiseSize": 4,
+    "verticalNoiseSize": 2,
+    "defaultEffects": "overworld",
+    "useCustomEffects": true,
+    "hasClouds": false,
+    "cloudHeight": 192.0,
+    "skyType": "END",
+    "sunHeightAffectsFog": false,
+    "canRespawnHere": false,
+    "hasFog": true,
+    "ambientLight": 0.0,
+    "doesWaterVaporize": false,
+    "hasFixedTime": false,
+    "fixedTimeValue": 167,
+    "coordinateScale": 1.0,
+    "infiniburnTag": "minecraft:infiniburn_overworld",
+    "bedWorks": true,
+    "hasSkyLight": true,
+    "imitateOverworldBehaviour": true,
+    "piglinSafe": true,
+    "hasRaids": false,
+    "minMonsterSpawnLightLimit": 0,
+    "maxMonsterSpawnLightLimit": 7,
+    "monsterSpawnBlockLightLimit": 15,
+    "portalFrame": {
+      "value": ""
+    },
+    "portalParticles": {
+      "value": "PORTAL"
+    },
+    "portalLuminance": 0,
+    "portalSound": {
+      "value": "block.portal.ambient"
+    },
+    "enableIgniter": false,
+    "igniterName": "Horsedimension Portal Igniter",
+    "igniterRarity": "COMMON",
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "creativeTabs": [
+      {
+        "value": "TOOLS"
+      }
+    ],
+    "texture": "",
+    "portalTexture": "",
+    "enablePortal": false
+  }
+}

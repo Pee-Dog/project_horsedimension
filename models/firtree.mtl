@@ -1,0 +1,5 @@
+newmtl firBark
+map_Kd null
+newmtl firLeaf
+map_Kd null
+map_d Tree/firLeaf.png

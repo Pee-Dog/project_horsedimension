@@ -1,0 +1,8 @@
+{
+  "_fv": 79,
+  "_type": "procedure",
+  "definition": {
+    "procedurexml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"event_trigger\" deletable=\"false\" x=\"40\" y=\"40\"><field name=\"trigger\">no_ext_trigger</field><next><block type=\"entity_data_integer_set\"><field name=\"customEntity\">CUSTOM:Fish</field><field name=\"accessor\">fishscale</field><value name=\"entity\"><block type=\"entity_from_deps\"></block></value><value name=\"value\"><block type=\"math_random_int_between\"><value name=\"min\"><block type=\"math_number\"><field name=\"NUM\">2</field></block></value><value name=\"max\"><block type=\"math_number\"><field name=\"NUM\">4</field></block></value></block></value></block></next></block><block type=\"math_number\" x=\"766\" y=\"206\"><field name=\"NUM\">0</field></block><block type=\"entity_data_integer_get\" x=\"42\" y=\"254\"><field name=\"customEntity\">CUSTOM:Fish</field><field name=\"accessor\">fishscale</field><value name=\"entity\"><block type=\"entity_from_deps\"></block></value></block><block type=\"math_number\" x=\"853\" y=\"237\"><field name=\"NUM\">0</field></block><block type=\"math_random_number_between\" x=\"770\" y=\"252\"><value name=\"min\"><block type=\"math_number\"><field name=\"NUM\">2</field></block></value><value name=\"max\"><block type=\"math_number\"><field name=\"NUM\">4</field></block></value></block></xml>",
+    "skipDependencyNullCheck": false
+  }
+}

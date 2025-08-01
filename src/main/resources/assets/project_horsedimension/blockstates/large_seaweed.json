@@ -1,0 +1,21 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "project_horsedimension:block/large_seaweed"
+      },
+      {
+        "model": "project_horsedimension:block/large_seaweed",
+        "y": 90
+      },
+      {
+        "model": "project_horsedimension:block/large_seaweed",
+        "y": 180
+      },
+      {
+        "model": "project_horsedimension:block/large_seaweed",
+        "y": 270
+      }
+    ]
+  }
+}

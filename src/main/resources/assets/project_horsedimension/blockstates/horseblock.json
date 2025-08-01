@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "project_horsedimension:block/horseblock"
+    },
+    "facing=east": {
+      "model": "project_horsedimension:block/horseblock",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "project_horsedimension:block/horseblock",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "project_horsedimension:block/horseblock",
+      "y": 270
+    }
+  }
+}

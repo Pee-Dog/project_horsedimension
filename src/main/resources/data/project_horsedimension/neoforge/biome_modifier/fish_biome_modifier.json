@@ -1,0 +1,10 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": "project_horsedimension:deep_blue",
+  "spawners": {
+    "type": "project_horsedimension:fish",
+    "weight": 15,
+    "minCount": 2,
+    "maxCount": 5
+  }
+}

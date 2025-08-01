@@ -1,0 +1,262 @@
+{
+  "equine.racehorn": {
+    "subtitle": "subtitles.equine.racehorn",
+    "sounds": [
+      {
+        "name": "project_horsedimension:race_horns",
+        "stream": true
+      }
+    ]
+  },
+  "equine.yell": {
+    "subtitle": "subtitles.equine.yell",
+    "sounds": [
+      {
+        "name": "project_horsedimension:neigh_big",
+        "stream": false
+      }
+    ]
+  },
+  "equine.snort": {
+    "subtitle": "subtitles.equine.snort",
+    "sounds": [
+      {
+        "name": "project_horsedimension:snort",
+        "stream": false
+      }
+    ]
+  },
+  "equine.gallop": {
+    "subtitle": "subtitles.equine.gallop",
+    "sounds": [
+      {
+        "name": "project_horsedimension:gallop",
+        "stream": false
+      }
+    ]
+  },
+  "equine.idle": {
+    "subtitle": "subtitles.equine.idle",
+    "sounds": [
+      {
+        "name": "project_horsedimension:neigh",
+        "stream": false
+      },
+      {
+        "name": "project_horsedimension:snort",
+        "stream": false
+      }
+    ]
+  },
+  "horsecoin.cash": {
+    "subtitle": "subtitles.horsecoin.cash",
+    "sounds": [
+      {
+        "name": "project_horsedimension:cash",
+        "stream": false
+      }
+    ]
+  },
+  "equine.ignition": {
+    "subtitle": "subtitles.equine.ignition",
+    "sounds": [
+      {
+        "name": "project_horsedimension:horse_start",
+        "stream": false
+      }
+    ]
+  },
+  "equine.ignitionfail": {
+    "subtitle": "subtitles.equine.ignitionfail",
+    "sounds": [
+      {
+        "name": "project_horsedimension:horse_start_fail",
+        "stream": false
+      }
+    ]
+  },
+  "horsecoin.collect": {
+    "subtitle": "subtitles.horsecoin.collect",
+    "sounds": [
+      {
+        "name": "project_horsedimension:horsecoincollect",
+        "stream": false
+      }
+    ]
+  },
+  "horsecoin.collectph": {
+    "subtitle": "subtitles.horsecoin.collectph",
+    "sounds": [
+      {
+        "name": "project_horsedimension:sm64_coin_sound",
+        "stream": false
+      }
+    ]
+  },
+  "bird.idle": {
+    "subtitle": "subtitles.bird.idle",
+    "sounds": [
+      {
+        "name": "project_horsedimension:bird1",
+        "stream": false
+      },
+      {
+        "name": "project_horsedimension:bird2",
+        "stream": false
+      },
+      {
+        "name": "project_horsedimension:bird3",
+        "stream": false
+      },
+      {
+        "name": "project_horsedimension:bird4",
+        "stream": false
+      }
+    ]
+  },
+  "bird.hurt": {
+    "subtitle": "subtitles.bird.hurt",
+    "sounds": [
+      {
+        "name": "project_horsedimension:hawk",
+        "stream": false
+      }
+    ]
+  },
+  "mario.step": {
+    "subtitle": "subtitles.mario.step",
+    "sounds": [
+      {
+        "name": "project_horsedimension:step1",
+        "stream": false
+      },
+      {
+        "name": "project_horsedimension:step2",
+        "stream": false
+      },
+      {
+        "name": "project_horsedimension:step3",
+        "stream": false
+      },
+      {
+        "name": "project_horsedimension:step4",
+        "stream": false
+      },
+      {
+        "name": "project_horsedimension:step5",
+        "stream": false
+      }
+    ]
+  },
+  "peajak.step": {
+    "subtitle": "subtitles.peajak.step",
+    "sounds": [
+      {
+        "name": "project_horsedimension:sm64_enemy_walk_1",
+        "stream": false
+      }
+    ]
+  },
+  "peajak.stomp1": {
+    "sounds": [
+      {
+        "name": "project_horsedimension:sm64_stomp_1",
+        "stream": false
+      }
+    ]
+  },
+  "peajak.stomp2": {
+    "sounds": [
+      {
+        "name": "project_horsedimension:sm64_stomp_2",
+        "stream": false
+      }
+    ]
+  },
+  "peajak.death": {
+    "sounds": [
+      {
+        "name": "project_horsedimension:goombadeath",
+        "stream": false
+      }
+    ]
+  },
+  "peajak.hop": {
+    "sounds": [
+      {
+        "name": "project_horsedimension:goombanotice",
+        "stream": false
+      }
+    ]
+  },
+  "pea.shoot": {
+    "sounds": [
+      {
+        "name": "project_horsedimension:explode",
+        "stream": false
+      }
+    ]
+  },
+  "pea.shoot1": {
+    "sounds": [
+      {
+        "name": "project_horsedimension:burst",
+        "stream": false
+      }
+    ]
+  },
+  "pea.splat": {
+    "subtitle": "subtitles.pea.splat",
+    "sounds": [
+      {
+        "name": "project_horsedimension:robloxsplat",
+        "stream": false
+      }
+    ]
+  },
+  "lightswitch.on": {
+    "subtitle": "subtitles.lightswitch.on",
+    "sounds": [
+      {
+        "name": "project_horsedimension:clickon",
+        "stream": false
+      }
+    ]
+  },
+  "lightswitch.off": {
+    "subtitle": "subtitles.lightswitch.off",
+    "sounds": [
+      {
+        "name": "project_horsedimension:clickoff",
+        "stream": false
+      }
+    ]
+  },
+  "cricket.chirp": {
+    "subtitle": "subtitles.cricket.chirp",
+    "sounds": [
+      {
+        "name": "project_horsedimension:cricketchirp",
+        "stream": false
+      }
+    ]
+  },
+  "horsedimension.despawn": {
+    "subtitle": "subtitles.horsedimension.despawn",
+    "sounds": [
+      {
+        "name": "project_horsedimension:despawn",
+        "stream": false
+      }
+    ]
+  },
+  "bird.transform": {
+    "subtitle": "subtitles.bird.transform",
+    "sounds": [
+      {
+        "name": "project_horsedimension:warp",
+        "stream": false
+      }
+    ]
+  }
+}

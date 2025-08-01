@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "Material.001": "horseapple_plank"
+      },
+      "name": "default"
+    }
+  }
+}

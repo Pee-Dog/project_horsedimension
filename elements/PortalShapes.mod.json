@@ -1,0 +1,48 @@
+{
+  "_fv": 79,
+  "_type": "blockstates",
+  "definition": {
+    "block": "Hdportaldiamond",
+    "blockstateList": [
+      {
+        "texture": "horsenoise",
+        "textureTop": "",
+        "textureLeft": "",
+        "textureFront": "",
+        "textureRight": "",
+        "textureBack": "",
+        "particleTexture": "",
+        "renderType": 3,
+        "customModelName": "hportal2:default",
+        "luminance": 0,
+        "boundingBoxes": []
+      },
+      {
+        "texture": "horsenoise",
+        "textureTop": "",
+        "textureLeft": "",
+        "textureFront": "",
+        "textureRight": "",
+        "textureBack": "",
+        "particleTexture": "",
+        "renderType": 3,
+        "customModelName": "hportal3:default",
+        "luminance": 0,
+        "boundingBoxes": []
+      },
+      {
+        "texture": "horsenoise",
+        "textureTop": "",
+        "textureLeft": "",
+        "textureFront": "",
+        "textureRight": "",
+        "textureBack": "",
+        "particleTexture": "",
+        "renderType": 3,
+        "customModelName": "hportal4:default",
+        "luminance": 0,
+        "boundingBoxes": []
+      }
+    ]
+  }
+}

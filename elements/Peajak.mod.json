@@ -1,0 +1,190 @@
+{
+  "_fv": 79,
+  "_type": "livingentity",
+  "definition": {
+    "mobName": "Peajak",
+    "mobLabel": "",
+    "mobModelName": "Biped",
+    "mobModelTexture": "nothing.png",
+    "transparentModelCondition": {
+      "fixedValue": false
+    },
+    "isShakingCondition": {
+      "fixedValue": false
+    },
+    "solidBoundingBox": {
+      "fixedValue": false
+    },
+    "visualScale": {
+      "fixedValue": 0.3
+    },
+    "boundingBoxScale": {
+      "fixedValue": 1.0,
+      "name": "PeajakBoundingBoxScale"
+    },
+    "modelLayers": [],
+    "animations": [],
+    "modelWidth": 0.5,
+    "modelHeight": 0.5,
+    "modelShadowSize": 0.0,
+    "mountedYOffset": 0.0,
+    "hasSpawnEgg": true,
+    "spawnEggBaseColor": {
+      "value": -3342388,
+      "falpha": 0.0
+    },
+    "spawnEggDotColor": {
+      "value": -3342388,
+      "falpha": 0.0
+    },
+    "creativeTabs": [
+      {
+        "value": "MISC"
+      },
+      {
+        "value": "CUSTOM:HorthDimensionCreativeTab"
+      }
+    ],
+    "isBoss": false,
+    "bossBarColor": "PINK",
+    "bossBarType": "PROGRESS",
+    "equipmentMainHand": {
+      "value": "CUSTOM:Peajakhanditem"
+    },
+    "equipmentOffHand": {
+      "value": "CUSTOM:Peajakhanditem"
+    },
+    "equipmentHelmet": {
+      "value": "CUSTOM:Peajakitem"
+    },
+    "equipmentBody": {
+      "value": ""
+    },
+    "equipmentLeggings": {
+      "value": ""
+    },
+    "equipmentBoots": {
+      "value": ""
+    },
+    "mobBehaviourType": "Mob",
+    "mobCreatureType": "UNDEFINED",
+    "attackStrength": 3,
+    "attackKnockback": 0.0,
+    "knockbackResistance": 0.0,
+    "movementSpeed": 0.27,
+    "stepHeight": 0.6,
+    "armorBaseValue": 0.0,
+    "trackingRange": 64,
+    "followRange": 32,
+    "health": 5,
+    "xpAmount": 0,
+    "waterMob": false,
+    "breatheUnderwater": {
+      "fixedValue": false
+    },
+    "pushedByFluids": {
+      "fixedValue": true
+    },
+    "flyingMob": false,
+    "inventorySize": 9,
+    "inventoryStackSize": 99,
+    "disableCollisions": false,
+    "ridable": false,
+    "canControlForward": false,
+    "canControlStrafe": false,
+    "immuneToFire": false,
+    "immuneToArrows": false,
+    "immuneToFallDamage": false,
+    "immuneToCactus": false,
+    "immuneToDrowning": false,
+    "immuneToLightning": false,
+    "immuneToPotions": false,
+    "immuneToPlayer": false,
+    "immuneToExplosion": false,
+    "immuneToTrident": false,
+    "immuneToAnvil": false,
+    "immuneToWither": false,
+    "immuneToDragonBreath": false,
+    "mobDrop": {
+      "value": "CUSTOM:Pea"
+    },
+    "livingSound": {
+      "value": ""
+    },
+    "hurtSound": {
+      "value": "CUSTOM:peajak.stomp1"
+    },
+    "deathSound": {
+      "value": "CUSTOM:peajak.death"
+    },
+    "stepSound": {
+      "value": "CUSTOM:peajak.step"
+    },
+    "raidCelebrationSound": {
+      "value": ""
+    },
+    "entityDataEntries": [
+      {
+        "min": -2147483648,
+        "max": 2147483647,
+        "name": "stomped",
+        "type": "integer",
+        "value": 0
+      }
+    ],
+    "whenMobDies": {
+      "name": "PeajakEntityDies"
+    },
+    "onMobTickUpdate": {
+      "name": "PeajakOnEntityTickUpdate"
+    },
+    "onPlayerCollidesWith": {
+      "name": "PeajakPlayerCollidesWithThisEntity"
+    },
+    "hasAI": true,
+    "aiBase": "(none)",
+    "aixml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"aitasks_container\" deletable=\"false\" x=\"40\" y=\"40\"><next><block type=\"wander\"><field name=\"speed\">1</field><field name=\"condition\">null,null</field><next><block type=\"attack_action\"><field name=\"callhelp\">TRUE</field><field name=\"condition\">null,null</field><next><block type=\"look_around\"><field name=\"condition\">null,null</field><next><block type=\"swim_in_water\"><field name=\"condition\">null,null</field><next><block type=\"attack_entity\"><field name=\"insight\">TRUE</field><field name=\"nearby\">FALSE</field><field name=\"entity\">EntityPlayer</field><field name=\"condition\">null,null</field></block></next></block></next></block></next></block></next></block></next></block></xml>",
+    "breedable": false,
+    "tameable": false,
+    "breedTriggerItems": [],
+    "ranged": true,
+    "rangedAttackItem": {
+      "value": ""
+    },
+    "rangedItemType": "Peajectile",
+    "rangedAttackInterval": 60,
+    "rangedAttackRadius": 10.0,
+    "spawnThisMob": true,
+    "doesDespawnWhenIdle": true,
+    "spawningCondition": {
+      "name": "PeajakNaturalEntitySpawningCondition"
+    },
+    "spawningProbability": 1,
+    "mobSpawningType": "monster",
+    "minNumberOfMobsPerGroup": 1,
+    "maxNumberOfMobsPerGroup": 1,
+    "restrictionBiomes": [
+      {
+        "value": "CUSTOM:Pasture"
+      },
+      {
+        "value": "CUSTOM:Garden"
+      }
+    ],
+    "spawnInDungeons": false,
+    "raidSpawnsCount": [
+      4,
+      3,
+      3,
+      4,
+      4,
+      4,
+      2
+    ],
+    "sensitiveToVibration": false,
+    "vibrationalEvents": [],
+    "vibrationSensitivityRadius": {
+      "fixedValue": 7.0
+    }
+  }
+}

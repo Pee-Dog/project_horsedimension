@@ -1,0 +1,20 @@
+{
+  "parent": "neoforge:item/default",
+  "loader": "neoforge:composite",
+  "children": {
+    "part1": {
+      "loader": "neoforge:obj",
+      "render_type": "cutout",
+      "model": "project_horsedimension:models/item/fern.obj",
+      "emissive_ambient": true,
+      "textures": {
+        "farn2": "project_horsedimension:block/farn2",
+        "particle": "project_horsedimension:block/farn2"
+      }
+    }
+  },
+  "textures": {
+    "particle": "project_horsedimension:block/farn2"
+  },
+  "render_type": "cutout"
+}

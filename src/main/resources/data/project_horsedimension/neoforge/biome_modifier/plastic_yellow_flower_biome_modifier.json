@@ -1,0 +1,9 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": [
+    "project_horsedimension:garden",
+    "project_horsedimension:pasture"
+  ],
+  "features": "project_horsedimension:plastic_yellow_flower",
+  "step": "vegetal_decoration"
+}

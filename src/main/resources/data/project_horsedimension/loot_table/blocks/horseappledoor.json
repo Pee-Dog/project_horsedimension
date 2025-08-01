@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "project_horsedimension:blocks/horseappledoor",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "project_horsedimension:horseappledoor",
+          "conditions": [
+            {
+              "block": "project_horsedimension:horseappledoor",
+              "condition": "minecraft:block_state_property",
+              "properties": {
+                "half": "lower"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

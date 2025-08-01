@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "Material.004": "leftbarndoor_flipped"
+      },
+      "name": "default"
+    }
+  }
+}

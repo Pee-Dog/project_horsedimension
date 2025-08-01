@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "project_horsedimension:block/hdportalcenter"
+    },
+    "facing=east": {
+      "model": "project_horsedimension:block/hdportalcenter",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "project_horsedimension:block/hdportalcenter",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "project_horsedimension:block/hdportalcenter",
+      "y": 270
+    }
+  }
+}

@@ -1,0 +1,182 @@
+{
+  "_fv": 79,
+  "_type": "livingentity",
+  "definition": {
+    "mobName": "Fish",
+    "mobLabel": "",
+    "mobModelName": "Biped",
+    "mobModelTexture": "nothing.png",
+    "transparentModelCondition": {
+      "fixedValue": false
+    },
+    "isShakingCondition": {
+      "fixedValue": false
+    },
+    "solidBoundingBox": {
+      "fixedValue": false
+    },
+    "visualScale": {
+      "fixedValue": 0.3,
+      "name": "FishModelVisualScale"
+    },
+    "boundingBoxScale": {
+      "fixedValue": 1.0
+    },
+    "modelLayers": [],
+    "animations": [],
+    "modelWidth": 0.6,
+    "modelHeight": 0.5,
+    "modelShadowSize": 0.0,
+    "mountedYOffset": 0.0,
+    "hasSpawnEgg": true,
+    "spawnEggBaseColor": {
+      "value": -3355393,
+      "falpha": 0.0
+    },
+    "spawnEggDotColor": {
+      "value": -3355393,
+      "falpha": 0.0
+    },
+    "creativeTabs": [
+      {
+        "value": "MISC"
+      }
+    ],
+    "isBoss": false,
+    "bossBarColor": "PINK",
+    "bossBarType": "PROGRESS",
+    "equipmentMainHand": {
+      "value": ""
+    },
+    "equipmentOffHand": {
+      "value": ""
+    },
+    "equipmentHelmet": {
+      "value": "CUSTOM:Fishitem"
+    },
+    "equipmentBody": {
+      "value": ""
+    },
+    "equipmentLeggings": {
+      "value": ""
+    },
+    "equipmentBoots": {
+      "value": ""
+    },
+    "mobBehaviourType": "Creature",
+    "mobCreatureType": "UNDEFINED",
+    "attackStrength": 3,
+    "attackKnockback": 0.0,
+    "knockbackResistance": 0.0,
+    "movementSpeed": 0.25,
+    "stepHeight": 3.0,
+    "armorBaseValue": 0.0,
+    "trackingRange": 64,
+    "followRange": 16,
+    "health": 4,
+    "xpAmount": 0,
+    "waterMob": false,
+    "breatheUnderwater": {
+      "fixedValue": false
+    },
+    "pushedByFluids": {
+      "fixedValue": true
+    },
+    "flyingMob": true,
+    "inventorySize": 9,
+    "inventoryStackSize": 99,
+    "disableCollisions": false,
+    "ridable": false,
+    "canControlForward": false,
+    "canControlStrafe": false,
+    "immuneToFire": false,
+    "immuneToArrows": false,
+    "immuneToFallDamage": true,
+    "immuneToCactus": false,
+    "immuneToDrowning": false,
+    "immuneToLightning": false,
+    "immuneToPotions": false,
+    "immuneToPlayer": false,
+    "immuneToExplosion": false,
+    "immuneToTrident": false,
+    "immuneToAnvil": false,
+    "immuneToWither": false,
+    "immuneToDragonBreath": false,
+    "mobDrop": {
+      "value": ""
+    },
+    "livingSound": {
+      "value": ""
+    },
+    "hurtSound": {
+      "value": "entity.fish.swim"
+    },
+    "deathSound": {
+      "value": "entity.fish.swim"
+    },
+    "stepSound": {
+      "value": ""
+    },
+    "raidCelebrationSound": {
+      "value": ""
+    },
+    "entityDataEntries": [
+      {
+        "min": -2147483648,
+        "max": 2147483647,
+        "name": "fishscale",
+        "type": "integer",
+        "value": 0
+      }
+    ],
+    "onMobTickUpdate": {
+      "name": "FishOnEntityTickUpdate"
+    },
+    "onInitialSpawn": {
+      "name": "FishOnInitialEntitySpawn"
+    },
+    "hasAI": true,
+    "aiBase": "(none)",
+    "aixml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"aitasks_container\" deletable=\"false\" x=\"40\" y=\"40\"><next><block type=\"look_around\"><field name=\"condition\">null,null</field><next><block type=\"breed\"><field name=\"speed\">1</field><field name=\"condition\">null,null</field><next><block type=\"follow_parent\"><field name=\"speed\">0.8</field><field name=\"condition\">null,null</field><next><block type=\"panic_when_attacked\"><field name=\"speed\">1.2</field><field name=\"condition\">null,null</field><next><block type=\"fly\"><field name=\"speed\">1</field><field name=\"condition\">null,null</field><next><block type=\"follow_item_in_hands\"><field name=\"speed\">1</field><field name=\"scared\">FALSE</field><field name=\"condition\">null,null</field><value name=\"item\"><block type=\"mcitem_all\"><field name=\"value\">CUSTOM:Cricketitem</field></block></value><next><block type=\"follow_entity\"><field name=\"speed\">1.5</field><field name=\"maxrange\">10</field><field name=\"followarea\">2</field><field name=\"condition\">null,null</field></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></xml>",
+    "breedable": true,
+    "tameable": false,
+    "breedTriggerItems": [
+      {
+        "value": "CUSTOM:Cricketitem"
+      }
+    ],
+    "ranged": false,
+    "rangedAttackItem": {
+      "value": ""
+    },
+    "rangedItemType": "Default item",
+    "rangedAttackInterval": 20,
+    "rangedAttackRadius": 10.0,
+    "spawnThisMob": true,
+    "doesDespawnWhenIdle": false,
+    "spawningProbability": 15,
+    "mobSpawningType": "creature",
+    "minNumberOfMobsPerGroup": 2,
+    "maxNumberOfMobsPerGroup": 5,
+    "restrictionBiomes": [
+      {
+        "value": "CUSTOM:DeepBlue"
+      }
+    ],
+    "spawnInDungeons": false,
+    "raidSpawnsCount": [
+      4,
+      3,
+      3,
+      4,
+      4,
+      4,
+      2
+    ],
+    "sensitiveToVibration": false,
+    "vibrationalEvents": [],
+    "vibrationSensitivityRadius": {
+      "fixedValue": 7.0
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "Material_0": "_cricket_flipped"
+      },
+      "name": "default"
+    }
+  }
+}

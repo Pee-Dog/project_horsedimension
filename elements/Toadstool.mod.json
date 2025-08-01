@@ -1,0 +1,131 @@
+{
+  "_fv": 79,
+  "_type": "plant",
+  "definition": {
+    "renderType": 3,
+    "texture": "toadstool",
+    "textureBottom": "",
+    "customModelName": "toadstool:default",
+    "itemTexture": "",
+    "particleTexture": "",
+    "tintType": "No tint",
+    "isItemTinted": false,
+    "plantType": "normal",
+    "suspiciousStewEffect": "WITHER",
+    "suspiciousStewDuration": 100,
+    "secondaryTreeChance": 0.1,
+    "trees": [
+      null,
+      null
+    ],
+    "flowerTrees": [
+      null,
+      null
+    ],
+    "megaTrees": [
+      null,
+      null
+    ],
+    "growapableSpawnType": "Plains",
+    "growapableMaxHeight": 3,
+    "customBoundingBox": true,
+    "disableOffset": false,
+    "boundingBoxes": [
+      {
+        "mx": 4.0,
+        "my": 0.0,
+        "mz": 4.0,
+        "Mx": 12.0,
+        "My": 8.0,
+        "Mz": 12.0,
+        "subtract": false
+      }
+    ],
+    "name": "Red Toadstool",
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "creativeTabs": [
+      {
+        "value": "DECORATIONS"
+      },
+      {
+        "value": "CUSTOM:HorthDimensionCreativeTab"
+      }
+    ],
+    "hardness": 0.2,
+    "resistance": 0.0,
+    "luminance": 0,
+    "unbreakable": false,
+    "isSolid": true,
+    "isWaterloggable": true,
+    "hasBlockItem": true,
+    "maxStackSize": 64,
+    "rarity": "COMMON",
+    "immuneToFire": false,
+    "isCustomSoundType": false,
+    "soundOnStep": {
+      "value": "FUNGUS"
+    },
+    "breakSound": {
+      "value": ""
+    },
+    "stepSound": {
+      "value": ""
+    },
+    "placeSound": {
+      "value": ""
+    },
+    "hitSound": {
+      "value": ""
+    },
+    "fallSound": {
+      "value": ""
+    },
+    "useLootTableForDrops": false,
+    "customDrop": {
+      "value": ""
+    },
+    "dropAmount": 0,
+    "forceTicking": false,
+    "emissiveRendering": false,
+    "hasTileEntity": false,
+    "isReplaceable": false,
+    "colorOnMap": "RED",
+    "creativePickItem": {
+      "value": ""
+    },
+    "offsetType": "XZ",
+    "aiPathNodeType": "DEFAULT",
+    "ignitedByLava": false,
+    "flammability": 0,
+    "fireSpreadSpeed": 0,
+    "jumpFactor": 1.0,
+    "speedFactor": 1.0,
+    "canBePlacedOn": [
+      {
+        "value": "CUSTOM:Astroturf"
+      },
+      {
+        "value": "CUSTOM:WhiteBeadBlock"
+      },
+      {
+        "value": "CUSTOM:Blockofcolorfulpebbles"
+      },
+      {
+        "value": "CUSTOM:FlowrringAstroturf"
+      }
+    ],
+    "isBonemealable": false,
+    "frequencyOnChunks": 7,
+    "generateFeature": true,
+    "restrictionBiomes": [
+      {
+        "value": "CUSTOM:Garden"
+      }
+    ],
+    "generationType": "Flower",
+    "patchSize": 20,
+    "generateAtAnyHeight": false
+  }
+}

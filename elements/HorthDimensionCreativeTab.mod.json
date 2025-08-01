@@ -1,0 +1,11 @@
+{
+  "_fv": 79,
+  "_type": "tab",
+  "definition": {
+    "name": "The Horth Dimension",
+    "icon": {
+      "value": "CUSTOM:Horseitem"
+    },
+    "showSearch": false
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "parent": "neoforge:item/default",
+  "loader": "neoforge:composite",
+  "children": {
+    "part1": {
+      "loader": "neoforge:obj",
+      "render_type": "cutout",
+      "model": "project_horsedimension:models/item/seaweed_large.obj",
+      "emissive_ambient": true,
+      "textures": {
+        "sw02mat": "project_horsedimension:block/seaweed_colour_flipped",
+        "particle": "project_horsedimension:block/seaweed_colour_flipped"
+      }
+    }
+  },
+  "textures": {
+    "particle": "project_horsedimension:block/seaweed_colour_flipped"
+  },
+  "render_type": "cutout"
+}

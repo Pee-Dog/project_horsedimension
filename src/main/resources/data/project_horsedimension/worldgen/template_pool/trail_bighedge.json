@@ -1,0 +1,17 @@
+{
+  "name": "project_horsedimension:trail_bighedge",
+  "fallback": "project_horsedimension:trail_bighedge",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "project_horsedimension:bighedge_01",
+        "projection": "terrain_matching",
+        "processors": {
+          "processors": []
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "parent": "neoforge:item/default",
+  "loader": "neoforge:composite",
+  "children": {
+    "part1": {
+      "loader": "neoforge:obj",
+      "render_type": "cutout",
+      "model": "project_horsedimension:models/item/palmtree.obj",
+      "emissive_ambient": true,
+      "textures": {
+        "Material": "project_horsedimension:block/palm_tree",
+        "particle": "project_horsedimension:block/palm_tree"
+      }
+    }
+  },
+  "textures": {
+    "particle": "project_horsedimension:block/palm_tree"
+  },
+  "render_type": "cutout"
+}

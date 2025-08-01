@@ -1,0 +1,20 @@
+{
+  "parent": "neoforge:item/default",
+  "loader": "neoforge:composite",
+  "children": {
+    "part1": {
+      "loader": "neoforge:obj",
+      "render_type": "cutout_mipped",
+      "model": "project_horsedimension:models/item/hedge.obj",
+      "emissive_ambient": true,
+      "textures": {
+        "Material.006": "project_horsedimension:block/leaves",
+        "particle": "project_horsedimension:block/hedge"
+      }
+    }
+  },
+  "textures": {
+    "particle": "project_horsedimension:block/hedge"
+  },
+  "render_type": "cutout_mipped"
+}

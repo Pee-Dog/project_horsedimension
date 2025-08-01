@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "project_horsedimension:blocks/scar_tissue",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "project_horsedimension:gib",
+          "functions": [
+            {
+              "count": 9,
+              "function": "minecraft:set_count"
+            },
+            {
+              "function": "minecraft:explosion_decay"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    "aaa",
+    " a "
+  ],
+  "key": {
+    "a": "project_horsedimension:noise"
+  },
+  "result": {
+    "id": "project_horsedimension:cornerstone",
+    "count": 1
+  }
+}

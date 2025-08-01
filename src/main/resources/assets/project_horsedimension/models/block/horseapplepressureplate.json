@@ -1,0 +1,8 @@
+{
+  "parent": "block/pressure_plate_up",
+  "textures": {
+    "particle": "project_horsedimension:block/horseapple_plank",
+    "texture": "project_horsedimension:block/horseapple_plank"
+  },
+  "render_type": "solid"
+}

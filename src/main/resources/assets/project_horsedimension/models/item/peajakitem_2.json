@@ -1,0 +1,10 @@
+{
+  "forge_marker": 1,
+  "parent": "neoforge:item/default",
+  "loader": "neoforge:obj",
+  "model": "project_horsedimension:models/item/peejak_squash2.obj",
+  "textures": {
+    "Material.004": "project_horsedimension:block/peajak_square",
+    "particle": "project_horsedimension:item/peajak_square"
+  }
+}

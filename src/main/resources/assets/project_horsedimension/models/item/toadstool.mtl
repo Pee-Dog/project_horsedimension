@@ -1,0 +1,6 @@
+newmtl butt
+map_Kd butt
+newmtl head
+map_Kd head
+newmtl stem
+map_Kd stem

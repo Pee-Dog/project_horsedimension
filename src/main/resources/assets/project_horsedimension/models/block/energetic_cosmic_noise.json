@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "project_horsedimension:block/warmnoise",
+    "particle": "project_horsedimension:block/warmnoise"
+  },
+  "render_type": "cutout"
+}

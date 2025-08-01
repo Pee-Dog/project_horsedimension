@@ -1,0 +1,8 @@
+{
+  "parent": "block/wall_inventory",
+  "textures": {
+    "wall": "project_horsedimension:block/asphalt_shingles",
+    "particle": "project_horsedimension:block/asphalt_shingles"
+  },
+  "render_type": "solid"
+}

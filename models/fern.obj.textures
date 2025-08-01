@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "farn2": "farn2"
+      },
+      "name": "default"
+    }
+  }
+}

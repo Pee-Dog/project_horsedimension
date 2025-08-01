@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "astroturf2"
+      },
+      "name": "default"
+    }
+  }
+}

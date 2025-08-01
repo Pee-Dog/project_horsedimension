@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "project_horsedimension:block/horseappleslab"
+    },
+    "type=top": {
+      "model": "project_horsedimension:block/horseappleslab_top"
+    },
+    "type=double": {
+      "model": "project_horsedimension:block/horseappleslab_full"
+    }
+  }
+}

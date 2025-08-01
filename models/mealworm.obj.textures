@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "Material.002": "mealworm_flipped"
+      },
+      "name": "default"
+    }
+  }
+}

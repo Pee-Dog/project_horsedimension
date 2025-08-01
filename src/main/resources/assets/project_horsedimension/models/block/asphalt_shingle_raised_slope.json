@@ -1,0 +1,20 @@
+{
+  "parent": "neoforge:item/default",
+  "loader": "neoforge:composite",
+  "children": {
+    "part1": {
+      "loader": "neoforge:obj",
+      "render_type": "solid",
+      "model": "project_horsedimension:models/item/overhang.obj",
+      "emissive_ambient": true,
+      "textures": {
+        "Material.001": "project_horsedimension:block/asphalt_shingles",
+        "particle": "project_horsedimension:block/asphalt_shingles"
+      }
+    }
+  },
+  "textures": {
+    "particle": "project_horsedimension:block/asphalt_shingles"
+  },
+  "render_type": "solid"
+}

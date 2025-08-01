@@ -1,0 +1,36 @@
+{
+  "_fv": 79,
+  "_type": "overlay",
+  "definition": {
+    "priority": "LOWEST",
+    "components": [
+      {
+        "type": "sprite",
+        "data": {
+          "sprite": "noisefadeanim.png",
+          "spritesCount": 10,
+          "spriteIndex": {
+            "fixedValue": 0.0,
+            "name": "HdportalpotionOnEffectActiveTick2"
+          },
+          "anchorPoint": "CENTER",
+          "x": -261,
+          "y": -153,
+          "locked": false
+        }
+      }
+    ],
+    "baseTexture": "",
+    "overlayTarget": "Ingame",
+    "displayCondition": {
+      "name": "HdportalpotionOnEffectActiveTick"
+    },
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

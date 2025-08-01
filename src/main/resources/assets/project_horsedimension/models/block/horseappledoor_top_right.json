@@ -1,0 +1,9 @@
+{
+  "parent": "block/door_top_right",
+  "textures": {
+    "particle": "project_horsedimension:block/horseapple_door2",
+    "bottom": "project_horsedimension:block/horseapple_door2",
+    "top": "project_horsedimension:block/horseapple_door1"
+  },
+  "render_type": "solid"
+}

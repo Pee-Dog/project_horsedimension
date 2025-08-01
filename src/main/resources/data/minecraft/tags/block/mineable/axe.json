@@ -1,0 +1,22 @@
+{
+  "replace": false,
+  "values": [
+    "project_horsedimension:cardboardblock",
+    "project_horsedimension:horsefencepost",
+    "project_horsedimension:horseappletrapdoor",
+    "project_horsedimension:horseappleplanks",
+    "project_horsedimension:horseapplefence",
+    "project_horsedimension:barnhouse_plank_slope",
+    "project_horsedimension:horseappledoor",
+    "project_horsedimension:horseapplebutton",
+    "project_horsedimension:horseapplepressureplate",
+    "project_horsedimension:barnhouse_planks",
+    "project_horsedimension:horseapplestairs",
+    "project_horsedimension:popcornceiling",
+    "project_horsedimension:horsefenceside",
+    "project_horsedimension:white_drywall",
+    "project_horsedimension:plank_slope",
+    "project_horsedimension:horseapplefencegate",
+    "project_horsedimension:horseappleslab"
+  ]
+}

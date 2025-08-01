@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "project_horsedimension:horseapplestairs",
+    "project_horsedimension:asphalt_stairs",
+    "project_horsedimension:asphalt_shingle_stairs",
+    "project_horsedimension:barnhouse_plank_slope",
+    "project_horsedimension:plank_slope"
+  ]
+}

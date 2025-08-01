@@ -1,0 +1,20 @@
+{
+  "parent": "neoforge:item/default",
+  "loader": "neoforge:composite",
+  "children": {
+    "part1": {
+      "loader": "neoforge:obj",
+      "render_type": "cutout",
+      "model": "project_horsedimension:models/item/hportalcenter.obj",
+      "emissive_ambient": true,
+      "textures": {
+        "Material.002": "project_horsedimension:block/cosmic_microwave_background_cmb",
+        "particle": "project_horsedimension:block/noise"
+      }
+    }
+  },
+  "textures": {
+    "particle": "project_horsedimension:block/noise"
+  },
+  "render_type": "cutout"
+}

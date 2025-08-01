@@ -1,0 +1,20 @@
+{
+  "parent": "neoforge:item/default",
+  "loader": "neoforge:composite",
+  "children": {
+    "part1": {
+      "loader": "neoforge:obj",
+      "render_type": "cutout",
+      "model": "project_horsedimension:models/item/face_ground.obj",
+      "emissive_ambient": true,
+      "textures": {
+        "Material.002": "project_horsedimension:block/static_residue",
+        "particle": "project_horsedimension:block/static_residue"
+      }
+    }
+  },
+  "textures": {
+    "particle": "project_horsedimension:block/static_residue"
+  },
+  "render_type": "cutout"
+}

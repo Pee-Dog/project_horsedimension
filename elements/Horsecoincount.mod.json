@@ -1,0 +1,53 @@
+{
+  "_fv": 79,
+  "_type": "overlay",
+  "definition": {
+    "priority": "NORMAL",
+    "components": [
+      {
+        "type": "sprite",
+        "data": {
+          "sprite": "horsecoin.png",
+          "spritesCount": 1,
+          "spriteIndex": {
+            "fixedValue": 0.0
+          },
+          "anchorPoint": "TOP_LEFT",
+          "x": 1,
+          "y": 1,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_proc_horsecoincounter",
+          "text": {
+            "fixedValue": "",
+            "name": "Horsecoincounter"
+          },
+          "color": {
+            "value": -205,
+            "falpha": 0.0
+          },
+          "anchorPoint": "TOP_LEFT",
+          "x": 35,
+          "y": 11,
+          "locked": false
+        }
+      }
+    ],
+    "baseTexture": "",
+    "overlayTarget": "Ingame",
+    "displayCondition": {
+      "name": "HorsecoincountDisplayOverlayIngame"
+    },
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

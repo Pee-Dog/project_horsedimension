@@ -1,0 +1,156 @@
+/*
+ *    MCreator note: This file will be REGENERATED on each build.
+ */
+package net.mcreator.projecthorsedimension.init;
+
+import net.neoforged.neoforge.registries.DeferredRegister;
+import net.neoforged.neoforge.registries.DeferredBlock;
+
+import net.minecraft.world.level.block.state.BlockBehaviour;
+import net.minecraft.world.level.block.Block;
+
+import net.mcreator.projecthorsedimension.block.YellowCementBlock;
+import net.mcreator.projecthorsedimension.block.WireBlock;
+import net.mcreator.projecthorsedimension.block.WhiteDrywallBlock;
+import net.mcreator.projecthorsedimension.block.WhiteBeadBlockBlock;
+import net.mcreator.projecthorsedimension.block.WeakCosmicNoiseBlock;
+import net.mcreator.projecthorsedimension.block.ToadstoolBlock;
+import net.mcreator.projecthorsedimension.block.StaticResidueBlock;
+import net.mcreator.projecthorsedimension.block.ShrubBlock;
+import net.mcreator.projecthorsedimension.block.ShortScrubBlock;
+import net.mcreator.projecthorsedimension.block.ScrubBlock;
+import net.mcreator.projecthorsedimension.block.ScarTissueBlock;
+import net.mcreator.projecthorsedimension.block.RanunculusBlock;
+import net.mcreator.projecthorsedimension.block.RDTreeBlock;
+import net.mcreator.projecthorsedimension.block.PrismreceptacleBlock;
+import net.mcreator.projecthorsedimension.block.PopcornceilingBlock;
+import net.mcreator.projecthorsedimension.block.PlasticYellowFlowerBlock;
+import net.mcreator.projecthorsedimension.block.PlankfenceBlock;
+import net.mcreator.projecthorsedimension.block.PlankSlopeBlock;
+import net.mcreator.projecthorsedimension.block.PinetreeBlock;
+import net.mcreator.projecthorsedimension.block.PalmTreeBlock;
+import net.mcreator.projecthorsedimension.block.NoisewallBlock;
+import net.mcreator.projecthorsedimension.block.NoisefloorBlock;
+import net.mcreator.projecthorsedimension.block.NoiseBlock;
+import net.mcreator.projecthorsedimension.block.MulchBlock;
+import net.mcreator.projecthorsedimension.block.LightbulbonBlock;
+import net.mcreator.projecthorsedimension.block.LightbulbBlock;
+import net.mcreator.projecthorsedimension.block.LargeSeaweedBlock;
+import net.mcreator.projecthorsedimension.block.JuiceBlock;
+import net.mcreator.projecthorsedimension.block.HorsereceptacleBlock;
+import net.mcreator.projecthorsedimension.block.HorsefencesideBlock;
+import net.mcreator.projecthorsedimension.block.HorsefencepostBlock;
+import net.mcreator.projecthorsedimension.block.HorseblockBlock;
+import net.mcreator.projecthorsedimension.block.HorseappletrapdoorBlock;
+import net.mcreator.projecthorsedimension.block.HorseapplestairsBlock;
+import net.mcreator.projecthorsedimension.block.HorseappleslabBlock;
+import net.mcreator.projecthorsedimension.block.HorseapplepressureplateBlock;
+import net.mcreator.projecthorsedimension.block.HorseappleplanksBlock;
+import net.mcreator.projecthorsedimension.block.HorseapplefencegateBlock;
+import net.mcreator.projecthorsedimension.block.HorseapplefenceBlock;
+import net.mcreator.projecthorsedimension.block.HorseappledoorBlock;
+import net.mcreator.projecthorsedimension.block.HorseapplebuttonBlock;
+import net.mcreator.projecthorsedimension.block.HedgeBlock;
+import net.mcreator.projecthorsedimension.block.HdportaldiamondBlock;
+import net.mcreator.projecthorsedimension.block.HdportalcenterBlock;
+import net.mcreator.projecthorsedimension.block.FlowrringAstroturfBlock;
+import net.mcreator.projecthorsedimension.block.FarnBlock;
+import net.mcreator.projecthorsedimension.block.EnergeticCosmicNoiseBlock;
+import net.mcreator.projecthorsedimension.block.CornerstoneBlock;
+import net.mcreator.projecthorsedimension.block.CementBlock;
+import net.mcreator.projecthorsedimension.block.CardboardblockBlock;
+import net.mcreator.projecthorsedimension.block.BloodBlock;
+import net.mcreator.projecthorsedimension.block.BlockofcolorfulpebblesBlock;
+import net.mcreator.projecthorsedimension.block.BarnhousePlanksBlock;
+import net.mcreator.projecthorsedimension.block.BarnhousePlankSlopeBlock;
+import net.mcreator.projecthorsedimension.block.AstroturfBlock;
+import net.mcreator.projecthorsedimension.block.AsphaltWallBlock;
+import net.mcreator.projecthorsedimension.block.AsphaltStairsBlock;
+import net.mcreator.projecthorsedimension.block.AsphaltSlabBlock;
+import net.mcreator.projecthorsedimension.block.AsphaltShingleWallBlock;
+import net.mcreator.projecthorsedimension.block.AsphaltShingleStairsBlock;
+import net.mcreator.projecthorsedimension.block.AsphaltShingleSlabBlock;
+import net.mcreator.projecthorsedimension.block.AsphaltShingleRaisedSlopeBlock;
+import net.mcreator.projecthorsedimension.block.AsphaltShingleLayerBlock;
+import net.mcreator.projecthorsedimension.block.AsphaltShingleBlockBlock;
+import net.mcreator.projecthorsedimension.block.AsphaltBlock;
+import net.mcreator.projecthorsedimension.block.AggregateBlock;
+import net.mcreator.projecthorsedimension.ProjectHorsedimensionMod;
+
+import java.util.function.Function;
+
+public class ProjectHorsedimensionModBlocks {
+	public static final DeferredRegister.Blocks REGISTRY = DeferredRegister.createBlocks(ProjectHorsedimensionMod.MODID);
+	public static final DeferredBlock<Block> ASTROTURF = register("astroturf", AstroturfBlock::new);
+	public static final DeferredBlock<Block> ASPHALT = register("asphalt", AsphaltBlock::new);
+	public static final DeferredBlock<Block> HORSEBLOCK = register("horseblock", HorseblockBlock::new);
+	public static final DeferredBlock<Block> RANUNCULUS = register("ranunculus", RanunculusBlock::new);
+	public static final DeferredBlock<Block> AGGREGATE = register("aggregate", AggregateBlock::new);
+	public static final DeferredBlock<Block> CEMENT = register("cement", CementBlock::new);
+	public static final DeferredBlock<Block> YELLOW_CEMENT = register("yellow_cement", YellowCementBlock::new);
+	public static final DeferredBlock<Block> HEDGE = register("hedge", HedgeBlock::new);
+	public static final DeferredBlock<Block> HORSEAPPLEPLANKS = register("horseappleplanks", HorseappleplanksBlock::new);
+	public static final DeferredBlock<Block> HORSEAPPLESTAIRS = register("horseapplestairs", HorseapplestairsBlock::new);
+	public static final DeferredBlock<Block> HORSEAPPLESLAB = register("horseappleslab", HorseappleslabBlock::new);
+	public static final DeferredBlock<Block> HORSEAPPLEFENCE = register("horseapplefence", HorseapplefenceBlock::new);
+	public static final DeferredBlock<Block> HORSEAPPLEFENCEGATE = register("horseapplefencegate", HorseapplefencegateBlock::new);
+	public static final DeferredBlock<Block> HORSEAPPLEPRESSUREPLATE = register("horseapplepressureplate", HorseapplepressureplateBlock::new);
+	public static final DeferredBlock<Block> HORSEAPPLEBUTTON = register("horseapplebutton", HorseapplebuttonBlock::new);
+	public static final DeferredBlock<Block> HORSEAPPLEDOOR = register("horseappledoor", HorseappledoorBlock::new);
+	public static final DeferredBlock<Block> HORSEAPPLETRAPDOOR = register("horseappletrapdoor", HorseappletrapdoorBlock::new);
+	public static final DeferredBlock<Block> ASPHALT_SHINGLE_BLOCK = register("asphalt_shingle_block", AsphaltShingleBlockBlock::new);
+	public static final DeferredBlock<Block> ASPHALT_SHINGLE_STAIRS = register("asphalt_shingle_stairs", AsphaltShingleStairsBlock::new);
+	public static final DeferredBlock<Block> ASPHALT_SHINGLE_SLAB = register("asphalt_shingle_slab", AsphaltShingleSlabBlock::new);
+	public static final DeferredBlock<Block> ASPHALT_STAIRS = register("asphalt_stairs", AsphaltStairsBlock::new);
+	public static final DeferredBlock<Block> ASPHALT_SLAB = register("asphalt_slab", AsphaltSlabBlock::new);
+	public static final DeferredBlock<Block> ASPHALT_WALL = register("asphalt_wall", AsphaltWallBlock::new);
+	public static final DeferredBlock<Block> ASPHALT_SHINGLE_WALL = register("asphalt_shingle_wall", AsphaltShingleWallBlock::new);
+	public static final DeferredBlock<Block> PLANK_SLOPE = register("plank_slope", PlankSlopeBlock::new);
+	public static final DeferredBlock<Block> ASPHALT_SHINGLE_RAISED_SLOPE = register("asphalt_shingle_raised_slope", AsphaltShingleRaisedSlopeBlock::new);
+	public static final DeferredBlock<Block> RD_TREE = register("rd_tree", RDTreeBlock::new);
+	public static final DeferredBlock<Block> ASPHALT_SHINGLE_LAYER = register("asphalt_shingle_layer", AsphaltShingleLayerBlock::new);
+	public static final DeferredBlock<Block> PLANKFENCE = register("plankfence", PlankfenceBlock::new);
+	public static final DeferredBlock<Block> POPCORNCEILING = register("popcornceiling", PopcornceilingBlock::new);
+	public static final DeferredBlock<Block> WHITE_DRYWALL = register("white_drywall", WhiteDrywallBlock::new);
+	public static final DeferredBlock<Block> HORSEFENCEPOST = register("horsefencepost", HorsefencepostBlock::new);
+	public static final DeferredBlock<Block> HORSEFENCESIDE = register("horsefenceside", HorsefencesideBlock::new);
+	public static final DeferredBlock<Block> LIGHTBULB = register("lightbulb", LightbulbBlock::new);
+	public static final DeferredBlock<Block> BARNHOUSE_PLANKS = register("barnhouse_planks", BarnhousePlanksBlock::new);
+	public static final DeferredBlock<Block> BARNHOUSE_PLANK_SLOPE = register("barnhouse_plank_slope", BarnhousePlankSlopeBlock::new);
+	public static final DeferredBlock<Block> BLOOD = register("blood", BloodBlock::new);
+	public static final DeferredBlock<Block> SCAR_TISSUE = register("scar_tissue", ScarTissueBlock::new);
+	public static final DeferredBlock<Block> WIRE = register("wire", WireBlock::new);
+	public static final DeferredBlock<Block> LIGHTBULBON = register("lightbulbon", LightbulbonBlock::new);
+	public static final DeferredBlock<Block> WHITE_BEAD_BLOCK = register("white_bead_block", WhiteBeadBlockBlock::new);
+	public static final DeferredBlock<Block> PALM_TREE = register("palm_tree", PalmTreeBlock::new);
+	public static final DeferredBlock<Block> CARDBOARDBLOCK = register("cardboardblock", CardboardblockBlock::new);
+	public static final DeferredBlock<Block> JUICE = register("juice", JuiceBlock::new);
+	public static final DeferredBlock<Block> SCRUB = register("scrub", ScrubBlock::new);
+	public static final DeferredBlock<Block> SHORT_SCRUB = register("short_scrub", ShortScrubBlock::new);
+	public static final DeferredBlock<Block> BLOCKOFCOLORFULPEBBLES = register("blockofcolorfulpebbles", BlockofcolorfulpebblesBlock::new);
+	public static final DeferredBlock<Block> LARGE_SEAWEED = register("large_seaweed", LargeSeaweedBlock::new);
+	public static final DeferredBlock<Block> FLOWRRING_ASTROTURF = register("flowrring_astroturf", FlowrringAstroturfBlock::new);
+	public static final DeferredBlock<Block> TOADSTOOL = register("toadstool", ToadstoolBlock::new);
+	public static final DeferredBlock<Block> PLASTIC_YELLOW_FLOWER = register("plastic_yellow_flower", PlasticYellowFlowerBlock::new);
+	public static final DeferredBlock<Block> SHRUB = register("shrub", ShrubBlock::new);
+	public static final DeferredBlock<Block> CORNERSTONE = register("cornerstone", CornerstoneBlock::new);
+	public static final DeferredBlock<Block> PINETREE = register("pinetree", PinetreeBlock::new);
+	public static final DeferredBlock<Block> FARN = register("farn", FarnBlock::new);
+	public static final DeferredBlock<Block> MULCH = register("mulch", MulchBlock::new);
+	public static final DeferredBlock<Block> HDPORTALCENTER = register("hdportalcenter", HdportalcenterBlock::new);
+	public static final DeferredBlock<Block> HDPORTALDIAMOND = register("hdportaldiamond", HdportaldiamondBlock::new);
+	public static final DeferredBlock<Block> PRISMRECEPTACLE = register("prismreceptacle", PrismreceptacleBlock::new);
+	public static final DeferredBlock<Block> ENERGETIC_COSMIC_NOISE = register("energetic_cosmic_noise", EnergeticCosmicNoiseBlock::new);
+	public static final DeferredBlock<Block> WEAK_COSMIC_NOISE = register("weak_cosmic_noise", WeakCosmicNoiseBlock::new);
+	public static final DeferredBlock<Block> NOISE = register("noise", NoiseBlock::new);
+	public static final DeferredBlock<Block> HORSERECEPTACLE = register("horsereceptacle", HorsereceptacleBlock::new);
+	public static final DeferredBlock<Block> NOISEFLOOR = register("noisefloor", NoisefloorBlock::new);
+	public static final DeferredBlock<Block> NOISEWALL = register("noisewall", NoisewallBlock::new);
+	public static final DeferredBlock<Block> STATIC_RESIDUE = register("static_residue", StaticResidueBlock::new);
+
+	// Start of user code block custom blocks
+	// End of user code block custom blocks
+	private static <B extends Block> DeferredBlock<B> register(String name, Function<BlockBehaviour.Properties, ? extends B> supplier) {
+		return REGISTRY.registerBlock(name, supplier, BlockBehaviour.Properties.of());
+	}
+}

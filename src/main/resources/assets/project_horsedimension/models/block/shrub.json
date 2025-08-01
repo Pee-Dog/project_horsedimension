@@ -1,0 +1,20 @@
+{
+  "parent": "neoforge:item/default",
+  "loader": "neoforge:composite",
+  "children": {
+    "part1": {
+      "loader": "neoforge:obj",
+      "render_type": "cutout",
+      "model": "project_horsedimension:models/item/bush.obj",
+      "emissive_ambient": true,
+      "textures": {
+        "Material.010": "project_horsedimension:block/leaves1",
+        "particle": "project_horsedimension:block/leaves1"
+      }
+    }
+  },
+  "textures": {
+    "particle": "project_horsedimension:block/leaves1"
+  },
+  "render_type": "cutout"
+}

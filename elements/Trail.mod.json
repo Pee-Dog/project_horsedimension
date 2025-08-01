@@ -1,0 +1,85 @@
+{
+  "_fv": 79,
+  "_type": "structure",
+  "definition": {
+    "structure": "straighttrail_01",
+    "projection": "terrain_matching",
+    "ignoredBlocks": [
+      {
+        "value": "Blocks.STRUCTURE_BLOCK"
+      }
+    ],
+    "spacing": 16,
+    "separation": 2,
+    "restrictionBiomes": [
+      {
+        "value": "CUSTOM:Garden"
+      }
+    ],
+    "terrainAdaptation": "beard_box",
+    "generationStep": "SURFACE_STRUCTURES",
+    "surfaceDetectionType": "WORLD_SURFACE_WG",
+    "useStartHeight": false,
+    "startHeightProviderType": "UNIFORM",
+    "startHeightMin": 0,
+    "startHeightMax": 128,
+    "size": 20,
+    "maxDistanceFromCenter": 116,
+    "jigsawPools": [
+      {
+        "poolName": "trail",
+        "fallbackPool": "project_horsedimension:trail_trail",
+        "poolParts": [
+          {
+            "weight": 1,
+            "structure": "straighttrail_01",
+            "projection": "terrain_matching",
+            "ignoredBlocks": []
+          }
+        ]
+      },
+      {
+        "poolName": "smallhedge",
+        "fallbackPool": "project_horsedimension:trail_smallhedge",
+        "poolParts": [
+          {
+            "weight": 1,
+            "structure": "smallhedge_01",
+            "projection": "terrain_matching",
+            "ignoredBlocks": []
+          },
+          {
+            "weight": 1,
+            "structure": "smallhedge_02",
+            "projection": "terrain_matching",
+            "ignoredBlocks": []
+          },
+          {
+            "weight": 1,
+            "structure": "smallhedge_03",
+            "projection": "terrain_matching",
+            "ignoredBlocks": []
+          },
+          {
+            "weight": 3,
+            "structure": "smallhedge_04",
+            "projection": "terrain_matching",
+            "ignoredBlocks": []
+          }
+        ]
+      },
+      {
+        "poolName": "bighedge",
+        "fallbackPool": "project_horsedimension:trail_bighedge",
+        "poolParts": [
+          {
+            "weight": 1,
+            "structure": "bighedge_01",
+            "projection": "terrain_matching",
+            "ignoredBlocks": []
+          }
+        ]
+      }
+    ]
+  }
+}

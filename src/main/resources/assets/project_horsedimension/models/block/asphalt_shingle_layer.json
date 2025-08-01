@@ -1,0 +1,9 @@
+{
+  "parent": "project_horsedimension:custom/carpet",
+  "textures": {
+    "all": "project_horsedimension:block/asphalt_shingles",
+    "particle": "project_horsedimension:block/asphalt_shingles",
+    "0": "project_horsedimension:block/asphalt_shingles"
+  },
+  "render_type": "solid"
+}

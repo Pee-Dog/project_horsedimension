@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "powered=false": {
+      "model": "project_horsedimension:block/horseapplepressureplate"
+    },
+    "powered=true": {
+      "model": "project_horsedimension:block/horseapplepressureplate_down"
+    }
+  }
+}

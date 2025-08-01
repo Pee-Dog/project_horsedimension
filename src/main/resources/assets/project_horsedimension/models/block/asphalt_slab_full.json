@@ -1,0 +1,10 @@
+{
+  "parent": "block/cube_bottom_top",
+  "textures": {
+    "particle": "project_horsedimension:block/asphalt",
+    "bottom": "project_horsedimension:block/asphalt",
+    "top": "project_horsedimension:block/asphalt",
+    "side": "project_horsedimension:block/asphalt"
+  },
+  "render_type": "solid"
+}

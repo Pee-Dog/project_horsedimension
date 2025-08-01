@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "project_horsedimension:deep_blue",
+  "features": "project_horsedimension:large_seaweed",
+  "step": "vegetal_decoration"
+}

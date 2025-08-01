@@ -1,0 +1,20 @@
+{
+  "parent": "neoforge:item/default",
+  "loader": "neoforge:composite",
+  "children": {
+    "part1": {
+      "loader": "neoforge:obj",
+      "render_type": "translucent",
+      "model": "project_horsedimension:models/item/lightbulbon.obj",
+      "emissive_ambient": true,
+      "textures": {
+        "Material.001": "project_horsedimension:block/lightbulbon_flipped",
+        "particle": "project_horsedimension:block/lightbulbon_flipped"
+      }
+    }
+  },
+  "textures": {
+    "particle": "project_horsedimension:block/lightbulbon_flipped"
+  },
+  "render_type": "translucent"
+}

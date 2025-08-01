@@ -1,0 +1,10 @@
+{
+  "forge_marker": 1,
+  "parent": "neoforge:item/default",
+  "loader": "neoforge:obj",
+  "model": "project_horsedimension:models/item/barndoor_right.obj",
+  "textures": {
+    "Material.004": "project_horsedimension:block/rightbarndoor_flipped",
+    "particle": "minecraft:item/copper_door"
+  }
+}

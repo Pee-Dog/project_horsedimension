@@ -1,0 +1,8 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "project_horsedimension:block/shortscrub",
+    "particle": "project_horsedimension:block/shortscrub"
+  },
+  "render_type": "cutout"
+}

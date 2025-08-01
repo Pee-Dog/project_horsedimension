@@ -1,0 +1,20 @@
+{
+  "parent": "neoforge:item/default",
+  "loader": "neoforge:composite",
+  "children": {
+    "part1": {
+      "loader": "neoforge:obj",
+      "render_type": "solid",
+      "model": "project_horsedimension:models/item/horse_large.obj",
+      "emissive_ambient": true,
+      "textures": {
+        "lambert2SG.001": "project_horsedimension:block/horse_upsidedown",
+        "particle": "minecraft:block/redstone_block"
+      }
+    }
+  },
+  "textures": {
+    "particle": "minecraft:block/redstone_block"
+  },
+  "render_type": "solid"
+}

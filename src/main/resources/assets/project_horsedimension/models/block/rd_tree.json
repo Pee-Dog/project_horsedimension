@@ -1,0 +1,20 @@
+{
+  "parent": "neoforge:item/default",
+  "loader": "neoforge:composite",
+  "children": {
+    "part1": {
+      "loader": "neoforge:obj",
+      "render_type": "cutout",
+      "model": "project_horsedimension:models/item/rdtree_mesh.obj",
+      "emissive_ambient": true,
+      "textures": {
+        "Material.001": "project_horsedimension:block/rubydung_tree_new_flipped",
+        "particle": "project_horsedimension:block/rubydung_tree"
+      }
+    }
+  },
+  "textures": {
+    "particle": "project_horsedimension:block/rubydung_tree"
+  },
+  "render_type": "cutout"
+}

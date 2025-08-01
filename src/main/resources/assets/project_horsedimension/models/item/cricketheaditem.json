@@ -1,0 +1,10 @@
+{
+  "forge_marker": 1,
+  "parent": "neoforge:item/default",
+  "loader": "neoforge:obj",
+  "model": "project_horsedimension:models/item/cricket.obj",
+  "textures": {
+    "Material_0": "project_horsedimension:block/_cricket_flipped",
+    "particle": "project_horsedimension:item/cricket"
+  }
+}

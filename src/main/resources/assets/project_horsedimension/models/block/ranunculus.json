@@ -1,0 +1,20 @@
+{
+  "parent": "neoforge:item/default",
+  "loader": "neoforge:composite",
+  "children": {
+    "part1": {
+      "loader": "neoforge:obj",
+      "render_type": "cutout",
+      "model": "project_horsedimension:models/item/flower.obj",
+      "emissive_ambient": true,
+      "textures": {
+        "Material": "project_horsedimension:block/flowercolors",
+        "particle": "project_horsedimension:block/ranunculus"
+      }
+    }
+  },
+  "textures": {
+    "particle": "project_horsedimension:block/ranunculus"
+  },
+  "render_type": "cutout"
+}

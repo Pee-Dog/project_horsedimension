@@ -1,0 +1,10 @@
+{
+  "forge_marker": 1,
+  "parent": "neoforge:item/default",
+  "loader": "neoforge:obj",
+  "model": "project_horsedimension:models/item/triangular_prism.obj",
+  "textures": {
+    "Material.006": "project_horsedimension:block/horsenoise",
+    "particle": "project_horsedimension:block/noise"
+  }
+}

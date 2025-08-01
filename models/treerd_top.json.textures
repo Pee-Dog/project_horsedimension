@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "rubytree_longer"
+      },
+      "name": "default"
+    }
+  }
+}

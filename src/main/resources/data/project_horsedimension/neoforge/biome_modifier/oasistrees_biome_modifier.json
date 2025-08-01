@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "project_horsedimension:oasis",
+  "features": "project_horsedimension:oasistrees",
+  "step": "lakes"
+}

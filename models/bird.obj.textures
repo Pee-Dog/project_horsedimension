@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "B_Top1": "horsenoise"
+      },
+      "name": "default"
+    }
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "name": "project_horsedimension:trail_smallhedge",
+  "fallback": "project_horsedimension:trail_smallhedge",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "project_horsedimension:smallhedge_01",
+        "projection": "terrain_matching",
+        "processors": {
+          "processors": []
+        }
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "project_horsedimension:smallhedge_02",
+        "projection": "terrain_matching",
+        "processors": {
+          "processors": []
+        }
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "project_horsedimension:smallhedge_03",
+        "projection": "terrain_matching",
+        "processors": {
+          "processors": []
+        }
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "project_horsedimension:smallhedge_04",
+        "projection": "terrain_matching",
+        "processors": {
+          "processors": []
+        }
+      }
+    }
+  ]
+}

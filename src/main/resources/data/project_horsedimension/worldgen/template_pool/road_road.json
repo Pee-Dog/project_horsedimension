@@ -1,0 +1,17 @@
+{
+  "name": "project_horsedimension:road_road",
+  "fallback": "project_horsedimension:road_road",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "project_horsedimension:road",
+        "projection": "terrain_matching",
+        "processors": {
+          "processors": []
+        }
+      }
+    }
+  ]
+}

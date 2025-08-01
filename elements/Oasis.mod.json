@@ -1,0 +1,105 @@
+{
+  "_fv": 79,
+  "_type": "biome",
+  "definition": {
+    "name": "Oasis",
+    "groundBlock": {
+      "value": "CUSTOM:WhiteBeadBlock"
+    },
+    "undergroundBlock": {
+      "value": "CUSTOM:Cardboardblock"
+    },
+    "underwaterBlock": {
+      "value": "CUSTOM:Cardboardblock"
+    },
+    "airColor": {
+      "value": -52,
+      "falpha": 0.0
+    },
+    "fogColor": {
+      "value": -24,
+      "falpha": 0.0
+    },
+    "ambientSound": {
+      "value": ""
+    },
+    "additionsSound": {
+      "value": ""
+    },
+    "music": {
+      "value": ""
+    },
+    "moodSound": {
+      "value": ""
+    },
+    "moodSoundDelay": 6000,
+    "spawnParticles": true,
+    "particleToSpawn": {
+      "value": "CUSTOM:Packingpeanut"
+    },
+    "particlesProbability": 0.1,
+    "rainingPossibility": 0.0,
+    "temperature": 2.0,
+    "spawnBiome": false,
+    "spawnInCaves": false,
+    "spawnBiomeNether": false,
+    "genTemperature": {
+      "min": 0.55,
+      "max": 1.0
+    },
+    "genHumidity": {
+      "min": -1.0,
+      "max": -0.55
+    },
+    "genContinentalness": {
+      "min": -0.28,
+      "max": 0.28
+    },
+    "genErosion": {
+      "min": -2.0,
+      "max": 2.0
+    },
+    "genWeirdness": {
+      "min": -2.0,
+      "max": 2.0
+    },
+    "treesPerChunk": 0,
+    "vanillaTreeType": "Default",
+    "treeType": 0,
+    "minHeight": 7,
+    "treeStem": {
+      "value": ""
+    },
+    "treeBranch": {
+      "value": ""
+    },
+    "treeVines": {
+      "value": ""
+    },
+    "treeFruits": {
+      "value": ""
+    },
+    "defaultFeatures": [],
+    "spawnStronghold": false,
+    "spawnMineshaft": false,
+    "spawnMineshaftMesa": false,
+    "spawnPillagerOutpost": false,
+    "villageType": "none",
+    "spawnWoodlandMansion": false,
+    "spawnJungleTemple": false,
+    "spawnDesertPyramid": false,
+    "spawnSwampHut": false,
+    "spawnIgloo": false,
+    "spawnOceanMonument": false,
+    "spawnShipwreck": false,
+    "spawnShipwreckBeached": false,
+    "spawnBuriedTreasure": false,
+    "oceanRuinType": "NONE",
+    "spawnNetherBridge": false,
+    "spawnNetherFossil": false,
+    "spawnBastionRemnant": false,
+    "spawnEndCity": false,
+    "spawnRuinedPortal": "NONE",
+    "spawnEntries": []
+  }
+}

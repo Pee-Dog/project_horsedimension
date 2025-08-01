@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "project_horsedimension:noisefloor",
+    "project_horsedimension:prismreceptacle",
+    "project_horsedimension:hdportaldiamond",
+    "project_horsedimension:noisewall",
+    "project_horsedimension:horsereceptacle",
+    "project_horsedimension:cornerstone",
+    "project_horsedimension:hdportalcenter",
+    "project_horsedimension:asphalt_shingle_raised_slope",
+    "project_horsedimension:asphalt_shingle_layer"
+  ]
+}

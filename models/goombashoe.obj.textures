@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "Material.001": "rabbit2"
+      },
+      "name": "default"
+    }
+  }
+}

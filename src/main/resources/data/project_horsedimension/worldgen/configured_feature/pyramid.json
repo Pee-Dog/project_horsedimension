@@ -1,0 +1,7 @@
+{
+  "type": "project_horsedimension:structure_feature",
+  "config": {
+    "structure": "project_horsedimension:pyramid_top",
+    "ignored_blocks": "minecraft:air"
+  }
+}

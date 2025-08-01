@@ -1,0 +1,19 @@
+{
+  "parent": "neoforge:item/default",
+  "loader": "neoforge:composite",
+  "children": {
+    "part1": {
+      "loader": "neoforge:obj",
+      "render_type": "cutout",
+      "model": "project_horsedimension:models/item/hportal2.obj",
+      "emissive_ambient": true,
+      "textures": {
+        "Material.001": "project_horsedimension:block/horsenoise"
+      }
+    }
+  },
+  "textures": {
+    "particle": "project_horsedimension:block/noise"
+  },
+  "render_type": "cutout"
+}

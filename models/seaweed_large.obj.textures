@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "sw02mat": "seaweed_colour_flipped"
+      },
+      "name": "default"
+    }
+  }
+}

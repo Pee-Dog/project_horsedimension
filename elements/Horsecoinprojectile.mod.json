@@ -1,0 +1,31 @@
+{
+  "_fv": 79,
+  "_type": "projectile",
+  "definition": {
+    "projectileItem": {
+      "value": "CUSTOM:Horsecoinitem"
+    },
+    "showParticles": false,
+    "actionSound": {
+      "value": "entity.arrow.shoot"
+    },
+    "igniteFire": false,
+    "disableGravity": false,
+    "power": 1.0,
+    "damage": 5.0,
+    "knockback": 5,
+    "entityModel": "Default",
+    "customModelTexture": "",
+    "modelWidth": 0.5,
+    "modelHeight": 0.5,
+    "onHitsBlock": {
+      "name": "HorsecoinprojectileProjectileHitsBlock"
+    },
+    "onHitsPlayer": {
+      "name": "HorsecoinprojectileProjectileHitsBlock"
+    },
+    "onHitsEntity": {
+      "name": "HorsecoinprojectileProjectileHitsBlock"
+    }
+  }
+}

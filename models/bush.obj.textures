@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "Material.010": "leaves1"
+      },
+      "name": "default"
+    }
+  }
+}

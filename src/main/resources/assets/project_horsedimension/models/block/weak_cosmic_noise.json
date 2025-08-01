@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "project_horsedimension:block/coolnoise",
+    "up": "project_horsedimension:block/coolnoise",
+    "north": "project_horsedimension:block/coolnoise",
+    "east": "project_horsedimension:block/coolnoise",
+    "south": "project_horsedimension:block/coolnoise",
+    "west": "project_horsedimension:block/coolnoise",
+    "particle": "project_horsedimension:block/coolnoise"
+  },
+  "render_type": "cutout"
+}

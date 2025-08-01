@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "firBark": "firbark",
+        "firLeaf": "firleaf"
+      },
+      "name": "default"
+    }
+  }
+}

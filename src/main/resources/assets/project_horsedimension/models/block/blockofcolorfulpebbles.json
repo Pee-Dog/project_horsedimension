@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "project_horsedimension:block/blockofcolorfulpebbles",
+    "particle": "project_horsedimension:block/blockofcolorfulpebbles"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "Material.004": "leopardgecko_flipped"
+      },
+      "name": "default"
+    }
+  }
+}

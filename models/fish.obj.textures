@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "Material.001": "fish_texture_flipped"
+      },
+      "name": "default"
+    }
+  }
+}

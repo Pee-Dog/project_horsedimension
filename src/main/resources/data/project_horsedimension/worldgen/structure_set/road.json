@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "project_horsedimension:road",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 10,
+    "separation": 5,
+    "salt": 895565230
+  }
+}

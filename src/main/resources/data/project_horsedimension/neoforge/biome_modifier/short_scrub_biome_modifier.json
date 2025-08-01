@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "project_horsedimension:oasis",
+  "features": "project_horsedimension:short_scrub",
+  "step": "vegetal_decoration"
+}

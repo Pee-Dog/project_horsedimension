@@ -1,0 +1,43 @@
+{
+  "_fv": 79,
+  "_type": "structure",
+  "definition": {
+    "structure": "road",
+    "projection": "terrain_matching",
+    "ignoredBlocks": [
+      {
+        "value": "Blocks.STRUCTURE_BLOCK"
+      }
+    ],
+    "spacing": 10,
+    "separation": 5,
+    "restrictionBiomes": [
+      {
+        "value": "CUSTOM:Pasture"
+      }
+    ],
+    "terrainAdaptation": "beard_box",
+    "generationStep": "RAW_GENERATION",
+    "surfaceDetectionType": "WORLD_SURFACE_WG",
+    "useStartHeight": false,
+    "startHeightProviderType": "BIASED_TO_BOTTOM",
+    "startHeightMin": 0,
+    "startHeightMax": 128,
+    "size": 10,
+    "maxDistanceFromCenter": 116,
+    "jigsawPools": [
+      {
+        "poolName": "road",
+        "fallbackPool": "project_horsedimension:road_road",
+        "poolParts": [
+          {
+            "weight": 1,
+            "structure": "road",
+            "projection": "terrain_matching",
+            "ignoredBlocks": []
+          }
+        ]
+      }
+    ]
+  }
+}

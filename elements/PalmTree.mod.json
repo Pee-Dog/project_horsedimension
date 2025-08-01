@@ -1,0 +1,122 @@
+{
+  "_fv": 79,
+  "_type": "plant",
+  "definition": {
+    "renderType": 3,
+    "texture": "palm_tree",
+    "textureBottom": "",
+    "customModelName": "palmtree:default",
+    "itemTexture": "",
+    "particleTexture": "",
+    "tintType": "No tint",
+    "isItemTinted": false,
+    "plantType": "normal",
+    "suspiciousStewEffect": "SPEED",
+    "suspiciousStewDuration": 100,
+    "secondaryTreeChance": 0.1,
+    "trees": [
+      null,
+      null
+    ],
+    "flowerTrees": [
+      null,
+      null
+    ],
+    "megaTrees": [
+      null,
+      null
+    ],
+    "growapableSpawnType": "Desert",
+    "growapableMaxHeight": 3,
+    "customBoundingBox": true,
+    "disableOffset": false,
+    "boundingBoxes": [
+      {
+        "mx": 7.0,
+        "my": 0.0,
+        "mz": 7.0,
+        "Mx": 10.0,
+        "My": 32.0,
+        "Mz": 10.0,
+        "subtract": false
+      }
+    ],
+    "name": "Deserted Tree",
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "creativeTabs": [
+      {
+        "value": "DECORATIONS"
+      },
+      {
+        "value": "CUSTOM:HorthDimensionCreativeTab"
+      }
+    ],
+    "hardness": 4.0,
+    "resistance": 6.0,
+    "luminance": 0,
+    "unbreakable": false,
+    "isSolid": true,
+    "isWaterloggable": false,
+    "hasBlockItem": true,
+    "maxStackSize": 1,
+    "rarity": "COMMON",
+    "immuneToFire": false,
+    "isCustomSoundType": true,
+    "soundOnStep": {
+      "value": "WOOD"
+    },
+    "breakSound": {
+      "value": "block.grass.break"
+    },
+    "stepSound": {
+      "value": "block.wood.step"
+    },
+    "placeSound": {
+      "value": "block.wood.place"
+    },
+    "hitSound": {
+      "value": "block.wood.hit"
+    },
+    "fallSound": {
+      "value": "block.grass.fall"
+    },
+    "useLootTableForDrops": false,
+    "customDrop": {
+      "value": ""
+    },
+    "dropAmount": 0,
+    "forceTicking": false,
+    "emissiveRendering": false,
+    "hasTileEntity": false,
+    "isReplaceable": false,
+    "colorOnMap": "DEFAULT",
+    "creativePickItem": {
+      "value": ""
+    },
+    "offsetType": "XZ",
+    "aiPathNodeType": "DEFAULT",
+    "ignitedByLava": false,
+    "flammability": 100,
+    "fireSpreadSpeed": 60,
+    "jumpFactor": 1.0,
+    "speedFactor": 1.0,
+    "canBePlacedOn": [
+      {
+        "value": "CUSTOM:WhiteBeadBlock"
+      }
+    ],
+    "isBonemealable": false,
+    "frequencyOnChunks": 5,
+    "generateFeature": false,
+    "restrictionBiomes": [
+      {
+        "value": "CUSTOM:Oasis"
+      }
+    ],
+    "generationType": "Flower",
+    "patchSize": 3,
+    "generateAtAnyHeight": false
+  }
+}

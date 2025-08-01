@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:lake",
+  "config": {
+    "fluid": {
+      "type": "minecraft:simple_state_provider",
+      "state": {
+        "Name": "project_horsedimension:juice"
+      }
+    },
+    "barrier": {
+      "type": "minecraft:simple_state_provider",
+      "state": {
+        "Name": "project_horsedimension:white_bead_block"
+      }
+    }
+  }
+}

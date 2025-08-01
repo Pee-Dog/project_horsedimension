@@ -1,0 +1,10 @@
+{
+  "forge_marker": 1,
+  "parent": "neoforge:item/default",
+  "loader": "neoforge:obj",
+  "model": "project_horsedimension:models/item/gib2.obj",
+  "textures": {
+    "Material.002": "project_horsedimension:block/blood",
+    "particle": "project_horsedimension:item/gib"
+  }
+}

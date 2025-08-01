@@ -1,0 +1,22 @@
+{
+  "parent": "neoforge:item/default",
+  "loader": "neoforge:composite",
+  "children": {
+    "part1": {
+      "loader": "neoforge:obj",
+      "render_type": "cutout",
+      "model": "project_horsedimension:models/item/toadstool.obj",
+      "emissive_ambient": true,
+      "textures": {
+        "head": "project_horsedimension:block/toadstool_top",
+        "butt": "project_horsedimension:block/toadstool_butthole",
+        "stem": "project_horsedimension:block/toadstool_flipped",
+        "particle": "project_horsedimension:block/toadstool"
+      }
+    }
+  },
+  "textures": {
+    "particle": "project_horsedimension:block/toadstool"
+  },
+  "render_type": "cutout"
+}

@@ -1,0 +1,10 @@
+{
+  "forge_marker": 1,
+  "parent": "neoforge:item/default",
+  "loader": "neoforge:obj",
+  "model": "project_horsedimension:models/item/rat2obj.obj",
+  "textures": {
+    "mtl_sewer_rat": "project_horsedimension:block/ratupsidedow",
+    "particle": "project_horsedimension:item/bunny"
+  }
+}

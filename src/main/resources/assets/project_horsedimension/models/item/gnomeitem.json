@@ -1,0 +1,11 @@
+{
+  "forge_marker": 1,
+  "parent": "neoforge:item/default",
+  "loader": "neoforge:obj",
+  "model": "project_horsedimension:models/item/gnome.obj",
+  "textures": {
+    "gnomeback": "project_horsedimension:block/gnome_faceless_flipped",
+    "gnome": "project_horsedimension:block/gnome_flipped",
+    "particle": "project_horsedimension:item/placeholder_boy"
+  }
+}

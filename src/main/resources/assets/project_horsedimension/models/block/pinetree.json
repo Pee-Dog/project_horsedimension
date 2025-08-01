@@ -1,0 +1,21 @@
+{
+  "parent": "neoforge:item/default",
+  "loader": "neoforge:composite",
+  "children": {
+    "part1": {
+      "loader": "neoforge:obj",
+      "render_type": "cutout",
+      "model": "project_horsedimension:models/item/firtree.obj",
+      "emissive_ambient": true,
+      "textures": {
+        "firBark": "project_horsedimension:block/firbark",
+        "firLeaf": "project_horsedimension:block/firleaf",
+        "particle": "project_horsedimension:block/pine_tree"
+      }
+    }
+  },
+  "textures": {
+    "particle": "project_horsedimension:block/pine_tree"
+  },
+  "render_type": "cutout"
+}

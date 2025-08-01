@@ -1,0 +1,10 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": "project_horsedimension:pasture",
+  "spawners": {
+    "type": "project_horsedimension:horsecoincollectable",
+    "weight": 15,
+    "minCount": 1,
+    "maxCount": 7
+  }
+}

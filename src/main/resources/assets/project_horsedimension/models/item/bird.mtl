@@ -1,0 +1,9 @@
+newmtl B_Top1
+illum 1
+Ns 250.0
+Ni 1.45
+d 1.0
+Ka 1.0 1.0 1.0
+Ks 0.0 0.0 0.0
+map_Kd B_Top1
+Ke 0.0 0.0 0.0

@@ -1,0 +1,19 @@
+{
+  "feature": "project_horsedimension:pyramid",
+  "placement": [
+    {
+      "type": "fixed_placement",
+      "positions": [
+        [
+          0,
+          100,
+          0
+        ]
+      ]
+    },
+    {
+      "type": "minecraft:heightmap",
+      "heightmap": "OCEAN_FLOOR_WG"
+    }
+  ]
+}

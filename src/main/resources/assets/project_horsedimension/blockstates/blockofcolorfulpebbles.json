@@ -1,0 +1,21 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "project_horsedimension:block/blockofcolorfulpebbles"
+      },
+      {
+        "model": "project_horsedimension:block/blockofcolorfulpebbles",
+        "y": 90
+      },
+      {
+        "model": "project_horsedimension:block/blockofcolorfulpebbles",
+        "y": 180
+      },
+      {
+        "model": "project_horsedimension:block/blockofcolorfulpebbles",
+        "y": 270
+      }
+    ]
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "project_horsedimension:maine",
+  "features": "project_horsedimension:farn",
+  "step": "vegetal_decoration"
+}

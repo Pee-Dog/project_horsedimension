@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "gnomeback": "gnome_faceless_flipped",
+        "gnome": "gnome_flipped"
+      },
+      "name": "default"
+    }
+  }
+}

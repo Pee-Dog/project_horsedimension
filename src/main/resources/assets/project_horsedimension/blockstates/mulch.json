@@ -1,0 +1,21 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "project_horsedimension:block/mulch"
+      },
+      {
+        "model": "project_horsedimension:block/mulch",
+        "y": 90
+      },
+      {
+        "model": "project_horsedimension:block/mulch",
+        "y": 180
+      },
+      {
+        "model": "project_horsedimension:block/mulch",
+        "y": 270
+      }
+    ]
+  }
+}

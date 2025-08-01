@@ -1,0 +1,20 @@
+{
+  "parent": "neoforge:item/default",
+  "loader": "neoforge:composite",
+  "children": {
+    "part1": {
+      "loader": "neoforge:obj",
+      "render_type": "solid",
+      "model": "project_horsedimension:models/item/wire.obj",
+      "emissive_ambient": true,
+      "textures": {
+        "Material": "project_horsedimension:block/rabbit2",
+        "particle": "project_horsedimension:block/rabbit2"
+      }
+    }
+  },
+  "textures": {
+    "particle": "project_horsedimension:block/rabbit2"
+  },
+  "render_type": "solid"
+}

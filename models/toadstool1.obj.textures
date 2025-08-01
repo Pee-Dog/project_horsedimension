@@ -1,0 +1,12 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "head": "toadstool_top_white",
+        "butt": "toadstool_butthole",
+        "stem": "toadstool_flipped"
+      },
+      "name": "default"
+    }
+  }
+}

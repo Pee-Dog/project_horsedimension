@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "project_horsedimension:blocks/weak_cosmic_noise",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "project_horsedimension:weak_cosmic_noise"
+        }
+      ]
+    }
+  ]
+}

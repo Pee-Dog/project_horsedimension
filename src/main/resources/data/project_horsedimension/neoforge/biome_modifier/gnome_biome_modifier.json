@@ -1,0 +1,10 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": "project_horsedimension:garden",
+  "spawners": {
+    "type": "project_horsedimension:gnome",
+    "weight": 15,
+    "minCount": 3,
+    "maxCount": 6
+  }
+}

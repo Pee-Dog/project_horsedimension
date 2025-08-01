@@ -1,0 +1,13 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": [
+    "project_horsedimension:oasis",
+    "project_horsedimension:garden"
+  ],
+  "spawners": {
+    "type": "project_horsedimension:cricketentity",
+    "weight": 9,
+    "minCount": 4,
+    "maxCount": 5
+  }
+}

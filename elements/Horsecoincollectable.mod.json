@@ -1,0 +1,180 @@
+{
+  "_fv": 79,
+  "_type": "livingentity",
+  "definition": {
+    "mobName": "Horsecoin",
+    "mobLabel": "",
+    "mobModelName": "Biped",
+    "mobModelTexture": "nothing.png",
+    "transparentModelCondition": {
+      "fixedValue": false
+    },
+    "isShakingCondition": {
+      "fixedValue": false
+    },
+    "solidBoundingBox": {
+      "fixedValue": false
+    },
+    "visualScale": {
+      "fixedValue": 1.0
+    },
+    "boundingBoxScale": {
+      "fixedValue": 1.0
+    },
+    "modelLayers": [],
+    "animations": [],
+    "modelWidth": 0.2,
+    "modelHeight": 0.3,
+    "modelShadowSize": 0.2,
+    "mountedYOffset": 0.0,
+    "hasSpawnEgg": true,
+    "spawnEggBaseColor": {
+      "value": -205,
+      "falpha": 0.0
+    },
+    "spawnEggDotColor": {
+      "value": -205,
+      "falpha": 0.0
+    },
+    "creativeTabs": [
+      {
+        "value": "MISC"
+      },
+      {
+        "value": "CUSTOM:HorthDimensionCreativeTab"
+      }
+    ],
+    "isBoss": false,
+    "bossBarColor": "PINK",
+    "bossBarType": "PROGRESS",
+    "equipmentMainHand": {
+      "value": ""
+    },
+    "equipmentOffHand": {
+      "value": ""
+    },
+    "equipmentHelmet": {
+      "value": ""
+    },
+    "equipmentBody": {
+      "value": ""
+    },
+    "equipmentLeggings": {
+      "value": ""
+    },
+    "equipmentBoots": {
+      "value": ""
+    },
+    "mobBehaviourType": "Creature",
+    "mobCreatureType": "UNDEFINED",
+    "attackStrength": 3,
+    "attackKnockback": 0.0,
+    "knockbackResistance": 0.0,
+    "movementSpeed": 0.3,
+    "stepHeight": 0.6,
+    "armorBaseValue": 0.0,
+    "trackingRange": 64,
+    "followRange": 16,
+    "health": 10,
+    "xpAmount": 0,
+    "waterMob": false,
+    "breatheUnderwater": {
+      "fixedValue": false
+    },
+    "pushedByFluids": {
+      "fixedValue": true
+    },
+    "flyingMob": false,
+    "inventorySize": 9,
+    "inventoryStackSize": 99,
+    "disableCollisions": false,
+    "ridable": false,
+    "canControlForward": false,
+    "canControlStrafe": false,
+    "immuneToFire": true,
+    "immuneToArrows": true,
+    "immuneToFallDamage": true,
+    "immuneToCactus": true,
+    "immuneToDrowning": true,
+    "immuneToLightning": true,
+    "immuneToPotions": true,
+    "immuneToPlayer": true,
+    "immuneToExplosion": true,
+    "immuneToTrident": true,
+    "immuneToAnvil": true,
+    "immuneToWither": true,
+    "immuneToDragonBreath": true,
+    "mobDrop": {
+      "value": ""
+    },
+    "livingSound": {
+      "value": ""
+    },
+    "hurtSound": {
+      "value": "entity.generic.hurt"
+    },
+    "deathSound": {
+      "value": "entity.generic.death"
+    },
+    "stepSound": {
+      "value": ""
+    },
+    "raidCelebrationSound": {
+      "value": ""
+    },
+    "entityDataEntries": [
+      {
+        "min": -2147483648,
+        "max": 2147483647,
+        "name": "coincollected",
+        "type": "integer",
+        "value": 0
+      }
+    ],
+    "onPlayerCollidesWith": {
+      "name": "PlayerCollidesWithCoin"
+    },
+    "onInitialSpawn": {
+      "name": "OnCoinEntitySpawn"
+    },
+    "hasAI": false,
+    "aiBase": "(none)",
+    "aixml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"aitasks_container\" deletable=\"false\" x=\"40\" y=\"40\"></block></xml>",
+    "breedable": false,
+    "tameable": false,
+    "breedTriggerItems": [],
+    "ranged": false,
+    "rangedAttackItem": {
+      "value": ""
+    },
+    "rangedItemType": "Default item",
+    "rangedAttackInterval": 20,
+    "rangedAttackRadius": 10.0,
+    "spawnThisMob": true,
+    "doesDespawnWhenIdle": true,
+    "spawningProbability": 15,
+    "mobSpawningType": "creature",
+    "minNumberOfMobsPerGroup": 1,
+    "maxNumberOfMobsPerGroup": 7,
+    "restrictionBiomes": [
+      {
+        "value": "CUSTOM:Pasture"
+      }
+    ],
+    "spawnInDungeons": false,
+    "raidSpawnsCount": [
+      4,
+      3,
+      3,
+      4,
+      4,
+      4,
+      2
+    ],
+    "sensitiveToVibration": false,
+    "vibrationalEvents": [],
+    "vibrationSensitivityRadius": {
+      "fixedValue": 7.0
+    }
+  }
+}

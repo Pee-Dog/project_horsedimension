@@ -1,0 +1,10 @@
+{
+  "forge_marker": 1,
+  "parent": "neoforge:item/default",
+  "loader": "neoforge:obj",
+  "model": "project_horsedimension:models/item/horse_large.obj",
+  "textures": {
+    "lambert2SG.001": "project_horsedimension:block/horse_upsidedown",
+    "particle": "project_horsedimension:item/little_horse"
+  }
+}
