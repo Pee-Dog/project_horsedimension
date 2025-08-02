@@ -24,7 +24,17 @@
     "connectedSides": false,
     "transparencyType": "CUTOUT",
     "disableOffset": false,
-    "boundingBoxes": [],
+    "boundingBoxes": [
+      {
+        "mx": 0.0,
+        "my": -0.01,
+        "mz": 0.0,
+        "Mx": 16.0,
+        "My": 0.0,
+        "Mz": 16.0,
+        "subtract": false
+      }
+    ],
     "customProperties": [],
     "name": "Noise Floor",
     "specialInformation": {

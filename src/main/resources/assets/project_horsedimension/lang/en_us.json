@@ -170,5 +170,10 @@
   "item.project_horsedimension.noisewall": "Noise Wall",
   "entity.project_horsedimension.noise_cloud": "Noise Cloud",
   "item.project_horsedimension.bottleofstatic": "Bottle of Noise",
-  "item.project_horsedimension.static_residue": "Static Residue"
+  "item.project_horsedimension.static_residue": "Static Residue",
+  "item.project_horsedimension.wallbarrier": "Wall Barrier",
+  "item.project_horsedimension.floorbarrier": "Floor Barrier",
+  "item.project_horsedimension.birdwings_chestplate": "Bird Wings",
+  "item.project_horsedimension.birdwingsopen_chestplate": "Bird Wings open",
+  "item.project_horsedimension.corruptedwings_chestplate": "Corrupted wings"
 }

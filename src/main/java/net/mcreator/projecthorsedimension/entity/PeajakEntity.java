@@ -148,7 +148,7 @@ public class PeajakEntity extends Monster implements RangedAttackMob {
 		double x = this.getX();
 		double y = this.getY();
 		double z = this.getZ();
-		return super.getDefaultDimensions(pose).scale((float) PeajakBoundingBoxScaleProcedure.execute(entity));
+		return super.getDefaultDimensions(pose).scale((float) PeajakBoundingBoxScaleProcedure.execute());
 	}
 
 	public static void init(RegisterSpawnPlacementsEvent event) {

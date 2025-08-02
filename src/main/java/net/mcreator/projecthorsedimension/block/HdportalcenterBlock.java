@@ -40,6 +40,11 @@ public class HdportalcenterBlock extends Block implements EntityBlock {
 	}
 
 	@Override
+	public boolean skipRendering(BlockState state, BlockState adjacentBlockState, Direction side) {
+		return adjacentBlockState.getBlock() == this ? true : super.skipRendering(state, adjacentBlockState, side);
+	}
+
+	@Override
 	public boolean propagatesSkylightDown(BlockState state) {
 		return true;
 	}
@@ -52,6 +57,16 @@ public class HdportalcenterBlock extends Block implements EntityBlock {
 	@Override
 	public VoxelShape getVisualShape(BlockState state, BlockGetter world, BlockPos pos, CollisionContext context) {
 		return Shapes.empty();
+	}
+
+	@Override
+	public VoxelShape getShape(BlockState state, BlockGetter world, BlockPos pos, CollisionContext context) {
+		return switch (state.getValue(FACING)) {
+			default -> box(-32, -32, -32, 48, 48, 48);
+			case NORTH -> box(-32, -32, -32, 48, 48, 48);
+			case EAST -> box(-32, -32, -32, 48, 48, 48);
+			case WEST -> box(-32, -32, -32, 48, 48, 48);
+		};
 	}
 
 	@Override

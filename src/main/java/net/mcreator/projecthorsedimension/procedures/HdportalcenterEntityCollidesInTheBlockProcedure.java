@@ -4,11 +4,17 @@ import net.minecraft.world.phys.Vec3;
 import net.minecraft.world.phys.Vec2;
 import net.minecraft.world.level.levelgen.structure.templatesystem.StructureTemplate;
 import net.minecraft.world.level.levelgen.structure.templatesystem.StructurePlaceSettings;
+import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.entity.BlockEntity;
 import net.minecraft.world.level.block.Rotation;
 import net.minecraft.world.level.block.Mirror;
 import net.minecraft.world.level.LevelAccessor;
 import net.minecraft.world.level.Level;
+import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.entity.player.Player;
+import net.minecraft.world.entity.item.ItemEntity;
+import net.minecraft.world.entity.LivingEntity;
+import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.server.level.ServerPlayer;
@@ -24,6 +30,9 @@ import net.minecraft.core.registries.Registries;
 import net.minecraft.core.BlockPos;
 import net.minecraft.commands.CommandSourceStack;
 import net.minecraft.commands.CommandSource;
+
+import net.mcreator.projecthorsedimension.network.ProjectHorsedimensionModVariables;
+import net.mcreator.projecthorsedimension.init.ProjectHorsedimensionModItems;
 
 import java.util.Set;
 
@@ -70,6 +79,47 @@ public class HdportalcenterEntityCollidesInTheBlockProcedure {
 				if (world instanceof ServerLevel _level)
 					_level.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, new Vec3(x, y, z), Vec2.ZERO, _level, 4, "", Component.literal(""), _level.getServer(), null).withSuppressedOutput(),
 							"execute in project_horsedimension:horsedimension run setblock ~ ~22 ~ project_horsedimension:hdportalcenter");
+				if (!world.isClientSide()) {
+					BlockPos _bp = BlockPos.containing(x, y, z);
+					BlockEntity _blockEntity = world.getBlockEntity(_bp);
+					BlockState _bs = world.getBlockState(_bp);
+					if (_blockEntity != null)
+						_blockEntity.getPersistentData().putBoolean("linked", true);
+					if (world instanceof Level _level)
+						_level.sendBlockUpdated(_bp, _bs, _bs, 3);
+				}
+				if (entity.getData(ProjectHorsedimensionModVariables.PLAYER_VARIABLES).portalwings == false) {
+					{
+						ProjectHorsedimensionModVariables.PlayerVariables _vars = entity.getData(ProjectHorsedimensionModVariables.PLAYER_VARIABLES);
+						_vars.portalwings = true;
+						_vars.syncPlayerVariables(entity);
+					}
+					if ((entity instanceof LivingEntity _entGetArmor ? _entGetArmor.getItemBySlot(EquipmentSlot.CHEST) : ItemStack.EMPTY).getItem() == ItemStack.EMPTY.getItem()) {
+						{
+							Entity _entity = entity;
+							if (_entity instanceof Player _player) {
+								_player.getInventory().armor.set(2, new ItemStack(ProjectHorsedimensionModItems.CORRUPTEDWINGS_CHESTPLATE.get()));
+								_player.getInventory().setChanged();
+							} else if (_entity instanceof LivingEntity _living) {
+								_living.setItemSlot(EquipmentSlot.CHEST, new ItemStack(ProjectHorsedimensionModItems.CORRUPTEDWINGS_CHESTPLATE.get()));
+							}
+						}
+					} else {
+						if (world instanceof ServerLevel _origLevel) {
+							LevelAccessor _worldorig = world;
+							world = _origLevel.getServer().getLevel(ResourceKey.create(Registries.DIMENSION, ResourceLocation.parse("project_horsedimension:horsedimension")));
+							if (world != null) {
+								if (world instanceof ServerLevel _level) {
+									ItemEntity entityToSpawn = new ItemEntity(_level, (entity.getX()), (entity.getY()), (entity.getZ()), new ItemStack(ProjectHorsedimensionModItems.CORRUPTEDWINGS_CHESTPLATE.get()));
+									entityToSpawn.setPickUpDelay(0);
+									entityToSpawn.setUnlimitedLifetime();
+									_level.addFreshEntity(entityToSpawn);
+								}
+							}
+							world = _worldorig;
+						}
+					}
+				}
 			}
 		} else if ((entity.level().dimension()) == ResourceKey.create(Registries.DIMENSION, ResourceLocation.parse("project_horsedimension:horsedimension"))) {
 			if (entity instanceof ServerPlayer _player && !_player.level().isClientSide()) {

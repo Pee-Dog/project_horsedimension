@@ -1,5 +1,6 @@
 package net.mcreator.projecthorsedimension.procedures;
 
+import net.minecraft.world.phys.Vec3;
 import net.minecraft.world.level.LevelAccessor;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.item.ItemStack;
@@ -25,6 +26,7 @@ public class PeajakStompProcedure {
 		if (entity == null)
 			return;
 		ProjectHorsedimensionMod.queueServerWork(0, () -> {
+			entity.setDeltaMovement(new Vec3((entity.getDeltaMovement().x()), 0.75, (entity.getDeltaMovement().z())));
 			if (world instanceof Level _level) {
 				if (!_level.isClientSide()) {
 					_level.playSound(null, BlockPos.containing(x, y, z), BuiltInRegistries.SOUND_EVENT.getValue(ResourceLocation.parse("project_horsedimension:peajak.stomp1")), SoundSource.NEUTRAL, 1, 1);

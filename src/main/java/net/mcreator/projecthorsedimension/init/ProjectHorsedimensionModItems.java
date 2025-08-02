@@ -38,12 +38,15 @@ import net.mcreator.projecthorsedimension.item.FishitemItem;
 import net.mcreator.projecthorsedimension.item.CricketitemItem;
 import net.mcreator.projecthorsedimension.item.CricketheaditemItem;
 import net.mcreator.projecthorsedimension.item.CowfarmeritemItem;
+import net.mcreator.projecthorsedimension.item.CorruptedwingsItem;
 import net.mcreator.projecthorsedimension.item.BunnyitemItem;
 import net.mcreator.projecthorsedimension.item.Bunnyitem3Item;
 import net.mcreator.projecthorsedimension.item.Bunnyitem2Item;
 import net.mcreator.projecthorsedimension.item.Bunnyitem1Item;
 import net.mcreator.projecthorsedimension.item.BoulderitemItem;
 import net.mcreator.projecthorsedimension.item.BottleofstaticItem;
+import net.mcreator.projecthorsedimension.item.BirdwingsopenItem;
+import net.mcreator.projecthorsedimension.item.BirdwingsItem;
 import net.mcreator.projecthorsedimension.item.BirditemItem;
 import net.mcreator.projecthorsedimension.item.BarndoorrightitemItem;
 import net.mcreator.projecthorsedimension.item.BarndoorleftitemItem;
@@ -168,6 +171,11 @@ public class ProjectHorsedimensionModItems {
 	public static final DeferredItem<Item> NOISEWALL = block(ProjectHorsedimensionModBlocks.NOISEWALL);
 	public static final DeferredItem<Item> BOTTLEOFSTATIC = register("bottleofstatic", BottleofstaticItem::new);
 	public static final DeferredItem<Item> STATIC_RESIDUE = block(ProjectHorsedimensionModBlocks.STATIC_RESIDUE);
+	public static final DeferredItem<Item> WALLBARRIER = block(ProjectHorsedimensionModBlocks.WALLBARRIER);
+	public static final DeferredItem<Item> FLOORBARRIER = block(ProjectHorsedimensionModBlocks.FLOORBARRIER);
+	public static final DeferredItem<Item> BIRDWINGS_CHESTPLATE = register("birdwings_chestplate", BirdwingsItem.Chestplate::new);
+	public static final DeferredItem<Item> BIRDWINGSOPEN_CHESTPLATE = register("birdwingsopen_chestplate", BirdwingsopenItem.Chestplate::new);
+	public static final DeferredItem<Item> CORRUPTEDWINGS_CHESTPLATE = register("corruptedwings_chestplate", CorruptedwingsItem.Chestplate::new);
 
 	// Start of user code block custom items
 	// End of user code block custom items

@@ -117,10 +117,10 @@
       "registry_name": "horsecoincollectable",
       "metadata": {
         "files": [
-          "src/main/resources/data/project_horsedimension/neoforge/biome_modifier/horsecoincollectable_biome_modifier.json",
           "src/main/resources/assets/project_horsedimension/items/horsecoincollectable_spawn_egg.json",
+          "src/main/java/net/mcreator/projecthorsedimension/client/renderer/HorsecoincollectableRenderer.java",
           "src/main/java/net/mcreator/projecthorsedimension/entity/HorsecoincollectableEntity.java",
-          "src/main/java/net/mcreator/projecthorsedimension/client/renderer/HorsecoincollectableRenderer.java"
+          "src/main/resources/data/project_horsedimension/neoforge/biome_modifier/horsecoincollectable_biome_modifier.json"
         ]
       },
       "path": "~/horsecoin and gui"
@@ -200,9 +200,9 @@
       "registry_name": "horseitem",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/projecthorsedimension/item/HorseitemItem.java",
+          "src/main/resources/assets/project_horsedimension/items/horseitem.json",
           "src/main/resources/assets/project_horsedimension/models/item/horseitem.json",
-          "src/main/resources/assets/project_horsedimension/items/horseitem.json"
+          "src/main/java/net/mcreator/projecthorsedimension/item/HorseitemItem.java"
         ]
       },
       "path": "~/equine and key"
@@ -215,10 +215,10 @@
       "registry_name": "equine",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/projecthorsedimension/entity/EquineEntity.java",
+          "src/main/java/net/mcreator/projecthorsedimension/client/renderer/EquineRenderer.java",
           "src/main/resources/assets/project_horsedimension/items/equine_spawn_egg.json",
           "src/main/resources/data/project_horsedimension/neoforge/biome_modifier/equine_biome_modifier.json",
-          "src/main/java/net/mcreator/projecthorsedimension/client/renderer/EquineRenderer.java"
+          "src/main/java/net/mcreator/projecthorsedimension/entity/EquineEntity.java"
         ]
       },
       "path": "~/equine and key"
@@ -431,12 +431,12 @@
       "registry_name": "asphalt",
       "metadata": {
         "files": [
+          "src/main/resources/data/project_horsedimension/loot_table/blocks/asphalt.json",
           "src/main/java/net/mcreator/projecthorsedimension/block/AsphaltBlock.java",
           "src/main/resources/assets/project_horsedimension/models/item/asphalt.json",
-          "src/main/resources/data/project_horsedimension/loot_table/blocks/asphalt.json",
           "src/main/resources/assets/project_horsedimension/models/block/asphalt.json",
-          "src/main/resources/assets/project_horsedimension/items/asphalt.json",
-          "src/main/resources/assets/project_horsedimension/blockstates/asphalt.json"
+          "src/main/resources/assets/project_horsedimension/blockstates/asphalt.json",
+          "src/main/resources/assets/project_horsedimension/items/asphalt.json"
         ]
       },
       "path": "~/asphalt"
@@ -525,12 +525,12 @@
       "registry_name": "horseblock",
       "metadata": {
         "files": [
-          "src/main/resources/assets/project_horsedimension/models/block/horseblock.json",
           "src/main/resources/assets/project_horsedimension/models/item/horseblock.json",
-          "src/main/java/net/mcreator/projecthorsedimension/block/HorseblockBlock.java",
+          "src/main/resources/assets/project_horsedimension/models/block/horseblock.json",
           "src/main/resources/data/project_horsedimension/loot_table/blocks/horseblock.json",
+          "src/main/resources/assets/project_horsedimension/items/horseblock.json",
           "src/main/resources/assets/project_horsedimension/blockstates/horseblock.json",
-          "src/main/resources/assets/project_horsedimension/items/horseblock.json"
+          "src/main/java/net/mcreator/projecthorsedimension/block/HorseblockBlock.java"
         ]
       }
     },
@@ -543,14 +543,14 @@
       "metadata": {
         "files": [
           "src/main/resources/data/project_horsedimension/loot_table/blocks/ranunculus.json",
+          "src/main/resources/assets/project_horsedimension/items/ranunculus.json",
+          "src/main/resources/assets/project_horsedimension/blockstates/ranunculus.json",
+          "src/main/resources/data/project_horsedimension/neoforge/biome_modifier/ranunculus_biome_modifier.json",
+          "src/main/resources/data/project_horsedimension/worldgen/placed_feature/ranunculus.json",
           "src/main/resources/assets/project_horsedimension/models/item/ranunculus.json",
           "src/main/resources/data/project_horsedimension/worldgen/configured_feature/ranunculus.json",
-          "src/main/resources/assets/project_horsedimension/blockstates/ranunculus.json",
-          "src/main/resources/assets/project_horsedimension/items/ranunculus.json",
-          "src/main/java/net/mcreator/projecthorsedimension/block/RanunculusBlock.java",
-          "src/main/resources/data/project_horsedimension/worldgen/placed_feature/ranunculus.json",
-          "src/main/resources/data/project_horsedimension/neoforge/biome_modifier/ranunculus_biome_modifier.json",
-          "src/main/resources/assets/project_horsedimension/models/block/ranunculus.json"
+          "src/main/resources/assets/project_horsedimension/models/block/ranunculus.json",
+          "src/main/java/net/mcreator/projecthorsedimension/block/RanunculusBlock.java"
         ]
       }
     },
@@ -562,8 +562,8 @@
       "registry_name": "horsekey_gui",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/projecthorsedimension/world/inventory/HorsekeyGUIMenu.java",
-          "src/main/java/net/mcreator/projecthorsedimension/client/gui/HorsekeyGUIScreen.java"
+          "src/main/java/net/mcreator/projecthorsedimension/client/gui/HorsekeyGUIScreen.java",
+          "src/main/java/net/mcreator/projecthorsedimension/world/inventory/HorsekeyGUIMenu.java"
         ]
       },
       "path": "~/equine and key"
@@ -577,8 +577,8 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/project_horsedimension/models/item/bunnyitem.json",
-          "src/main/resources/assets/project_horsedimension/items/bunnyitem.json",
-          "src/main/java/net/mcreator/projecthorsedimension/item/BunnyitemItem.java"
+          "src/main/java/net/mcreator/projecthorsedimension/item/BunnyitemItem.java",
+          "src/main/resources/assets/project_horsedimension/items/bunnyitem.json"
         ]
       },
       "path": "~/bunny gib"
@@ -606,10 +606,10 @@
       "registry_name": "peajak",
       "metadata": {
         "files": [
+          "src/main/java/net/mcreator/projecthorsedimension/client/renderer/PeajakRenderer.java",
           "src/main/resources/assets/project_horsedimension/items/peajak_spawn_egg.json",
           "src/main/java/net/mcreator/projecthorsedimension/entity/PeajakEntity.java",
-          "src/main/resources/data/project_horsedimension/neoforge/biome_modifier/peajak_biome_modifier.json",
-          "src/main/java/net/mcreator/projecthorsedimension/client/renderer/PeajakRenderer.java"
+          "src/main/resources/data/project_horsedimension/neoforge/biome_modifier/peajak_biome_modifier.json"
         ]
       },
       "path": "~/peajak"
@@ -622,9 +622,9 @@
       "registry_name": "pea",
       "metadata": {
         "files": [
+          "src/main/java/net/mcreator/projecthorsedimension/item/PeaItem.java",
           "src/main/resources/assets/project_horsedimension/items/pea.json",
-          "src/main/resources/assets/project_horsedimension/models/item/pea.json",
-          "src/main/java/net/mcreator/projecthorsedimension/item/PeaItem.java"
+          "src/main/resources/assets/project_horsedimension/models/item/pea.json"
         ]
       },
       "path": "~/peajak"
@@ -637,10 +637,10 @@
       "registry_name": "bunny",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/projecthorsedimension/entity/BunnyEntity.java",
           "src/main/java/net/mcreator/projecthorsedimension/client/renderer/BunnyRenderer.java",
-          "src/main/resources/assets/project_horsedimension/items/bunny_spawn_egg.json",
-          "src/main/resources/data/project_horsedimension/neoforge/biome_modifier/bunny_biome_modifier.json"
+          "src/main/resources/data/project_horsedimension/neoforge/biome_modifier/bunny_biome_modifier.json",
+          "src/main/java/net/mcreator/projecthorsedimension/entity/BunnyEntity.java",
+          "src/main/resources/assets/project_horsedimension/items/bunny_spawn_egg.json"
         ]
       },
       "path": "~/bunny gib"
@@ -672,9 +672,9 @@
       "registry_name": "bunnyitem_1",
       "metadata": {
         "files": [
+          "src/main/java/net/mcreator/projecthorsedimension/item/Bunnyitem1Item.java",
           "src/main/resources/assets/project_horsedimension/models/item/bunnyitem_1.json",
-          "src/main/resources/assets/project_horsedimension/items/bunnyitem_1.json",
-          "src/main/java/net/mcreator/projecthorsedimension/item/Bunnyitem1Item.java"
+          "src/main/resources/assets/project_horsedimension/items/bunnyitem_1.json"
         ]
       },
       "path": "~/bunny gib"
@@ -702,9 +702,9 @@
       "registry_name": "bunnyitem_3",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/projecthorsedimension/item/Bunnyitem3Item.java",
+          "src/main/resources/assets/project_horsedimension/items/bunnyitem_3.json",
           "src/main/resources/assets/project_horsedimension/models/item/bunnyitem_3.json",
-          "src/main/resources/assets/project_horsedimension/items/bunnyitem_3.json"
+          "src/main/java/net/mcreator/projecthorsedimension/item/Bunnyitem3Item.java"
         ]
       },
       "path": "~/bunny gib"
@@ -717,9 +717,9 @@
       "registry_name": "gibentity",
       "metadata": {
         "files": [
+          "src/main/java/net/mcreator/projecthorsedimension/entity/GibentityEntity.java",
           "src/main/java/net/mcreator/projecthorsedimension/client/renderer/GibentityRenderer.java",
-          "src/main/resources/assets/project_horsedimension/items/gibentity_spawn_egg.json",
-          "src/main/java/net/mcreator/projecthorsedimension/entity/GibentityEntity.java"
+          "src/main/resources/assets/project_horsedimension/items/gibentity_spawn_egg.json"
         ]
       },
       "path": "~/bunny gib"
@@ -871,9 +871,9 @@
       "registry_name": "gib_2",
       "metadata": {
         "files": [
+          "src/main/java/net/mcreator/projecthorsedimension/item/Gib2Item.java",
           "src/main/resources/assets/project_horsedimension/models/item/gib_2.json",
-          "src/main/resources/assets/project_horsedimension/items/gib_2.json",
-          "src/main/java/net/mcreator/projecthorsedimension/item/Gib2Item.java"
+          "src/main/resources/assets/project_horsedimension/items/gib_2.json"
         ]
       },
       "path": "~/bunny gib"
@@ -932,12 +932,12 @@
       "registry_name": "cement",
       "metadata": {
         "files": [
+          "src/main/resources/assets/project_horsedimension/models/item/cement.json",
           "src/main/resources/assets/project_horsedimension/items/cement.json",
-          "src/main/resources/data/project_horsedimension/loot_table/blocks/cement.json",
-          "src/main/resources/assets/project_horsedimension/models/block/cement.json",
-          "src/main/resources/assets/project_horsedimension/blockstates/cement.json",
           "src/main/java/net/mcreator/projecthorsedimension/block/CementBlock.java",
-          "src/main/resources/assets/project_horsedimension/models/item/cement.json"
+          "src/main/resources/data/project_horsedimension/loot_table/blocks/cement.json",
+          "src/main/resources/assets/project_horsedimension/blockstates/cement.json",
+          "src/main/resources/assets/project_horsedimension/models/block/cement.json"
         ]
       }
     },
@@ -950,10 +950,10 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/project_horsedimension/models/block/yellow_cement.json",
-          "src/main/java/net/mcreator/projecthorsedimension/block/YellowCementBlock.java",
-          "src/main/resources/assets/project_horsedimension/models/item/yellow_cement.json",
           "src/main/resources/assets/project_horsedimension/items/yellow_cement.json",
           "src/main/resources/assets/project_horsedimension/blockstates/yellow_cement.json",
+          "src/main/resources/assets/project_horsedimension/models/item/yellow_cement.json",
+          "src/main/java/net/mcreator/projecthorsedimension/block/YellowCementBlock.java",
           "src/main/resources/data/project_horsedimension/loot_table/blocks/yellow_cement.json"
         ]
       }
@@ -1105,11 +1105,11 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/project_horsedimension/models/item/horseappleplanks.json",
-          "src/main/resources/data/project_horsedimension/loot_table/blocks/horseappleplanks.json",
           "src/main/resources/assets/project_horsedimension/items/horseappleplanks.json",
           "src/main/resources/assets/project_horsedimension/models/block/horseappleplanks.json",
           "src/main/java/net/mcreator/projecthorsedimension/block/HorseappleplanksBlock.java",
-          "src/main/resources/assets/project_horsedimension/blockstates/horseappleplanks.json"
+          "src/main/resources/assets/project_horsedimension/blockstates/horseappleplanks.json",
+          "src/main/resources/data/project_horsedimension/loot_table/blocks/horseappleplanks.json"
         ]
       },
       "path": "~/tree"
@@ -1122,14 +1122,14 @@
       "registry_name": "horseapplestairs",
       "metadata": {
         "files": [
-          "src/main/resources/assets/project_horsedimension/models/block/horseapplestairs.json",
+          "src/main/resources/assets/project_horsedimension/models/block/horseapplestairs_inner.json",
           "src/main/java/net/mcreator/projecthorsedimension/block/HorseapplestairsBlock.java",
           "src/main/resources/data/project_horsedimension/loot_table/blocks/horseapplestairs.json",
-          "src/main/resources/assets/project_horsedimension/models/block/horseapplestairs_outer.json",
-          "src/main/resources/assets/project_horsedimension/models/block/horseapplestairs_inner.json",
           "src/main/resources/assets/project_horsedimension/items/horseapplestairs.json",
+          "src/main/resources/assets/project_horsedimension/blockstates/horseapplestairs.json",
           "src/main/resources/assets/project_horsedimension/models/item/horseapplestairs.json",
-          "src/main/resources/assets/project_horsedimension/blockstates/horseapplestairs.json"
+          "src/main/resources/assets/project_horsedimension/models/block/horseapplestairs.json",
+          "src/main/resources/assets/project_horsedimension/models/block/horseapplestairs_outer.json"
         ]
       },
       "path": "~/tree"
@@ -1143,13 +1143,13 @@
       "metadata": {
         "files": [
           "src/main/resources/data/project_horsedimension/loot_table/blocks/horseappleslab.json",
-          "src/main/resources/assets/project_horsedimension/models/block/horseappleslab_top.json",
-          "src/main/resources/assets/project_horsedimension/blockstates/horseappleslab.json",
-          "src/main/resources/assets/project_horsedimension/models/item/horseappleslab.json",
           "src/main/resources/assets/project_horsedimension/models/block/horseappleslab_full.json",
           "src/main/java/net/mcreator/projecthorsedimension/block/HorseappleslabBlock.java",
           "src/main/resources/assets/project_horsedimension/items/horseappleslab.json",
-          "src/main/resources/assets/project_horsedimension/models/block/horseappleslab.json"
+          "src/main/resources/assets/project_horsedimension/blockstates/horseappleslab.json",
+          "src/main/resources/assets/project_horsedimension/models/block/horseappleslab.json",
+          "src/main/resources/assets/project_horsedimension/models/item/horseappleslab.json",
+          "src/main/resources/assets/project_horsedimension/models/block/horseappleslab_top.json"
         ]
       },
       "path": "~/tree"
@@ -1162,14 +1162,14 @@
       "registry_name": "horseapplefence",
       "metadata": {
         "files": [
+          "src/main/resources/assets/project_horsedimension/blockstates/horseapplefence.json",
+          "src/main/resources/assets/project_horsedimension/models/block/horseapplefence.json",
+          "src/main/resources/assets/project_horsedimension/models/block/horseapplefence_post.json",
           "src/main/resources/assets/project_horsedimension/items/horseapplefence.json",
           "src/main/resources/assets/project_horsedimension/models/item/horseapplefence.json",
           "src/main/java/net/mcreator/projecthorsedimension/block/HorseapplefenceBlock.java",
-          "src/main/resources/data/project_horsedimension/loot_table/blocks/horseapplefence.json",
           "src/main/resources/assets/project_horsedimension/models/block/horseapplefence_inventory.json",
-          "src/main/resources/assets/project_horsedimension/blockstates/horseapplefence.json",
-          "src/main/resources/assets/project_horsedimension/models/block/horseapplefence.json",
-          "src/main/resources/assets/project_horsedimension/models/block/horseapplefence_post.json"
+          "src/main/resources/data/project_horsedimension/loot_table/blocks/horseapplefence.json"
         ]
       },
       "path": "~/tree"
@@ -1182,15 +1182,15 @@
       "registry_name": "horseapplefencegate",
       "metadata": {
         "files": [
-          "src/main/resources/assets/project_horsedimension/models/block/horseapplefencegate_wall_open.json",
-          "src/main/java/net/mcreator/projecthorsedimension/block/HorseapplefencegateBlock.java",
-          "src/main/resources/assets/project_horsedimension/models/block/horseapplefencegate_open.json",
-          "src/main/resources/assets/project_horsedimension/models/item/horseapplefencegate.json",
           "src/main/resources/assets/project_horsedimension/models/block/horseapplefencegate_wall.json",
-          "src/main/resources/assets/project_horsedimension/items/horseapplefencegate.json",
+          "src/main/java/net/mcreator/projecthorsedimension/block/HorseapplefencegateBlock.java",
           "src/main/resources/data/project_horsedimension/loot_table/blocks/horseapplefencegate.json",
+          "src/main/resources/assets/project_horsedimension/models/block/horseapplefencegate_open.json",
+          "src/main/resources/assets/project_horsedimension/items/horseapplefencegate.json",
           "src/main/resources/assets/project_horsedimension/models/block/horseapplefencegate.json",
-          "src/main/resources/assets/project_horsedimension/blockstates/horseapplefencegate.json"
+          "src/main/resources/assets/project_horsedimension/models/block/horseapplefencegate_wall_open.json",
+          "src/main/resources/assets/project_horsedimension/blockstates/horseapplefencegate.json",
+          "src/main/resources/assets/project_horsedimension/models/item/horseapplefencegate.json"
         ]
       },
       "path": "~/tree"
@@ -1204,12 +1204,12 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/projecthorsedimension/block/HorseapplepressureplateBlock.java",
-          "src/main/resources/data/project_horsedimension/loot_table/blocks/horseapplepressureplate.json",
-          "src/main/resources/assets/project_horsedimension/models/item/horseapplepressureplate.json",
+          "src/main/resources/assets/project_horsedimension/items/horseapplepressureplate.json",
+          "src/main/resources/assets/project_horsedimension/blockstates/horseapplepressureplate.json",
           "src/main/resources/assets/project_horsedimension/models/block/horseapplepressureplate.json",
           "src/main/resources/assets/project_horsedimension/models/block/horseapplepressureplate_down.json",
-          "src/main/resources/assets/project_horsedimension/items/horseapplepressureplate.json",
-          "src/main/resources/assets/project_horsedimension/blockstates/horseapplepressureplate.json"
+          "src/main/resources/assets/project_horsedimension/models/item/horseapplepressureplate.json",
+          "src/main/resources/data/project_horsedimension/loot_table/blocks/horseapplepressureplate.json"
         ]
       },
       "path": "~/tree"
@@ -1222,14 +1222,14 @@
       "registry_name": "horseapplebutton",
       "metadata": {
         "files": [
-          "src/main/resources/data/project_horsedimension/loot_table/blocks/horseapplebutton.json",
-          "src/main/java/net/mcreator/projecthorsedimension/block/HorseapplebuttonBlock.java",
-          "src/main/resources/assets/project_horsedimension/models/block/horseapplebutton_inventory.json",
           "src/main/resources/assets/project_horsedimension/items/horseapplebutton.json",
-          "src/main/resources/assets/project_horsedimension/models/item/horseapplebutton.json",
           "src/main/resources/assets/project_horsedimension/blockstates/horseapplebutton.json",
+          "src/main/java/net/mcreator/projecthorsedimension/block/HorseapplebuttonBlock.java",
+          "src/main/resources/assets/project_horsedimension/models/item/horseapplebutton.json",
           "src/main/resources/assets/project_horsedimension/models/block/horseapplebutton.json",
-          "src/main/resources/assets/project_horsedimension/models/block/horseapplebutton_pressed.json"
+          "src/main/resources/assets/project_horsedimension/models/block/horseapplebutton_pressed.json",
+          "src/main/resources/assets/project_horsedimension/models/block/horseapplebutton_inventory.json",
+          "src/main/resources/data/project_horsedimension/loot_table/blocks/horseapplebutton.json"
         ]
       },
       "path": "~/tree"
@@ -1242,19 +1242,19 @@
       "registry_name": "horseappledoor",
       "metadata": {
         "files": [
-          "src/main/resources/assets/project_horsedimension/models/block/horseappledoor_bottom_left.json",
-          "src/main/resources/assets/project_horsedimension/models/block/horseappledoor_top_right_open.json",
+          "src/main/resources/assets/project_horsedimension/models/block/horseappledoor_bottom_right_open.json",
           "src/main/resources/assets/project_horsedimension/models/block/horseappledoor_top_left_open.json",
-          "src/main/resources/assets/project_horsedimension/models/block/horseappledoor_bottom_right.json",
           "src/main/resources/assets/project_horsedimension/models/block/horseappledoor_top_right.json",
-          "src/main/resources/assets/project_horsedimension/models/block/horseappledoor_bottom_left_open.json",
-          "src/main/java/net/mcreator/projecthorsedimension/block/HorseappledoorBlock.java",
-          "src/main/resources/assets/project_horsedimension/models/block/horseappledoor_top_left.json",
-          "src/main/resources/assets/project_horsedimension/models/item/horseappledoor.json",
-          "src/main/resources/assets/project_horsedimension/blockstates/horseappledoor.json",
-          "src/main/resources/assets/project_horsedimension/items/horseappledoor.json",
           "src/main/resources/data/project_horsedimension/loot_table/blocks/horseappledoor.json",
-          "src/main/resources/assets/project_horsedimension/models/block/horseappledoor_bottom_right_open.json"
+          "src/main/resources/assets/project_horsedimension/models/block/horseappledoor_bottom_left_open.json",
+          "src/main/resources/assets/project_horsedimension/items/horseappledoor.json",
+          "src/main/java/net/mcreator/projecthorsedimension/block/HorseappledoorBlock.java",
+          "src/main/resources/assets/project_horsedimension/models/item/horseappledoor.json",
+          "src/main/resources/assets/project_horsedimension/models/block/horseappledoor_top_left.json",
+          "src/main/resources/assets/project_horsedimension/models/block/horseappledoor_bottom_left.json",
+          "src/main/resources/assets/project_horsedimension/models/block/horseappledoor_bottom_right.json",
+          "src/main/resources/assets/project_horsedimension/models/block/horseappledoor_top_right_open.json",
+          "src/main/resources/assets/project_horsedimension/blockstates/horseappledoor.json"
         ]
       },
       "path": "~/tree"
@@ -1267,14 +1267,14 @@
       "registry_name": "horseappletrapdoor",
       "metadata": {
         "files": [
-          "src/main/resources/data/project_horsedimension/loot_table/blocks/horseappletrapdoor.json",
+          "src/main/resources/assets/project_horsedimension/models/block/horseappletrapdoor_top.json",
+          "src/main/java/net/mcreator/projecthorsedimension/block/HorseappletrapdoorBlock.java",
+          "src/main/resources/assets/project_horsedimension/items/horseappletrapdoor.json",
           "src/main/resources/assets/project_horsedimension/blockstates/horseappletrapdoor.json",
+          "src/main/resources/assets/project_horsedimension/models/block/horseappletrapdoor.json",
           "src/main/resources/assets/project_horsedimension/models/block/horseappletrapdoor_open.json",
           "src/main/resources/assets/project_horsedimension/models/item/horseappletrapdoor.json",
-          "src/main/resources/assets/project_horsedimension/items/horseappletrapdoor.json",
-          "src/main/java/net/mcreator/projecthorsedimension/block/HorseappletrapdoorBlock.java",
-          "src/main/resources/assets/project_horsedimension/models/block/horseappletrapdoor.json",
-          "src/main/resources/assets/project_horsedimension/models/block/horseappletrapdoor_top.json"
+          "src/main/resources/data/project_horsedimension/loot_table/blocks/horseappletrapdoor.json"
         ]
       },
       "path": "~/tree"
@@ -1287,12 +1287,12 @@
       "registry_name": "asphalt_shingle_block",
       "metadata": {
         "files": [
-          "src/main/resources/assets/project_horsedimension/models/item/asphalt_shingle_block.json",
-          "src/main/resources/data/project_horsedimension/loot_table/blocks/asphalt_shingle_block.json",
           "src/main/java/net/mcreator/projecthorsedimension/block/AsphaltShingleBlockBlock.java",
+          "src/main/resources/data/project_horsedimension/loot_table/blocks/asphalt_shingle_block.json",
           "src/main/resources/assets/project_horsedimension/models/block/asphalt_shingle_block.json",
-          "src/main/resources/assets/project_horsedimension/items/asphalt_shingle_block.json",
-          "src/main/resources/assets/project_horsedimension/blockstates/asphalt_shingle_block.json"
+          "src/main/resources/assets/project_horsedimension/blockstates/asphalt_shingle_block.json",
+          "src/main/resources/assets/project_horsedimension/models/item/asphalt_shingle_block.json",
+          "src/main/resources/assets/project_horsedimension/items/asphalt_shingle_block.json"
         ]
       },
       "path": "~/asphalt"
@@ -1305,14 +1305,14 @@
       "registry_name": "asphalt_shingle_stairs",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/projecthorsedimension/block/AsphaltShingleStairsBlock.java",
           "src/main/resources/assets/project_horsedimension/blockstates/asphalt_shingle_stairs.json",
-          "src/main/resources/assets/project_horsedimension/models/block/asphalt_shingle_stairs.json",
           "src/main/resources/assets/project_horsedimension/models/block/asphalt_shingle_stairs_inner.json",
-          "src/main/resources/data/project_horsedimension/loot_table/blocks/asphalt_shingle_stairs.json",
+          "src/main/resources/assets/project_horsedimension/models/block/asphalt_shingle_stairs.json",
           "src/main/resources/assets/project_horsedimension/models/block/asphalt_shingle_stairs_outer.json",
-          "src/main/resources/assets/project_horsedimension/items/asphalt_shingle_stairs.json",
-          "src/main/resources/assets/project_horsedimension/models/item/asphalt_shingle_stairs.json"
+          "src/main/resources/assets/project_horsedimension/models/item/asphalt_shingle_stairs.json",
+          "src/main/resources/data/project_horsedimension/loot_table/blocks/asphalt_shingle_stairs.json",
+          "src/main/java/net/mcreator/projecthorsedimension/block/AsphaltShingleStairsBlock.java",
+          "src/main/resources/assets/project_horsedimension/items/asphalt_shingle_stairs.json"
         ]
       },
       "path": "~/asphalt"
@@ -1326,13 +1326,13 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/project_horsedimension/items/asphalt_shingle_slab.json",
+          "src/main/resources/assets/project_horsedimension/models/block/asphalt_shingle_slab_full.json",
+          "src/main/java/net/mcreator/projecthorsedimension/block/AsphaltShingleSlabBlock.java",
           "src/main/resources/assets/project_horsedimension/blockstates/asphalt_shingle_slab.json",
           "src/main/resources/assets/project_horsedimension/models/item/asphalt_shingle_slab.json",
-          "src/main/resources/data/project_horsedimension/loot_table/blocks/asphalt_shingle_slab.json",
-          "src/main/resources/assets/project_horsedimension/models/block/asphalt_shingle_slab_full.json",
           "src/main/resources/assets/project_horsedimension/models/block/asphalt_shingle_slab.json",
-          "src/main/java/net/mcreator/projecthorsedimension/block/AsphaltShingleSlabBlock.java",
-          "src/main/resources/assets/project_horsedimension/models/block/asphalt_shingle_slab_top.json"
+          "src/main/resources/assets/project_horsedimension/models/block/asphalt_shingle_slab_top.json",
+          "src/main/resources/data/project_horsedimension/loot_table/blocks/asphalt_shingle_slab.json"
         ]
       },
       "path": "~/asphalt"
@@ -1345,14 +1345,14 @@
       "registry_name": "asphalt_stairs",
       "metadata": {
         "files": [
-          "src/main/resources/assets/project_horsedimension/models/block/asphalt_stairs.json",
-          "src/main/resources/assets/project_horsedimension/models/block/asphalt_stairs_outer.json",
           "src/main/resources/assets/project_horsedimension/models/item/asphalt_stairs.json",
+          "src/main/resources/assets/project_horsedimension/models/block/asphalt_stairs_inner.json",
+          "src/main/resources/assets/project_horsedimension/models/block/asphalt_stairs_outer.json",
+          "src/main/resources/assets/project_horsedimension/blockstates/asphalt_stairs.json",
           "src/main/java/net/mcreator/projecthorsedimension/block/AsphaltStairsBlock.java",
           "src/main/resources/assets/project_horsedimension/items/asphalt_stairs.json",
-          "src/main/resources/data/project_horsedimension/loot_table/blocks/asphalt_stairs.json",
-          "src/main/resources/assets/project_horsedimension/blockstates/asphalt_stairs.json",
-          "src/main/resources/assets/project_horsedimension/models/block/asphalt_stairs_inner.json"
+          "src/main/resources/assets/project_horsedimension/models/block/asphalt_stairs.json",
+          "src/main/resources/data/project_horsedimension/loot_table/blocks/asphalt_stairs.json"
         ]
       },
       "path": "~/asphalt"
@@ -1365,14 +1365,14 @@
       "registry_name": "asphalt_slab",
       "metadata": {
         "files": [
-          "src/main/resources/data/project_horsedimension/loot_table/blocks/asphalt_slab.json",
+          "src/main/java/net/mcreator/projecthorsedimension/block/AsphaltSlabBlock.java",
           "src/main/resources/assets/project_horsedimension/items/asphalt_slab.json",
           "src/main/resources/assets/project_horsedimension/models/item/asphalt_slab.json",
-          "src/main/resources/assets/project_horsedimension/models/block/asphalt_slab_top.json",
           "src/main/resources/assets/project_horsedimension/models/block/asphalt_slab.json",
+          "src/main/resources/assets/project_horsedimension/models/block/asphalt_slab_top.json",
           "src/main/resources/assets/project_horsedimension/models/block/asphalt_slab_full.json",
-          "src/main/java/net/mcreator/projecthorsedimension/block/AsphaltSlabBlock.java",
-          "src/main/resources/assets/project_horsedimension/blockstates/asphalt_slab.json"
+          "src/main/resources/assets/project_horsedimension/blockstates/asphalt_slab.json",
+          "src/main/resources/data/project_horsedimension/loot_table/blocks/asphalt_slab.json"
         ]
       },
       "path": "~/asphalt"
@@ -1386,13 +1386,13 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/project_horsedimension/models/block/asphalt_wall.json",
-          "src/main/java/net/mcreator/projecthorsedimension/block/AsphaltWallBlock.java",
-          "src/main/resources/assets/project_horsedimension/models/block/asphalt_wall_side_tall.json",
-          "src/main/resources/assets/project_horsedimension/models/block/asphalt_wall_inventory.json",
-          "src/main/resources/data/project_horsedimension/loot_table/blocks/asphalt_wall.json",
-          "src/main/resources/assets/project_horsedimension/items/asphalt_wall.json",
           "src/main/resources/assets/project_horsedimension/blockstates/asphalt_wall.json",
           "src/main/resources/assets/project_horsedimension/models/block/asphalt_wall_post.json",
+          "src/main/resources/data/project_horsedimension/loot_table/blocks/asphalt_wall.json",
+          "src/main/resources/assets/project_horsedimension/models/block/asphalt_wall_inventory.json",
+          "src/main/java/net/mcreator/projecthorsedimension/block/AsphaltWallBlock.java",
+          "src/main/resources/assets/project_horsedimension/items/asphalt_wall.json",
+          "src/main/resources/assets/project_horsedimension/models/block/asphalt_wall_side_tall.json",
           "src/main/resources/assets/project_horsedimension/models/item/asphalt_wall.json"
         ]
       },
@@ -1406,15 +1406,15 @@
       "registry_name": "asphalt_shingle_wall",
       "metadata": {
         "files": [
-          "src/main/resources/assets/project_horsedimension/models/block/asphalt_shingle_wall_post.json",
-          "src/main/java/net/mcreator/projecthorsedimension/block/AsphaltShingleWallBlock.java",
-          "src/main/resources/assets/project_horsedimension/models/item/asphalt_shingle_wall.json",
           "src/main/resources/data/project_horsedimension/loot_table/blocks/asphalt_shingle_wall.json",
-          "src/main/resources/assets/project_horsedimension/blockstates/asphalt_shingle_wall.json",
+          "src/main/resources/assets/project_horsedimension/models/block/asphalt_shingle_wall_post.json",
+          "src/main/resources/assets/project_horsedimension/models/block/asphalt_shingle_wall_side_tall.json",
           "src/main/resources/assets/project_horsedimension/models/block/asphalt_shingle_wall_inventory.json",
-          "src/main/resources/assets/project_horsedimension/models/block/asphalt_shingle_wall.json",
           "src/main/resources/assets/project_horsedimension/items/asphalt_shingle_wall.json",
-          "src/main/resources/assets/project_horsedimension/models/block/asphalt_shingle_wall_side_tall.json"
+          "src/main/resources/assets/project_horsedimension/models/item/asphalt_shingle_wall.json",
+          "src/main/java/net/mcreator/projecthorsedimension/block/AsphaltShingleWallBlock.java",
+          "src/main/resources/assets/project_horsedimension/blockstates/asphalt_shingle_wall.json",
+          "src/main/resources/assets/project_horsedimension/models/block/asphalt_shingle_wall.json"
         ]
       },
       "path": "~/asphalt"
@@ -1427,9 +1427,9 @@
       "registry_name": "birditem",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/projecthorsedimension/item/BirditemItem.java",
+          "src/main/resources/assets/project_horsedimension/items/birditem.json",
           "src/main/resources/assets/project_horsedimension/models/item/birditem.json",
-          "src/main/resources/assets/project_horsedimension/items/birditem.json"
+          "src/main/java/net/mcreator/projecthorsedimension/item/BirditemItem.java"
         ]
       },
       "path": "~/bird"
@@ -1563,9 +1563,9 @@
       "registry_name": "peajakitem_1",
       "metadata": {
         "files": [
-          "src/main/resources/assets/project_horsedimension/models/item/peajakitem_1.json",
           "src/main/resources/assets/project_horsedimension/items/peajakitem_1.json",
-          "src/main/java/net/mcreator/projecthorsedimension/item/Peajakitem1Item.java"
+          "src/main/java/net/mcreator/projecthorsedimension/item/Peajakitem1Item.java",
+          "src/main/resources/assets/project_horsedimension/models/item/peajakitem_1.json"
         ]
       },
       "path": "~/peajak"
@@ -1578,9 +1578,9 @@
       "registry_name": "peajakitem_2",
       "metadata": {
         "files": [
+          "src/main/resources/assets/project_horsedimension/models/item/peajakitem_2.json",
           "src/main/java/net/mcreator/projecthorsedimension/item/Peajakitem2Item.java",
-          "src/main/resources/assets/project_horsedimension/items/peajakitem_2.json",
-          "src/main/resources/assets/project_horsedimension/models/item/peajakitem_2.json"
+          "src/main/resources/assets/project_horsedimension/items/peajakitem_2.json"
         ]
       },
       "path": "~/peajak"
@@ -1641,9 +1641,9 @@
       "registry_name": "peashooter",
       "metadata": {
         "files": [
+          "src/main/resources/assets/project_horsedimension/items/peashooter.json",
           "src/main/resources/assets/project_horsedimension/models/item/peashooter.json",
-          "src/main/java/net/mcreator/projecthorsedimension/item/PeashooterItem.java",
-          "src/main/resources/assets/project_horsedimension/items/peashooter.json"
+          "src/main/java/net/mcreator/projecthorsedimension/item/PeashooterItem.java"
         ]
       },
       "path": "~/peajak"
@@ -1656,9 +1656,9 @@
       "registry_name": "peajakhanditem",
       "metadata": {
         "files": [
+          "src/main/resources/assets/project_horsedimension/items/peajakhanditem.json",
           "src/main/java/net/mcreator/projecthorsedimension/item/PeajakhanditemItem.java",
-          "src/main/resources/assets/project_horsedimension/models/item/peajakhanditem.json",
-          "src/main/resources/assets/project_horsedimension/items/peajakhanditem.json"
+          "src/main/resources/assets/project_horsedimension/models/item/peajakhanditem.json"
         ]
       },
       "path": "~/peajak"
@@ -1671,8 +1671,8 @@
       "registry_name": "peabits",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/projecthorsedimension/client/particle/PeabitsParticle.java",
-          "src/main/resources/assets/project_horsedimension/particles/peabits.json"
+          "src/main/resources/assets/project_horsedimension/particles/peabits.json",
+          "src/main/java/net/mcreator/projecthorsedimension/client/particle/PeabitsParticle.java"
         ]
       },
       "path": "~/peajak"
@@ -1850,12 +1850,7 @@
       "locked_code": false,
       "registry_name": "peajak_bounding_box_scale",
       "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ],
+        "dependencies": [],
         "return_type": "number",
         "files": [
           "src/main/java/net/mcreator/projecthorsedimension/procedures/PeajakBoundingBoxScaleProcedure.java"
@@ -1871,12 +1866,12 @@
       "registry_name": "plank_slope",
       "metadata": {
         "files": [
+          "src/main/resources/assets/project_horsedimension/models/block/plank_slope.json",
           "src/main/resources/assets/project_horsedimension/models/item/plank_slope.json",
           "src/main/resources/assets/project_horsedimension/items/plank_slope.json",
-          "src/main/resources/assets/project_horsedimension/blockstates/plank_slope.json",
-          "src/main/resources/data/project_horsedimension/loot_table/blocks/plank_slope.json",
           "src/main/java/net/mcreator/projecthorsedimension/block/PlankSlopeBlock.java",
-          "src/main/resources/assets/project_horsedimension/models/block/plank_slope.json"
+          "src/main/resources/data/project_horsedimension/loot_table/blocks/plank_slope.json",
+          "src/main/resources/assets/project_horsedimension/blockstates/plank_slope.json"
         ]
       },
       "path": "~/tree"
@@ -1889,12 +1884,12 @@
       "registry_name": "asphalt_shingle_raised_slope",
       "metadata": {
         "files": [
-          "src/main/resources/data/project_horsedimension/loot_table/blocks/asphalt_shingle_raised_slope.json",
-          "src/main/java/net/mcreator/projecthorsedimension/block/AsphaltShingleRaisedSlopeBlock.java",
-          "src/main/resources/assets/project_horsedimension/blockstates/asphalt_shingle_raised_slope.json",
-          "src/main/resources/assets/project_horsedimension/models/block/asphalt_shingle_raised_slope.json",
           "src/main/resources/assets/project_horsedimension/models/item/asphalt_shingle_raised_slope.json",
-          "src/main/resources/assets/project_horsedimension/items/asphalt_shingle_raised_slope.json"
+          "src/main/resources/assets/project_horsedimension/items/asphalt_shingle_raised_slope.json",
+          "src/main/resources/assets/project_horsedimension/blockstates/asphalt_shingle_raised_slope.json",
+          "src/main/java/net/mcreator/projecthorsedimension/block/AsphaltShingleRaisedSlopeBlock.java",
+          "src/main/resources/data/project_horsedimension/loot_table/blocks/asphalt_shingle_raised_slope.json",
+          "src/main/resources/assets/project_horsedimension/models/block/asphalt_shingle_raised_slope.json"
         ]
       },
       "path": "~/asphalt"
@@ -1938,15 +1933,15 @@
       "registry_name": "rd_tree",
       "metadata": {
         "files": [
-          "src/main/resources/data/project_horsedimension/loot_table/blocks/rd_tree.json",
+          "src/main/resources/data/project_horsedimension/neoforge/biome_modifier/rd_tree_biome_modifier.json",
           "src/main/resources/assets/project_horsedimension/items/rd_tree.json",
-          "src/main/resources/assets/project_horsedimension/models/item/rd_tree.json",
-          "src/main/resources/assets/project_horsedimension/blockstates/rd_tree.json",
           "src/main/resources/assets/project_horsedimension/models/block/rd_tree.json",
+          "src/main/resources/data/project_horsedimension/worldgen/placed_feature/rd_tree.json",
+          "src/main/resources/assets/project_horsedimension/models/item/rd_tree.json",
           "src/main/resources/data/project_horsedimension/worldgen/configured_feature/rd_tree.json",
           "src/main/java/net/mcreator/projecthorsedimension/block/RDTreeBlock.java",
-          "src/main/resources/data/project_horsedimension/worldgen/placed_feature/rd_tree.json",
-          "src/main/resources/data/project_horsedimension/neoforge/biome_modifier/rd_tree_biome_modifier.json"
+          "src/main/resources/data/project_horsedimension/loot_table/blocks/rd_tree.json",
+          "src/main/resources/assets/project_horsedimension/blockstates/rd_tree.json"
         ]
       },
       "path": "~/tree"
@@ -1959,12 +1954,12 @@
       "registry_name": "asphalt_shingle_layer",
       "metadata": {
         "files": [
+          "src/main/resources/assets/project_horsedimension/models/item/asphalt_shingle_layer.json",
           "src/main/resources/assets/project_horsedimension/items/asphalt_shingle_layer.json",
           "src/main/resources/assets/project_horsedimension/blockstates/asphalt_shingle_layer.json",
-          "src/main/resources/data/project_horsedimension/loot_table/blocks/asphalt_shingle_layer.json",
           "src/main/resources/assets/project_horsedimension/models/block/asphalt_shingle_layer.json",
           "src/main/java/net/mcreator/projecthorsedimension/block/AsphaltShingleLayerBlock.java",
-          "src/main/resources/assets/project_horsedimension/models/item/asphalt_shingle_layer.json"
+          "src/main/resources/data/project_horsedimension/loot_table/blocks/asphalt_shingle_layer.json"
         ]
       },
       "path": "~/asphalt"
@@ -1999,8 +1994,8 @@
         "files": [
           "src/main/resources/data/project_horsedimension/worldgen/template_pool/road_road.json",
           "src/main/resources/data/project_horsedimension/worldgen/structure/road.json",
-          "src/main/resources/data/project_horsedimension/worldgen/template_pool/road.json",
-          "src/main/resources/data/project_horsedimension/worldgen/structure_set/road.json"
+          "src/main/resources/data/project_horsedimension/worldgen/structure_set/road.json",
+          "src/main/resources/data/project_horsedimension/worldgen/template_pool/road.json"
         ]
       }
     },
@@ -2013,11 +2008,11 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/project_horsedimension/models/item/popcornceiling.json",
-          "src/main/resources/assets/project_horsedimension/blockstates/popcornceiling.json",
-          "src/main/resources/assets/project_horsedimension/items/popcornceiling.json",
-          "src/main/resources/assets/project_horsedimension/models/block/popcornceiling.json",
           "src/main/java/net/mcreator/projecthorsedimension/block/PopcornceilingBlock.java",
-          "src/main/resources/data/project_horsedimension/loot_table/blocks/popcornceiling.json"
+          "src/main/resources/data/project_horsedimension/loot_table/blocks/popcornceiling.json",
+          "src/main/resources/assets/project_horsedimension/models/block/popcornceiling.json",
+          "src/main/resources/assets/project_horsedimension/items/popcornceiling.json",
+          "src/main/resources/assets/project_horsedimension/blockstates/popcornceiling.json"
         ]
       }
     },
@@ -2029,12 +2024,12 @@
       "registry_name": "white_drywall",
       "metadata": {
         "files": [
-          "src/main/resources/assets/project_horsedimension/models/block/white_drywall.json",
+          "src/main/java/net/mcreator/projecthorsedimension/block/WhiteDrywallBlock.java",
+          "src/main/resources/assets/project_horsedimension/models/item/white_drywall.json",
+          "src/main/resources/assets/project_horsedimension/items/white_drywall.json",
           "src/main/resources/data/project_horsedimension/loot_table/blocks/white_drywall.json",
           "src/main/resources/assets/project_horsedimension/blockstates/white_drywall.json",
-          "src/main/resources/assets/project_horsedimension/models/item/white_drywall.json",
-          "src/main/java/net/mcreator/projecthorsedimension/block/WhiteDrywallBlock.java",
-          "src/main/resources/assets/project_horsedimension/items/white_drywall.json"
+          "src/main/resources/assets/project_horsedimension/models/block/white_drywall.json"
         ]
       }
     },
@@ -2046,12 +2041,12 @@
       "registry_name": "horsefencepost",
       "metadata": {
         "files": [
-          "src/main/resources/assets/project_horsedimension/blockstates/horsefencepost.json",
-          "src/main/resources/data/project_horsedimension/loot_table/blocks/horsefencepost.json",
-          "src/main/java/net/mcreator/projecthorsedimension/block/HorsefencepostBlock.java",
           "src/main/resources/assets/project_horsedimension/items/horsefencepost.json",
+          "src/main/resources/data/project_horsedimension/loot_table/blocks/horsefencepost.json",
+          "src/main/resources/assets/project_horsedimension/models/item/horsefencepost.json",
+          "src/main/resources/assets/project_horsedimension/blockstates/horsefencepost.json",
           "src/main/resources/assets/project_horsedimension/models/block/horsefencepost.json",
-          "src/main/resources/assets/project_horsedimension/models/item/horsefencepost.json"
+          "src/main/java/net/mcreator/projecthorsedimension/block/HorsefencepostBlock.java"
         ]
       },
       "path": "~/tree"
@@ -2064,12 +2059,12 @@
       "registry_name": "horsefenceside",
       "metadata": {
         "files": [
-          "src/main/resources/assets/project_horsedimension/items/horsefenceside.json",
-          "src/main/resources/assets/project_horsedimension/models/item/horsefenceside.json",
-          "src/main/java/net/mcreator/projecthorsedimension/block/HorsefencesideBlock.java",
           "src/main/resources/data/project_horsedimension/loot_table/blocks/horsefenceside.json",
+          "src/main/java/net/mcreator/projecthorsedimension/block/HorsefencesideBlock.java",
           "src/main/resources/assets/project_horsedimension/blockstates/horsefenceside.json",
-          "src/main/resources/assets/project_horsedimension/models/block/horsefenceside.json"
+          "src/main/resources/assets/project_horsedimension/models/block/horsefenceside.json",
+          "src/main/resources/assets/project_horsedimension/models/item/horsefenceside.json",
+          "src/main/resources/assets/project_horsedimension/items/horsefenceside.json"
         ]
       },
       "path": "~/tree"
@@ -2082,9 +2077,9 @@
       "registry_name": "rat",
       "metadata": {
         "files": [
-          "src/main/resources/assets/project_horsedimension/items/rat_spawn_egg.json",
+          "src/main/java/net/mcreator/projecthorsedimension/entity/RatEntity.java",
           "src/main/java/net/mcreator/projecthorsedimension/client/renderer/RatRenderer.java",
-          "src/main/java/net/mcreator/projecthorsedimension/entity/RatEntity.java"
+          "src/main/resources/assets/project_horsedimension/items/rat_spawn_egg.json"
         ]
       },
       "path": "~/rat"
@@ -2097,9 +2092,9 @@
       "registry_name": "ratitem",
       "metadata": {
         "files": [
+          "src/main/resources/assets/project_horsedimension/items/ratitem.json",
           "src/main/resources/assets/project_horsedimension/models/item/ratitem.json",
-          "src/main/java/net/mcreator/projecthorsedimension/item/RatitemItem.java",
-          "src/main/resources/assets/project_horsedimension/items/ratitem.json"
+          "src/main/java/net/mcreator/projecthorsedimension/item/RatitemItem.java"
         ]
       },
       "path": "~/rat"
@@ -2145,8 +2140,8 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/project_horsedimension/models/item/cowfarmeritem.json",
-          "src/main/java/net/mcreator/projecthorsedimension/item/CowfarmeritemItem.java",
-          "src/main/resources/assets/project_horsedimension/items/cowfarmeritem.json"
+          "src/main/resources/assets/project_horsedimension/items/cowfarmeritem.json",
+          "src/main/java/net/mcreator/projecthorsedimension/item/CowfarmeritemItem.java"
         ]
       }
     },
@@ -2158,9 +2153,9 @@
       "registry_name": "cow_farmer",
       "metadata": {
         "files": [
+          "src/main/resources/assets/project_horsedimension/items/cow_farmer_spawn_egg.json",
           "src/main/java/net/mcreator/projecthorsedimension/entity/CowFarmerEntity.java",
-          "src/main/java/net/mcreator/projecthorsedimension/client/renderer/CowFarmerRenderer.java",
-          "src/main/resources/assets/project_horsedimension/items/cow_farmer_spawn_egg.json"
+          "src/main/java/net/mcreator/projecthorsedimension/client/renderer/CowFarmerRenderer.java"
         ]
       }
     },
@@ -2183,10 +2178,10 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/project_horsedimension/items/lightbulb.json",
-          "src/main/java/net/mcreator/projecthorsedimension/block/LightbulbBlock.java",
-          "src/main/resources/data/project_horsedimension/loot_table/blocks/lightbulb.json",
-          "src/main/resources/assets/project_horsedimension/models/item/lightbulb.json",
           "src/main/resources/assets/project_horsedimension/blockstates/lightbulb.json",
+          "src/main/resources/data/project_horsedimension/loot_table/blocks/lightbulb.json",
+          "src/main/java/net/mcreator/projecthorsedimension/block/LightbulbBlock.java",
+          "src/main/resources/assets/project_horsedimension/models/item/lightbulb.json",
           "src/main/resources/assets/project_horsedimension/models/block/lightbulb.json"
         ]
       }
@@ -2199,9 +2194,9 @@
       "registry_name": "gib",
       "metadata": {
         "files": [
-          "src/main/resources/assets/project_horsedimension/models/item/gib.json",
+          "src/main/java/net/mcreator/projecthorsedimension/item/GibItem.java",
           "src/main/resources/assets/project_horsedimension/items/gib.json",
-          "src/main/java/net/mcreator/projecthorsedimension/item/GibItem.java"
+          "src/main/resources/assets/project_horsedimension/models/item/gib.json"
         ]
       },
       "path": "~/bunny gib"
@@ -2215,11 +2210,11 @@
       "metadata": {
         "files": [
           "src/main/resources/data/project_horsedimension/loot_table/blocks/barnhouse_planks.json",
+          "src/main/resources/assets/project_horsedimension/blockstates/barnhouse_planks.json",
           "src/main/resources/assets/project_horsedimension/items/barnhouse_planks.json",
           "src/main/java/net/mcreator/projecthorsedimension/block/BarnhousePlanksBlock.java",
-          "src/main/resources/assets/project_horsedimension/models/block/barnhouse_planks.json",
           "src/main/resources/assets/project_horsedimension/models/item/barnhouse_planks.json",
-          "src/main/resources/assets/project_horsedimension/blockstates/barnhouse_planks.json"
+          "src/main/resources/assets/project_horsedimension/models/block/barnhouse_planks.json"
         ]
       },
       "path": "~/tree"
@@ -2232,12 +2227,12 @@
       "registry_name": "barnhouse_plank_slope",
       "metadata": {
         "files": [
-          "src/main/resources/assets/project_horsedimension/items/barnhouse_plank_slope.json",
-          "src/main/resources/data/project_horsedimension/loot_table/blocks/barnhouse_plank_slope.json",
+          "src/main/resources/assets/project_horsedimension/models/block/barnhouse_plank_slope.json",
           "src/main/resources/assets/project_horsedimension/blockstates/barnhouse_plank_slope.json",
           "src/main/resources/assets/project_horsedimension/models/item/barnhouse_plank_slope.json",
-          "src/main/java/net/mcreator/projecthorsedimension/block/BarnhousePlankSlopeBlock.java",
-          "src/main/resources/assets/project_horsedimension/models/block/barnhouse_plank_slope.json"
+          "src/main/resources/data/project_horsedimension/loot_table/blocks/barnhouse_plank_slope.json",
+          "src/main/resources/assets/project_horsedimension/items/barnhouse_plank_slope.json",
+          "src/main/java/net/mcreator/projecthorsedimension/block/BarnhousePlankSlopeBlock.java"
         ]
       },
       "path": "~/tree"
@@ -2251,11 +2246,11 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/project_horsedimension/models/item/blood.json",
-          "src/main/resources/assets/project_horsedimension/models/block/blood.json",
           "src/main/resources/assets/project_horsedimension/items/blood.json",
-          "src/main/resources/assets/project_horsedimension/blockstates/blood.json",
+          "src/main/java/net/mcreator/projecthorsedimension/block/BloodBlock.java",
           "src/main/resources/data/project_horsedimension/loot_table/blocks/blood.json",
-          "src/main/java/net/mcreator/projecthorsedimension/block/BloodBlock.java"
+          "src/main/resources/assets/project_horsedimension/blockstates/blood.json",
+          "src/main/resources/assets/project_horsedimension/models/block/blood.json"
         ]
       },
       "path": "~/gash"
@@ -2268,12 +2263,12 @@
       "registry_name": "scar_tissue",
       "metadata": {
         "files": [
+          "src/main/java/net/mcreator/projecthorsedimension/block/ScarTissueBlock.java",
           "src/main/resources/assets/project_horsedimension/blockstates/scar_tissue.json",
-          "src/main/resources/assets/project_horsedimension/models/item/scar_tissue.json",
-          "src/main/resources/assets/project_horsedimension/models/block/scar_tissue.json",
           "src/main/resources/data/project_horsedimension/loot_table/blocks/scar_tissue.json",
-          "src/main/resources/assets/project_horsedimension/items/scar_tissue.json",
-          "src/main/java/net/mcreator/projecthorsedimension/block/ScarTissueBlock.java"
+          "src/main/resources/assets/project_horsedimension/models/block/scar_tissue.json",
+          "src/main/resources/assets/project_horsedimension/models/item/scar_tissue.json",
+          "src/main/resources/assets/project_horsedimension/items/scar_tissue.json"
         ]
       },
       "path": "~/gash"
@@ -2286,9 +2281,9 @@
       "registry_name": "gash",
       "metadata": {
         "files": [
-          "src/main/resources/data/project_horsedimension/worldgen/placed_feature/gash_tree.json",
+          "src/main/resources/data/project_horsedimension/worldgen/configured_feature/gash_tree.json",
           "src/main/resources/data/project_horsedimension/worldgen/biome/gash.json",
-          "src/main/resources/data/project_horsedimension/worldgen/configured_feature/gash_tree.json"
+          "src/main/resources/data/project_horsedimension/worldgen/placed_feature/gash_tree.json"
         ]
       },
       "path": "~/gash"
@@ -2301,12 +2296,12 @@
       "registry_name": "wire",
       "metadata": {
         "files": [
-          "src/main/resources/assets/project_horsedimension/models/item/wire.json",
-          "src/main/resources/assets/project_horsedimension/blockstates/wire.json",
+          "src/main/resources/data/project_horsedimension/loot_table/blocks/wire.json",
           "src/main/resources/assets/project_horsedimension/models/block/wire.json",
-          "src/main/resources/assets/project_horsedimension/items/wire.json",
+          "src/main/resources/assets/project_horsedimension/blockstates/wire.json",
           "src/main/java/net/mcreator/projecthorsedimension/block/WireBlock.java",
-          "src/main/resources/data/project_horsedimension/loot_table/blocks/wire.json"
+          "src/main/resources/assets/project_horsedimension/items/wire.json",
+          "src/main/resources/assets/project_horsedimension/models/item/wire.json"
         ]
       }
     },
@@ -2348,10 +2343,10 @@
       "registry_name": "lightbulbon",
       "metadata": {
         "files": [
-          "src/main/resources/data/project_horsedimension/loot_table/blocks/lightbulbon.json",
           "src/main/java/net/mcreator/projecthorsedimension/block/LightbulbonBlock.java",
           "src/main/resources/assets/project_horsedimension/models/block/lightbulbon.json",
-          "src/main/resources/assets/project_horsedimension/blockstates/lightbulbon.json"
+          "src/main/resources/assets/project_horsedimension/blockstates/lightbulbon.json",
+          "src/main/resources/data/project_horsedimension/loot_table/blocks/lightbulbon.json"
         ]
       }
     },
@@ -2393,11 +2388,11 @@
       "registry_name": "white_bead_block",
       "metadata": {
         "files": [
-          "src/main/resources/assets/project_horsedimension/models/block/white_bead_block.json",
           "src/main/resources/assets/project_horsedimension/models/item/white_bead_block.json",
+          "src/main/resources/assets/project_horsedimension/models/block/white_bead_block.json",
           "src/main/resources/assets/project_horsedimension/items/white_bead_block.json",
-          "src/main/java/net/mcreator/projecthorsedimension/block/WhiteBeadBlockBlock.java",
           "src/main/resources/data/project_horsedimension/loot_table/blocks/white_bead_block.json",
+          "src/main/java/net/mcreator/projecthorsedimension/block/WhiteBeadBlockBlock.java",
           "src/main/resources/assets/project_horsedimension/blockstates/white_bead_block.json"
         ]
       }
@@ -2423,12 +2418,12 @@
       "registry_name": "palm_tree",
       "metadata": {
         "files": [
+          "src/main/resources/assets/project_horsedimension/models/item/palm_tree.json",
           "src/main/resources/assets/project_horsedimension/blockstates/palm_tree.json",
-          "src/main/java/net/mcreator/projecthorsedimension/block/PalmTreeBlock.java",
+          "src/main/resources/data/project_horsedimension/loot_table/blocks/palm_tree.json",
           "src/main/resources/assets/project_horsedimension/models/block/palm_tree.json",
           "src/main/resources/assets/project_horsedimension/items/palm_tree.json",
-          "src/main/resources/data/project_horsedimension/loot_table/blocks/palm_tree.json",
-          "src/main/resources/assets/project_horsedimension/models/item/palm_tree.json"
+          "src/main/java/net/mcreator/projecthorsedimension/block/PalmTreeBlock.java"
         ]
       },
       "path": "~/tree"
@@ -2441,12 +2436,12 @@
       "registry_name": "cardboardblock",
       "metadata": {
         "files": [
-          "src/main/resources/assets/project_horsedimension/items/cardboardblock.json",
-          "src/main/resources/data/project_horsedimension/loot_table/blocks/cardboardblock.json",
-          "src/main/resources/assets/project_horsedimension/blockstates/cardboardblock.json",
           "src/main/resources/assets/project_horsedimension/models/block/cardboardblock.json",
+          "src/main/java/net/mcreator/projecthorsedimension/block/CardboardblockBlock.java",
           "src/main/resources/assets/project_horsedimension/models/item/cardboardblock.json",
-          "src/main/java/net/mcreator/projecthorsedimension/block/CardboardblockBlock.java"
+          "src/main/resources/assets/project_horsedimension/items/cardboardblock.json",
+          "src/main/resources/assets/project_horsedimension/blockstates/cardboardblock.json",
+          "src/main/resources/data/project_horsedimension/loot_table/blocks/cardboardblock.json"
         ]
       }
     },
@@ -2472,11 +2467,11 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/project_horsedimension/items/juice_bucket.json",
-          "src/main/resources/assets/project_horsedimension/blockstates/juice.json",
-          "src/main/java/net/mcreator/projecthorsedimension/block/JuiceBlock.java",
-          "src/main/java/net/mcreator/projecthorsedimension/fluid/types/JuiceFluidType.java",
           "src/main/java/net/mcreator/projecthorsedimension/item/JuiceItem.java",
+          "src/main/java/net/mcreator/projecthorsedimension/block/JuiceBlock.java",
           "src/main/resources/assets/project_horsedimension/models/block/juice.json",
+          "src/main/java/net/mcreator/projecthorsedimension/fluid/types/JuiceFluidType.java",
+          "src/main/resources/assets/project_horsedimension/blockstates/juice.json",
           "src/main/java/net/mcreator/projecthorsedimension/fluid/JuiceFluid.java"
         ]
       }
@@ -2489,10 +2484,10 @@
       "registry_name": "gecko",
       "metadata": {
         "files": [
-          "src/main/resources/data/project_horsedimension/neoforge/biome_modifier/gecko_biome_modifier.json",
-          "src/main/java/net/mcreator/projecthorsedimension/entity/GeckoEntity.java",
           "src/main/java/net/mcreator/projecthorsedimension/client/renderer/GeckoRenderer.java",
-          "src/main/resources/assets/project_horsedimension/items/gecko_spawn_egg.json"
+          "src/main/java/net/mcreator/projecthorsedimension/entity/GeckoEntity.java",
+          "src/main/resources/assets/project_horsedimension/items/gecko_spawn_egg.json",
+          "src/main/resources/data/project_horsedimension/neoforge/biome_modifier/gecko_biome_modifier.json"
         ]
       },
       "path": "~/gecko"
@@ -2505,9 +2500,9 @@
       "registry_name": "gecko_item",
       "metadata": {
         "files": [
-          "src/main/resources/assets/project_horsedimension/models/item/gecko_item.json",
           "src/main/resources/assets/project_horsedimension/items/gecko_item.json",
-          "src/main/java/net/mcreator/projecthorsedimension/item/GeckoItemItem.java"
+          "src/main/java/net/mcreator/projecthorsedimension/item/GeckoItemItem.java",
+          "src/main/resources/assets/project_horsedimension/models/item/gecko_item.json"
         ]
       },
       "path": "~/gecko"
@@ -2520,9 +2515,9 @@
       "registry_name": "oasisriver",
       "metadata": {
         "files": [
+          "src/main/resources/data/project_horsedimension/worldgen/placed_feature/oasisriver.json",
           "src/main/resources/data/project_horsedimension/neoforge/biome_modifier/oasisriver_biome_modifier.json",
-          "src/main/resources/data/project_horsedimension/worldgen/configured_feature/oasisriver.json",
-          "src/main/resources/data/project_horsedimension/worldgen/placed_feature/oasisriver.json"
+          "src/main/resources/data/project_horsedimension/worldgen/configured_feature/oasisriver.json"
         ]
       }
     },
@@ -2534,9 +2529,9 @@
       "registry_name": "oasistrees",
       "metadata": {
         "files": [
-          "src/main/resources/data/project_horsedimension/worldgen/configured_feature/oasistrees.json",
+          "src/main/resources/data/project_horsedimension/neoforge/biome_modifier/oasistrees_biome_modifier.json",
           "src/main/resources/data/project_horsedimension/worldgen/placed_feature/oasistrees.json",
-          "src/main/resources/data/project_horsedimension/neoforge/biome_modifier/oasistrees_biome_modifier.json"
+          "src/main/resources/data/project_horsedimension/worldgen/configured_feature/oasistrees.json"
         ]
       }
     },
@@ -2548,9 +2543,9 @@
       "registry_name": "mealworm",
       "metadata": {
         "files": [
-          "src/main/resources/assets/project_horsedimension/items/mealworm.json",
+          "src/main/resources/assets/project_horsedimension/models/item/mealworm.json",
           "src/main/java/net/mcreator/projecthorsedimension/item/MealwormItem.java",
-          "src/main/resources/assets/project_horsedimension/models/item/mealworm.json"
+          "src/main/resources/assets/project_horsedimension/items/mealworm.json"
         ]
       },
       "path": "~/bugs"
@@ -2563,15 +2558,15 @@
       "registry_name": "scrub",
       "metadata": {
         "files": [
+          "src/main/resources/data/project_horsedimension/worldgen/placed_feature/scrub.json",
+          "src/main/resources/data/project_horsedimension/worldgen/configured_feature/scrub.json",
           "src/main/resources/data/project_horsedimension/loot_table/blocks/scrub.json",
-          "src/main/java/net/mcreator/projecthorsedimension/block/ScrubBlock.java",
-          "src/main/resources/assets/project_horsedimension/models/item/scrub.json",
+          "src/main/resources/assets/project_horsedimension/items/scrub.json",
           "src/main/resources/data/project_horsedimension/neoforge/biome_modifier/scrub_biome_modifier.json",
           "src/main/resources/assets/project_horsedimension/blockstates/scrub.json",
-          "src/main/resources/data/project_horsedimension/worldgen/configured_feature/scrub.json",
-          "src/main/resources/assets/project_horsedimension/items/scrub.json",
           "src/main/resources/assets/project_horsedimension/models/block/scrub.json",
-          "src/main/resources/data/project_horsedimension/worldgen/placed_feature/scrub.json"
+          "src/main/java/net/mcreator/projecthorsedimension/block/ScrubBlock.java",
+          "src/main/resources/assets/project_horsedimension/models/item/scrub.json"
         ]
       }
     },
@@ -2583,15 +2578,15 @@
       "registry_name": "short_scrub",
       "metadata": {
         "files": [
-          "src/main/resources/data/project_horsedimension/loot_table/blocks/short_scrub.json",
-          "src/main/resources/data/project_horsedimension/neoforge/biome_modifier/short_scrub_biome_modifier.json",
-          "src/main/resources/data/project_horsedimension/worldgen/placed_feature/short_scrub.json",
           "src/main/resources/assets/project_horsedimension/models/item/short_scrub.json",
-          "src/main/resources/assets/project_horsedimension/models/block/short_scrub.json",
-          "src/main/resources/assets/project_horsedimension/blockstates/short_scrub.json",
+          "src/main/resources/assets/project_horsedimension/items/short_scrub.json",
           "src/main/java/net/mcreator/projecthorsedimension/block/ShortScrubBlock.java",
           "src/main/resources/data/project_horsedimension/worldgen/configured_feature/short_scrub.json",
-          "src/main/resources/assets/project_horsedimension/items/short_scrub.json"
+          "src/main/resources/data/project_horsedimension/worldgen/placed_feature/short_scrub.json",
+          "src/main/resources/data/project_horsedimension/loot_table/blocks/short_scrub.json",
+          "src/main/resources/data/project_horsedimension/neoforge/biome_modifier/short_scrub_biome_modifier.json",
+          "src/main/resources/assets/project_horsedimension/models/block/short_scrub.json",
+          "src/main/resources/assets/project_horsedimension/blockstates/short_scrub.json"
         ]
       }
     },
@@ -2604,8 +2599,8 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/projecthorsedimension/item/HorsecoinitemItem.java",
-          "src/main/resources/assets/project_horsedimension/models/item/horsecoinitem.json",
-          "src/main/resources/assets/project_horsedimension/items/horsecoinitem.json"
+          "src/main/resources/assets/project_horsedimension/items/horsecoinitem.json",
+          "src/main/resources/assets/project_horsedimension/models/item/horsecoinitem.json"
         ]
       },
       "path": "~/horsecoin and gui"
@@ -2693,9 +2688,9 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/project_horsedimension/items/mealwormentity_spawn_egg.json",
-          "src/main/java/net/mcreator/projecthorsedimension/client/renderer/MealwormentityRenderer.java",
           "src/main/resources/data/project_horsedimension/neoforge/biome_modifier/mealwormentity_biome_modifier.json",
-          "src/main/java/net/mcreator/projecthorsedimension/entity/MealwormentityEntity.java"
+          "src/main/java/net/mcreator/projecthorsedimension/entity/MealwormentityEntity.java",
+          "src/main/java/net/mcreator/projecthorsedimension/client/renderer/MealwormentityRenderer.java"
         ]
       },
       "path": "~/bugs"
@@ -2708,9 +2703,9 @@
       "registry_name": "mealwormheaditem",
       "metadata": {
         "files": [
+          "src/main/resources/assets/project_horsedimension/items/mealwormheaditem.json",
           "src/main/resources/assets/project_horsedimension/models/item/mealwormheaditem.json",
-          "src/main/java/net/mcreator/projecthorsedimension/item/MealwormheaditemItem.java",
-          "src/main/resources/assets/project_horsedimension/items/mealwormheaditem.json"
+          "src/main/java/net/mcreator/projecthorsedimension/item/MealwormheaditemItem.java"
         ]
       },
       "path": "~/bugs"
@@ -2723,8 +2718,8 @@
       "registry_name": "cricketheaditem",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/projecthorsedimension/item/CricketheaditemItem.java",
           "src/main/resources/assets/project_horsedimension/items/cricketheaditem.json",
+          "src/main/java/net/mcreator/projecthorsedimension/item/CricketheaditemItem.java",
           "src/main/resources/assets/project_horsedimension/models/item/cricketheaditem.json"
         ]
       },
@@ -2739,8 +2734,8 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/project_horsedimension/items/cricketentity_spawn_egg.json",
-          "src/main/resources/data/project_horsedimension/neoforge/biome_modifier/cricketentity_biome_modifier.json",
           "src/main/java/net/mcreator/projecthorsedimension/entity/CricketentityEntity.java",
+          "src/main/resources/data/project_horsedimension/neoforge/biome_modifier/cricketentity_biome_modifier.json",
           "src/main/java/net/mcreator/projecthorsedimension/client/renderer/CricketentityRenderer.java"
         ]
       },
@@ -2754,9 +2749,9 @@
       "registry_name": "cricketitem",
       "metadata": {
         "files": [
+          "src/main/resources/assets/project_horsedimension/models/item/cricketitem.json",
           "src/main/java/net/mcreator/projecthorsedimension/item/CricketitemItem.java",
-          "src/main/resources/assets/project_horsedimension/items/cricketitem.json",
-          "src/main/resources/assets/project_horsedimension/models/item/cricketitem.json"
+          "src/main/resources/assets/project_horsedimension/items/cricketitem.json"
         ]
       },
       "path": "~/bugs"
@@ -2815,9 +2810,9 @@
       "registry_name": "gecko_laying",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/projecthorsedimension/item/GeckoLayingItem.java",
+          "src/main/resources/assets/project_horsedimension/items/gecko_laying.json",
           "src/main/resources/assets/project_horsedimension/models/item/gecko_laying.json",
-          "src/main/resources/assets/project_horsedimension/items/gecko_laying.json"
+          "src/main/java/net/mcreator/projecthorsedimension/item/GeckoLayingItem.java"
         ]
       },
       "path": "~/gecko"
@@ -2830,10 +2825,10 @@
       "registry_name": "poolgator",
       "metadata": {
         "files": [
-          "src/main/resources/assets/project_horsedimension/items/poolgator_spawn_egg.json",
-          "src/main/java/net/mcreator/projecthorsedimension/client/renderer/PoolgatorRenderer.java",
           "src/main/resources/data/project_horsedimension/neoforge/biome_modifier/poolgator_biome_modifier.json",
-          "src/main/java/net/mcreator/projecthorsedimension/entity/PoolgatorEntity.java"
+          "src/main/java/net/mcreator/projecthorsedimension/entity/PoolgatorEntity.java",
+          "src/main/java/net/mcreator/projecthorsedimension/client/renderer/PoolgatorRenderer.java",
+          "src/main/resources/assets/project_horsedimension/items/poolgator_spawn_egg.json"
         ]
       },
       "path": "~/gecko"
@@ -2891,9 +2886,9 @@
       "metadata": {
         "files": [
           "src/main/resources/data/project_horsedimension/neoforge/biome_modifier/fish_biome_modifier.json",
+          "src/main/java/net/mcreator/projecthorsedimension/entity/FishEntity.java",
           "src/main/resources/assets/project_horsedimension/items/fish_spawn_egg.json",
-          "src/main/java/net/mcreator/projecthorsedimension/client/renderer/FishRenderer.java",
-          "src/main/java/net/mcreator/projecthorsedimension/entity/FishEntity.java"
+          "src/main/java/net/mcreator/projecthorsedimension/client/renderer/FishRenderer.java"
         ]
       },
       "path": "~/fish"
@@ -2906,9 +2901,9 @@
       "registry_name": "fishitem",
       "metadata": {
         "files": [
-          "src/main/resources/assets/project_horsedimension/items/fishitem.json",
           "src/main/java/net/mcreator/projecthorsedimension/item/FishitemItem.java",
-          "src/main/resources/assets/project_horsedimension/models/item/fishitem.json"
+          "src/main/resources/assets/project_horsedimension/models/item/fishitem.json",
+          "src/main/resources/assets/project_horsedimension/items/fishitem.json"
         ]
       },
       "path": "~/fish"
@@ -3055,8 +3050,8 @@
       "registry_name": "boulder",
       "metadata": {
         "files": [
-          "src/main/resources/assets/project_horsedimension/items/boulder_spawn_egg.json",
           "src/main/java/net/mcreator/projecthorsedimension/entity/BoulderEntity.java",
+          "src/main/resources/assets/project_horsedimension/items/boulder_spawn_egg.json",
           "src/main/java/net/mcreator/projecthorsedimension/client/renderer/BoulderRenderer.java"
         ]
       }
@@ -3123,8 +3118,8 @@
       "registry_name": "barndoor",
       "metadata": {
         "files": [
-          "src/main/resources/assets/project_horsedimension/items/barndoor_spawn_egg.json",
           "src/main/java/net/mcreator/projecthorsedimension/client/renderer/BarndoorRenderer.java",
+          "src/main/resources/assets/project_horsedimension/items/barndoor_spawn_egg.json",
           "src/main/java/net/mcreator/projecthorsedimension/entity/BarndoorEntity.java"
         ]
       },
@@ -3153,9 +3148,9 @@
       "registry_name": "barndoorrightitem",
       "metadata": {
         "files": [
-          "src/main/resources/assets/project_horsedimension/models/item/barndoorrightitem.json",
+          "src/main/resources/assets/project_horsedimension/items/barndoorrightitem.json",
           "src/main/java/net/mcreator/projecthorsedimension/item/BarndoorrightitemItem.java",
-          "src/main/resources/assets/project_horsedimension/items/barndoorrightitem.json"
+          "src/main/resources/assets/project_horsedimension/models/item/barndoorrightitem.json"
         ]
       },
       "path": "~/tree/Barndoor"
@@ -3203,9 +3198,9 @@
       "registry_name": "barndooritem",
       "metadata": {
         "files": [
-          "src/main/resources/assets/project_horsedimension/items/barndooritem.json",
           "src/main/java/net/mcreator/projecthorsedimension/item/BarndooritemItem.java",
-          "src/main/resources/assets/project_horsedimension/models/item/barndooritem.json"
+          "src/main/resources/assets/project_horsedimension/models/item/barndooritem.json",
+          "src/main/resources/assets/project_horsedimension/items/barndooritem.json"
         ]
       },
       "path": "~/tree/Barndoor"
@@ -3271,15 +3266,15 @@
       "registry_name": "toadstool",
       "metadata": {
         "files": [
-          "src/main/resources/assets/project_horsedimension/items/toadstool.json",
-          "src/main/resources/assets/project_horsedimension/models/item/toadstool.json",
-          "src/main/java/net/mcreator/projecthorsedimension/block/ToadstoolBlock.java",
-          "src/main/resources/assets/project_horsedimension/models/block/toadstool.json",
-          "src/main/resources/data/project_horsedimension/neoforge/biome_modifier/toadstool_biome_modifier.json",
           "src/main/resources/data/project_horsedimension/worldgen/placed_feature/toadstool.json",
           "src/main/resources/assets/project_horsedimension/blockstates/toadstool.json",
-          "src/main/resources/data/project_horsedimension/worldgen/configured_feature/toadstool.json",
-          "src/main/resources/data/project_horsedimension/loot_table/blocks/toadstool.json"
+          "src/main/resources/assets/project_horsedimension/models/item/toadstool.json",
+          "src/main/resources/assets/project_horsedimension/items/toadstool.json",
+          "src/main/java/net/mcreator/projecthorsedimension/block/ToadstoolBlock.java",
+          "src/main/resources/data/project_horsedimension/loot_table/blocks/toadstool.json",
+          "src/main/resources/assets/project_horsedimension/models/block/toadstool.json",
+          "src/main/resources/data/project_horsedimension/neoforge/biome_modifier/toadstool_biome_modifier.json",
+          "src/main/resources/data/project_horsedimension/worldgen/configured_feature/toadstool.json"
         ]
       }
     },
@@ -3305,10 +3300,10 @@
       "registry_name": "gnome",
       "metadata": {
         "files": [
-          "src/main/resources/assets/project_horsedimension/items/gnome_spawn_egg.json",
+          "src/main/java/net/mcreator/projecthorsedimension/entity/GnomeEntity.java",
           "src/main/java/net/mcreator/projecthorsedimension/client/renderer/GnomeRenderer.java",
-          "src/main/resources/data/project_horsedimension/neoforge/biome_modifier/gnome_biome_modifier.json",
-          "src/main/java/net/mcreator/projecthorsedimension/entity/GnomeEntity.java"
+          "src/main/resources/assets/project_horsedimension/items/gnome_spawn_egg.json",
+          "src/main/resources/data/project_horsedimension/neoforge/biome_modifier/gnome_biome_modifier.json"
         ]
       }
     },
@@ -3320,15 +3315,15 @@
       "registry_name": "plastic_yellow_flower",
       "metadata": {
         "files": [
-          "src/main/resources/assets/project_horsedimension/models/item/plastic_yellow_flower.json",
-          "src/main/resources/data/project_horsedimension/neoforge/biome_modifier/plastic_yellow_flower_biome_modifier.json",
-          "src/main/resources/data/project_horsedimension/worldgen/placed_feature/plastic_yellow_flower.json",
           "src/main/resources/assets/project_horsedimension/items/plastic_yellow_flower.json",
-          "src/main/resources/assets/project_horsedimension/blockstates/plastic_yellow_flower.json",
           "src/main/resources/data/project_horsedimension/loot_table/blocks/plastic_yellow_flower.json",
-          "src/main/resources/assets/project_horsedimension/models/block/plastic_yellow_flower.json",
+          "src/main/resources/data/project_horsedimension/neoforge/biome_modifier/plastic_yellow_flower_biome_modifier.json",
+          "src/main/resources/assets/project_horsedimension/models/item/plastic_yellow_flower.json",
           "src/main/java/net/mcreator/projecthorsedimension/block/PlasticYellowFlowerBlock.java",
-          "src/main/resources/data/project_horsedimension/worldgen/configured_feature/plastic_yellow_flower.json"
+          "src/main/resources/assets/project_horsedimension/models/block/plastic_yellow_flower.json",
+          "src/main/resources/data/project_horsedimension/worldgen/configured_feature/plastic_yellow_flower.json",
+          "src/main/resources/data/project_horsedimension/worldgen/placed_feature/plastic_yellow_flower.json",
+          "src/main/resources/assets/project_horsedimension/blockstates/plastic_yellow_flower.json"
         ]
       }
     },
@@ -3340,11 +3335,11 @@
       "registry_name": "trail",
       "metadata": {
         "files": [
+          "src/main/resources/data/project_horsedimension/worldgen/template_pool/trail_smallhedge.json",
           "src/main/resources/data/project_horsedimension/worldgen/structure_set/trail.json",
           "src/main/resources/data/project_horsedimension/worldgen/structure/trail.json",
-          "src/main/resources/data/project_horsedimension/worldgen/template_pool/trail_bighedge.json",
           "src/main/resources/data/project_horsedimension/worldgen/template_pool/trail.json",
-          "src/main/resources/data/project_horsedimension/worldgen/template_pool/trail_smallhedge.json",
+          "src/main/resources/data/project_horsedimension/worldgen/template_pool/trail_bighedge.json",
           "src/main/resources/data/project_horsedimension/worldgen/template_pool/trail_trail.json"
         ]
       }
@@ -3394,15 +3389,15 @@
       "registry_name": "pinetree",
       "metadata": {
         "files": [
-          "src/main/resources/assets/project_horsedimension/items/pinetree.json",
-          "src/main/resources/assets/project_horsedimension/models/block/pinetree.json",
-          "src/main/resources/data/project_horsedimension/loot_table/blocks/pinetree.json",
-          "src/main/resources/data/project_horsedimension/neoforge/biome_modifier/pinetree_biome_modifier.json",
-          "src/main/resources/data/project_horsedimension/worldgen/placed_feature/pinetree.json",
-          "src/main/java/net/mcreator/projecthorsedimension/block/PinetreeBlock.java",
           "src/main/resources/assets/project_horsedimension/models/item/pinetree.json",
+          "src/main/resources/assets/project_horsedimension/models/block/pinetree.json",
+          "src/main/resources/data/project_horsedimension/neoforge/biome_modifier/pinetree_biome_modifier.json",
           "src/main/resources/data/project_horsedimension/worldgen/configured_feature/pinetree.json",
-          "src/main/resources/assets/project_horsedimension/blockstates/pinetree.json"
+          "src/main/resources/assets/project_horsedimension/blockstates/pinetree.json",
+          "src/main/java/net/mcreator/projecthorsedimension/block/PinetreeBlock.java",
+          "src/main/resources/data/project_horsedimension/loot_table/blocks/pinetree.json",
+          "src/main/resources/assets/project_horsedimension/items/pinetree.json",
+          "src/main/resources/data/project_horsedimension/worldgen/placed_feature/pinetree.json"
         ]
       },
       "path": "~/tree"
@@ -3415,14 +3410,14 @@
       "registry_name": "farn",
       "metadata": {
         "files": [
-          "src/main/resources/data/project_horsedimension/worldgen/placed_feature/farn.json",
-          "src/main/resources/data/project_horsedimension/loot_table/blocks/farn.json",
-          "src/main/java/net/mcreator/projecthorsedimension/block/FarnBlock.java",
-          "src/main/resources/assets/project_horsedimension/models/item/farn.json",
           "src/main/resources/data/project_horsedimension/worldgen/configured_feature/farn.json",
-          "src/main/resources/assets/project_horsedimension/models/block/farn.json",
-          "src/main/resources/data/project_horsedimension/neoforge/biome_modifier/farn_biome_modifier.json",
+          "src/main/resources/data/project_horsedimension/worldgen/placed_feature/farn.json",
           "src/main/resources/assets/project_horsedimension/blockstates/farn.json",
+          "src/main/resources/data/project_horsedimension/neoforge/biome_modifier/farn_biome_modifier.json",
+          "src/main/resources/assets/project_horsedimension/models/item/farn.json",
+          "src/main/resources/assets/project_horsedimension/models/block/farn.json",
+          "src/main/java/net/mcreator/projecthorsedimension/block/FarnBlock.java",
+          "src/main/resources/data/project_horsedimension/loot_table/blocks/farn.json",
           "src/main/resources/assets/project_horsedimension/items/farn.json"
         ]
       }
@@ -3465,13 +3460,13 @@
       "registry_name": "hdportalcenter",
       "metadata": {
         "files": [
-          "src/main/resources/assets/project_horsedimension/models/item/hdportalcenter.json",
-          "src/main/resources/assets/project_horsedimension/models/block/hdportalcenter.json",
-          "src/main/resources/assets/project_horsedimension/blockstates/hdportalcenter.json",
-          "src/main/resources/assets/project_horsedimension/items/hdportalcenter.json",
-          "src/main/java/net/mcreator/projecthorsedimension/block/entity/HdportalcenterBlockEntity.java",
+          "src/main/resources/data/project_horsedimension/loot_table/blocks/hdportalcenter.json",
           "src/main/java/net/mcreator/projecthorsedimension/block/HdportalcenterBlock.java",
-          "src/main/resources/data/project_horsedimension/loot_table/blocks/hdportalcenter.json"
+          "src/main/java/net/mcreator/projecthorsedimension/block/entity/HdportalcenterBlockEntity.java",
+          "src/main/resources/assets/project_horsedimension/blockstates/hdportalcenter.json",
+          "src/main/resources/assets/project_horsedimension/models/block/hdportalcenter.json",
+          "src/main/resources/assets/project_horsedimension/models/item/hdportalcenter.json",
+          "src/main/resources/assets/project_horsedimension/items/hdportalcenter.json"
         ]
       }
     },
@@ -3483,13 +3478,13 @@
       "registry_name": "hdportaldiamond",
       "metadata": {
         "files": [
-          "src/main/resources/assets/project_horsedimension/models/block/hdportaldiamond.json",
           "src/main/resources/data/project_horsedimension/loot_table/blocks/hdportaldiamond.json",
           "src/main/resources/assets/project_horsedimension/items/hdportaldiamond.json",
           "src/main/java/net/mcreator/projecthorsedimension/block/HdportaldiamondBlock.java",
           "src/main/java/net/mcreator/projecthorsedimension/block/entity/HdportaldiamondBlockEntity.java",
           "src/main/resources/assets/project_horsedimension/models/item/hdportaldiamond.json",
-          "src/main/resources/assets/project_horsedimension/blockstates/hdportaldiamond.json"
+          "src/main/resources/assets/project_horsedimension/blockstates/hdportaldiamond.json",
+          "src/main/resources/assets/project_horsedimension/models/block/hdportaldiamond.json"
         ]
       }
     },
@@ -3501,12 +3496,12 @@
       "registry_name": "prismreceptacle",
       "metadata": {
         "files": [
-          "src/main/resources/assets/project_horsedimension/models/block/prismreceptacle.json",
-          "src/main/java/net/mcreator/projecthorsedimension/block/PrismreceptacleBlock.java",
-          "src/main/resources/assets/project_horsedimension/blockstates/prismreceptacle.json",
           "src/main/resources/assets/project_horsedimension/models/item/prismreceptacle.json",
+          "src/main/java/net/mcreator/projecthorsedimension/block/PrismreceptacleBlock.java",
           "src/main/resources/data/project_horsedimension/loot_table/blocks/prismreceptacle.json",
-          "src/main/resources/assets/project_horsedimension/items/prismreceptacle.json"
+          "src/main/resources/assets/project_horsedimension/items/prismreceptacle.json",
+          "src/main/resources/assets/project_horsedimension/blockstates/prismreceptacle.json",
+          "src/main/resources/assets/project_horsedimension/models/block/prismreceptacle.json"
         ]
       }
     },
@@ -3593,11 +3588,11 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/project_horsedimension/items/energetic_cosmic_noise.json",
-          "src/main/java/net/mcreator/projecthorsedimension/block/EnergeticCosmicNoiseBlock.java",
           "src/main/resources/assets/project_horsedimension/models/block/energetic_cosmic_noise.json",
-          "src/main/resources/assets/project_horsedimension/blockstates/energetic_cosmic_noise.json",
           "src/main/resources/data/project_horsedimension/loot_table/blocks/energetic_cosmic_noise.json",
-          "src/main/resources/assets/project_horsedimension/models/item/energetic_cosmic_noise.json"
+          "src/main/resources/assets/project_horsedimension/models/item/energetic_cosmic_noise.json",
+          "src/main/java/net/mcreator/projecthorsedimension/block/EnergeticCosmicNoiseBlock.java",
+          "src/main/resources/assets/project_horsedimension/blockstates/energetic_cosmic_noise.json"
         ]
       }
     },
@@ -3609,10 +3604,10 @@
       "registry_name": "weak_cosmic_noise",
       "metadata": {
         "files": [
-          "src/main/resources/assets/project_horsedimension/models/item/weak_cosmic_noise.json",
           "src/main/resources/assets/project_horsedimension/items/weak_cosmic_noise.json",
           "src/main/resources/assets/project_horsedimension/blockstates/weak_cosmic_noise.json",
           "src/main/java/net/mcreator/projecthorsedimension/block/WeakCosmicNoiseBlock.java",
+          "src/main/resources/assets/project_horsedimension/models/item/weak_cosmic_noise.json",
           "src/main/resources/assets/project_horsedimension/models/block/weak_cosmic_noise.json",
           "src/main/resources/data/project_horsedimension/loot_table/blocks/weak_cosmic_noise.json"
         ]
@@ -3627,11 +3622,11 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/projecthorsedimension/block/NoiseBlock.java",
-          "src/main/resources/assets/project_horsedimension/models/item/noise.json",
-          "src/main/resources/assets/project_horsedimension/items/noise.json",
-          "src/main/resources/data/project_horsedimension/loot_table/blocks/noise.json",
           "src/main/resources/assets/project_horsedimension/models/block/noise.json",
-          "src/main/resources/assets/project_horsedimension/blockstates/noise.json"
+          "src/main/resources/data/project_horsedimension/loot_table/blocks/noise.json",
+          "src/main/resources/assets/project_horsedimension/blockstates/noise.json",
+          "src/main/resources/assets/project_horsedimension/items/noise.json",
+          "src/main/resources/assets/project_horsedimension/models/item/noise.json"
         ]
       }
     },
@@ -3644,8 +3639,8 @@
       "metadata": {
         "has_nbt_structure": true,
         "files": [
-          "src/main/resources/data/project_horsedimension/neoforge/biome_modifier/pyramid_biome_modifier.json",
           "src/main/resources/data/project_horsedimension/worldgen/placed_feature/pyramid.json",
+          "src/main/resources/data/project_horsedimension/neoforge/biome_modifier/pyramid_biome_modifier.json",
           "src/main/resources/data/project_horsedimension/worldgen/configured_feature/pyramid.json"
         ]
       }
@@ -3658,12 +3653,12 @@
       "registry_name": "horsereceptacle",
       "metadata": {
         "files": [
-          "src/main/resources/assets/project_horsedimension/models/block/horsereceptacle.json",
+          "src/main/resources/assets/project_horsedimension/models/item/horsereceptacle.json",
+          "src/main/java/net/mcreator/projecthorsedimension/block/HorsereceptacleBlock.java",
           "src/main/resources/data/project_horsedimension/loot_table/blocks/horsereceptacle.json",
           "src/main/resources/assets/project_horsedimension/items/horsereceptacle.json",
-          "src/main/java/net/mcreator/projecthorsedimension/block/HorsereceptacleBlock.java",
-          "src/main/resources/assets/project_horsedimension/models/item/horsereceptacle.json",
-          "src/main/resources/assets/project_horsedimension/blockstates/horsereceptacle.json"
+          "src/main/resources/assets/project_horsedimension/blockstates/horsereceptacle.json",
+          "src/main/resources/assets/project_horsedimension/models/block/horsereceptacle.json"
         ]
       }
     },
@@ -3832,12 +3827,12 @@
       "registry_name": "noisefloor",
       "metadata": {
         "files": [
-          "src/main/resources/assets/project_horsedimension/models/block/noisefloor.json",
-          "src/main/resources/assets/project_horsedimension/items/noisefloor.json",
           "src/main/resources/assets/project_horsedimension/models/item/noisefloor.json",
+          "src/main/resources/assets/project_horsedimension/items/noisefloor.json",
           "src/main/resources/assets/project_horsedimension/blockstates/noisefloor.json",
+          "src/main/resources/data/project_horsedimension/loot_table/blocks/noisefloor.json",
           "src/main/java/net/mcreator/projecthorsedimension/block/NoisefloorBlock.java",
-          "src/main/resources/data/project_horsedimension/loot_table/blocks/noisefloor.json"
+          "src/main/resources/assets/project_horsedimension/models/block/noisefloor.json"
         ]
       }
     },
@@ -3849,12 +3844,12 @@
       "registry_name": "noisewall",
       "metadata": {
         "files": [
-          "src/main/resources/assets/project_horsedimension/items/noisewall.json",
-          "src/main/java/net/mcreator/projecthorsedimension/block/NoisewallBlock.java",
           "src/main/resources/assets/project_horsedimension/blockstates/noisewall.json",
+          "src/main/resources/assets/project_horsedimension/models/item/noisewall.json",
+          "src/main/resources/assets/project_horsedimension/items/noisewall.json",
           "src/main/resources/assets/project_horsedimension/models/block/noisewall.json",
-          "src/main/resources/data/project_horsedimension/loot_table/blocks/noisewall.json",
-          "src/main/resources/assets/project_horsedimension/models/item/noisewall.json"
+          "src/main/java/net/mcreator/projecthorsedimension/block/NoisewallBlock.java",
+          "src/main/resources/data/project_horsedimension/loot_table/blocks/noisewall.json"
         ]
       }
     },
@@ -4082,9 +4077,9 @@
       "registry_name": "bottleofstatic",
       "metadata": {
         "files": [
+          "src/main/java/net/mcreator/projecthorsedimension/item/BottleofstaticItem.java",
           "src/main/resources/assets/project_horsedimension/models/item/bottleofstatic.json",
-          "src/main/resources/assets/project_horsedimension/items/bottleofstatic.json",
-          "src/main/java/net/mcreator/projecthorsedimension/item/BottleofstaticItem.java"
+          "src/main/resources/assets/project_horsedimension/items/bottleofstatic.json"
         ]
       }
     },
@@ -4164,8 +4159,8 @@
       "registry_name": "prismresidue",
       "metadata": {
         "files": [
-          "src/main/resources/data/project_horsedimension/advancement/recipes/prismresidue.json",
-          "src/main/resources/data/project_horsedimension/recipe/prismresidue.json"
+          "src/main/resources/data/project_horsedimension/recipe/prismresidue.json",
+          "src/main/resources/data/project_horsedimension/advancement/recipes/prismresidue.json"
         ]
       },
       "path": "~/crafting"
@@ -4178,8 +4173,8 @@
       "registry_name": "blockresidue",
       "metadata": {
         "files": [
-          "src/main/resources/data/project_horsedimension/recipe/blockresidue.json",
-          "src/main/resources/data/project_horsedimension/advancement/recipes/blockresidue.json"
+          "src/main/resources/data/project_horsedimension/advancement/recipes/blockresidue.json",
+          "src/main/resources/data/project_horsedimension/recipe/blockresidue.json"
         ]
       },
       "path": "~/crafting"
@@ -4192,12 +4187,12 @@
       "registry_name": "static_residue",
       "metadata": {
         "files": [
-          "src/main/resources/assets/project_horsedimension/models/item/static_residue.json",
-          "src/main/resources/assets/project_horsedimension/models/block/static_residue.json",
           "src/main/java/net/mcreator/projecthorsedimension/block/StaticResidueBlock.java",
-          "src/main/resources/data/project_horsedimension/loot_table/blocks/static_residue.json",
+          "src/main/resources/assets/project_horsedimension/models/item/static_residue.json",
+          "src/main/resources/assets/project_horsedimension/blockstates/static_residue.json",
           "src/main/resources/assets/project_horsedimension/items/static_residue.json",
-          "src/main/resources/assets/project_horsedimension/blockstates/static_residue.json"
+          "src/main/resources/assets/project_horsedimension/models/block/static_residue.json",
+          "src/main/resources/data/project_horsedimension/loot_table/blocks/static_residue.json"
         ]
       }
     },
@@ -4279,6 +4274,138 @@
         ]
       },
       "path": "~/crafting"
+    },
+    {
+      "name": "Wallbarrier",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wallbarrier",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/project_horsedimension/models/block/wallbarrier.json",
+          "src/main/resources/assets/project_horsedimension/models/item/wallbarrier.json",
+          "src/main/resources/assets/project_horsedimension/items/wallbarrier.json",
+          "src/main/java/net/mcreator/projecthorsedimension/block/WallbarrierBlock.java",
+          "src/main/resources/data/project_horsedimension/loot_table/blocks/wallbarrier.json",
+          "src/main/resources/assets/project_horsedimension/blockstates/wallbarrier.json"
+        ]
+      }
+    },
+    {
+      "name": "Floorbarrier",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "floorbarrier",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/project_horsedimension/loot_table/blocks/floorbarrier.json",
+          "src/main/resources/assets/project_horsedimension/models/block/floorbarrier.json",
+          "src/main/java/net/mcreator/projecthorsedimension/block/FloorbarrierBlock.java",
+          "src/main/resources/assets/project_horsedimension/models/item/floorbarrier.json",
+          "src/main/resources/assets/project_horsedimension/items/floorbarrier.json",
+          "src/main/resources/assets/project_horsedimension/blockstates/floorbarrier.json"
+        ]
+      }
+    },
+    {
+      "name": "BirdwingsTickEvent",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "birdwings_tick_event",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/projecthorsedimension/procedures/BirdwingsTickEventProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "Birdwings",
+      "type": "armor",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "birdwings",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/project_horsedimension/items/birdwings_chestplate.json",
+          "src/main/resources/assets/project_horsedimension/equipment/birdwings.json",
+          "src/main/resources/assets/project_horsedimension/items/birdwings_boots.json",
+          "src/main/resources/assets/project_horsedimension/items/birdwings_leggings.json",
+          "src/main/resources/assets/project_horsedimension/items/birdwings_helmet.json",
+          "src/main/resources/assets/project_horsedimension/models/item/birdwings_chestplate.json",
+          "src/main/java/net/mcreator/projecthorsedimension/item/BirdwingsItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Birdwingsopen",
+      "type": "armor",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "birdwingsopen",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/project_horsedimension/items/birdwingsopen_chestplate.json",
+          "src/main/resources/assets/project_horsedimension/items/birdwingsopen_leggings.json",
+          "src/main/resources/assets/project_horsedimension/items/birdwingsopen_boots.json",
+          "src/main/java/net/mcreator/projecthorsedimension/item/BirdwingsopenItem.java",
+          "src/main/resources/assets/project_horsedimension/items/birdwingsopen_helmet.json",
+          "src/main/resources/assets/project_horsedimension/models/item/birdwingsopen_chestplate.json",
+          "src/main/resources/assets/project_horsedimension/equipment/birdwingsopen.json"
+        ]
+      }
+    },
+    {
+      "name": "Corruptedwings",
+      "type": "armor",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "corruptedwings",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/project_horsedimension/items/corruptedwings_helmet.json",
+          "src/main/resources/assets/project_horsedimension/equipment/corruptedwings.json",
+          "src/main/resources/assets/project_horsedimension/items/corruptedwings_leggings.json",
+          "src/main/resources/assets/project_horsedimension/items/corruptedwings_boots.json",
+          "src/main/resources/assets/project_horsedimension/models/item/corruptedwings_chestplate.json",
+          "src/main/resources/assets/project_horsedimension/items/corruptedwings_chestplate.json",
+          "src/main/java/net/mcreator/projecthorsedimension/item/CorruptedwingsItem.java"
+        ]
+      }
+    },
+    {
+      "name": "CorruptedwingsChestplateTickEvent",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "corruptedwings_chestplate_tick_event",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/projecthorsedimension/procedures/CorruptedwingsChestplateTickEventProcedure.java"
+        ]
+      }
     }
   ],
   "variable_elements": [
@@ -4293,6 +4420,12 @@
       "type": "number",
       "scope": "player_lifetime",
       "value": "0"
+    },
+    {
+      "name": "portalwings",
+      "type": "logic",
+      "scope": "player_persistent",
+      "value": "false"
     }
   ],
   "sound_elements": [
@@ -4579,7 +4712,8 @@
       "Items.BEETROOT_SEEDS"
     ],
     "BLOCKS:minecraft:mineable/pickaxe": [
-      "~CUSTOM:Cornerstone",
+      "~CUSTOM:Floorbarrier",
+      "~CUSTOM:Wallbarrier",
       "~CUSTOM:Noisewall",
       "~CUSTOM:Noisefloor",
       "~CUSTOM:Horsereceptacle",
@@ -4590,7 +4724,8 @@
       "~CUSTOM:AsphaltShingleRaisedSlope"
     ],
     "BLOCKS:minecraft:needs_stone_tool": [
-      "~CUSTOM:Cornerstone",
+      "~CUSTOM:Floorbarrier",
+      "~CUSTOM:Wallbarrier",
       "~CUSTOM:Noisewall",
       "~CUSTOM:Noisefloor",
       "~CUSTOM:Horsereceptacle",
@@ -4602,6 +4737,11 @@
     ],
     "BLOCKS:minecraft:replaceable": [
       "~CUSTOM:Juice"
+    ],
+    "ITEMS:minecraft:chest_armor": [
+      "~CUSTOM:Corruptedwings.body",
+      "~CUSTOM:Birdwingsopen.body",
+      "~CUSTOM:Birdwings.body"
     ]
   },
   "tab_element_order": {},
@@ -4778,22 +4918,27 @@
       "item.project_horsedimension.noisewall": "Noise Wall",
       "entity.project_horsedimension.noise_cloud": "Noise Cloud",
       "item.project_horsedimension.bottleofstatic": "Bottle of Noise",
-      "item.project_horsedimension.static_residue": "Static Residue"
+      "item.project_horsedimension.static_residue": "Static Residue",
+      "item.project_horsedimension.wallbarrier": "Wall Barrier",
+      "item.project_horsedimension.floorbarrier": "Floor Barrier",
+      "item.project_horsedimension.birdwings_chestplate": "Bird Wings",
+      "item.project_horsedimension.birdwingsopen_chestplate": "Bird Wings open",
+      "item.project_horsedimension.corruptedwings_chestplate": "Corrupted wings"
     }
   },
   "metadata": {
     "files": [
-      "src/main/java/net/mcreator/projecthorsedimension/init/ProjectHorsedimensionModTabs.java",
-      "src/main/java/net/mcreator/projecthorsedimension/init/ProjectHorsedimensionModModels.java",
       "src/main/resources/pack.mcmeta",
-      "src/main/resources/META-INF/accesstransformer.cfg",
       "src/main/resources/META-INF/neoforge.mods.toml",
-      "src/main/java/net/mcreator/projecthorsedimension/ProjectHorsedimensionMod.java",
       "src/main/resources/assets/project_horsedimension/sounds.json",
       "src/main/java/net/mcreator/projecthorsedimension/init/ProjectHorsedimensionModSounds.java",
       "src/main/java/net/mcreator/projecthorsedimension/network/ProjectHorsedimensionModVariables.java",
-      "src/main/java/net/mcreator/projecthorsedimension/world/features/StructureFeature.java",
+      "src/main/java/net/mcreator/projecthorsedimension/init/ProjectHorsedimensionModTabs.java",
+      "src/main/java/net/mcreator/projecthorsedimension/ProjectHorsedimensionMod.java",
+      "src/main/resources/META-INF/accesstransformer.cfg",
+      "src/main/java/net/mcreator/projecthorsedimension/init/ProjectHorsedimensionModModels.java",
       "src/main/java/net/mcreator/projecthorsedimension/world/features/configurations/StructureFeatureConfiguration.java",
+      "src/main/java/net/mcreator/projecthorsedimension/world/features/StructureFeature.java",
       "src/main/java/net/mcreator/projecthorsedimension/init/ProjectHorsedimensionModFluidTypes.java",
       "src/main/java/net/mcreator/projecthorsedimension/init/ProjectHorsedimensionModFluids.java",
       "src/main/java/net/mcreator/projecthorsedimension/network/MenuStateUpdateMessage.java",
@@ -4894,5 +5039,5 @@
     "currentGenerator": "neoforge-1.21.4",
     "modElementsPackage": "net.mcreator.projecthorsedimension"
   },
-  "mcreatorVersion": 202500226612
+  "mcreatorVersion": 202500228610
 }

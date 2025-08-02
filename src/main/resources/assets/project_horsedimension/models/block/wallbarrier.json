@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "project_horsedimension:block/nothing",
+    "up": "project_horsedimension:block/nothing",
+    "north": "project_horsedimension:block/nothing",
+    "east": "project_horsedimension:block/nothing",
+    "south": "project_horsedimension:block/nothing",
+    "west": "project_horsedimension:block/nothing",
+    "particle": "project_horsedimension:block/nothing"
+  },
+  "render_type": "cutout"
+}

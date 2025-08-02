@@ -1,0 +1,14 @@
+{
+  "layers": {
+    "humanoid": [
+      {
+        "texture": "project_horsedimension:birdwings"
+      }
+    ],
+    "humanoid_leggings": [
+      {
+        "texture": "project_horsedimension:birdwings"
+      }
+    ]
+  }
+}

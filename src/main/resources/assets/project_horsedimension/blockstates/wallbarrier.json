@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "project_horsedimension:block/wallbarrier"
+    },
+    "facing=east": {
+      "model": "project_horsedimension:block/wallbarrier",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "project_horsedimension:block/wallbarrier",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "project_horsedimension:block/wallbarrier",
+      "y": 270
+    }
+  }
+}

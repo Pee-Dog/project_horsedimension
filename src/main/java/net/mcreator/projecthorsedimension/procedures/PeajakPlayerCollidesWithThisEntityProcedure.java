@@ -6,6 +6,7 @@ import net.minecraft.world.level.LevelAccessor;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.entity.player.Player;
+import net.minecraft.world.entity.ai.attributes.Attributes;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.entity.EntitySpawnReason;
@@ -28,11 +29,12 @@ public class PeajakPlayerCollidesWithThisEntityProcedure {
 		if ((entity instanceof PeajakEntity _datEntI ? _datEntI.getEntityData().get(PeajakEntity.DATA_stomped) : 0) == 0) {
 			if (!world.getEntitiesOfClass(Player.class, new AABB(Vec3.ZERO, Vec3.ZERO).move(new Vec3(x, (y + 1), z)).inflate(1 / 2d), e -> true).isEmpty()) {
 				if (!sourceentity.onGround()) {
+					if (entity instanceof PeajakEntity _datEntSetI)
+						_datEntSetI.getEntityData().set(PeajakEntity.DATA_stomped, 1);
 					ProjectHorsedimensionMod.queueServerWork(1, () -> {
-						if (entity instanceof PeajakEntity _datEntSetI)
-							_datEntSetI.getEntityData().set(PeajakEntity.DATA_stomped, 1);
-						entity.setDeltaMovement(new Vec3(0, (entity.getDeltaMovement().y()), 0));
-						PeajakBoundingBoxScaleProcedure.execute(entity);
+						sourceentity.setDeltaMovement(new Vec3((sourceentity.getDeltaMovement().x()), 0.5, (sourceentity.getDeltaMovement().z())));
+						if (entity instanceof LivingEntity _livingEntity7 && _livingEntity7.getAttributes().hasAttribute(Attributes.MOVEMENT_SPEED))
+							_livingEntity7.getAttribute(Attributes.MOVEMENT_SPEED).setBaseValue(0);
 						if (world instanceof Level _level) {
 							if (!_level.isClientSide()) {
 								_level.playSound(null, BlockPos.containing(x, y, z), BuiltInRegistries.SOUND_EVENT.getValue(ResourceLocation.parse("project_horsedimension:peajak.stomp1")), SoundSource.NEUTRAL, 1, 1);

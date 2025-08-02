@@ -60,6 +60,7 @@ public class ProjectHorsedimensionModVariables {
 		public static void clonePlayer(PlayerEvent.Clone event) {
 			PlayerVariables original = event.getOriginal().getData(PLAYER_VARIABLES);
 			PlayerVariables clone = new PlayerVariables();
+			clone.portalwings = original.portalwings;
 			if (!event.isWasDeath()) {
 				clone.coincount = original.coincount;
 				clone.noiseframe = original.noiseframe;
@@ -71,12 +72,14 @@ public class ProjectHorsedimensionModVariables {
 	public static class PlayerVariables implements INBTSerializable<CompoundTag> {
 		public double coincount = 0;
 		public double noiseframe = 0;
+		public boolean portalwings = false;
 
 		@Override
 		public CompoundTag serializeNBT(HolderLookup.Provider lookupProvider) {
 			CompoundTag nbt = new CompoundTag();
 			nbt.putDouble("coincount", coincount);
 			nbt.putDouble("noiseframe", noiseframe);
+			nbt.putBoolean("portalwings", portalwings);
 			return nbt;
 		}
 
@@ -84,6 +87,7 @@ public class ProjectHorsedimensionModVariables {
 		public void deserializeNBT(HolderLookup.Provider lookupProvider, CompoundTag nbt) {
 			coincount = nbt.getDouble("coincount");
 			noiseframe = nbt.getDouble("noiseframe");
+			portalwings = nbt.getBoolean("portalwings");
 		}
 
 		public void syncPlayerVariables(Entity entity) {

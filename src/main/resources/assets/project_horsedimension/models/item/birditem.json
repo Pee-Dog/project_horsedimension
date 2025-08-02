@@ -4,7 +4,7 @@
   "loader": "neoforge:obj",
   "model": "project_horsedimension:models/item/bird.obj",
   "textures": {
-    "B_Top1": "project_horsedimension:block/cement_white",
+    "B_Top1": "project_horsedimension:block/horsenoise",
     "particle": "project_horsedimension:item/bird"
   }
 }

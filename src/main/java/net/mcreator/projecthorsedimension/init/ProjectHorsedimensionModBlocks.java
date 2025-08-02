@@ -14,6 +14,7 @@ import net.mcreator.projecthorsedimension.block.WireBlock;
 import net.mcreator.projecthorsedimension.block.WhiteDrywallBlock;
 import net.mcreator.projecthorsedimension.block.WhiteBeadBlockBlock;
 import net.mcreator.projecthorsedimension.block.WeakCosmicNoiseBlock;
+import net.mcreator.projecthorsedimension.block.WallbarrierBlock;
 import net.mcreator.projecthorsedimension.block.ToadstoolBlock;
 import net.mcreator.projecthorsedimension.block.StaticResidueBlock;
 import net.mcreator.projecthorsedimension.block.ShrubBlock;
@@ -54,6 +55,7 @@ import net.mcreator.projecthorsedimension.block.HedgeBlock;
 import net.mcreator.projecthorsedimension.block.HdportaldiamondBlock;
 import net.mcreator.projecthorsedimension.block.HdportalcenterBlock;
 import net.mcreator.projecthorsedimension.block.FlowrringAstroturfBlock;
+import net.mcreator.projecthorsedimension.block.FloorbarrierBlock;
 import net.mcreator.projecthorsedimension.block.FarnBlock;
 import net.mcreator.projecthorsedimension.block.EnergeticCosmicNoiseBlock;
 import net.mcreator.projecthorsedimension.block.CornerstoneBlock;
@@ -147,6 +149,8 @@ public class ProjectHorsedimensionModBlocks {
 	public static final DeferredBlock<Block> NOISEFLOOR = register("noisefloor", NoisefloorBlock::new);
 	public static final DeferredBlock<Block> NOISEWALL = register("noisewall", NoisewallBlock::new);
 	public static final DeferredBlock<Block> STATIC_RESIDUE = register("static_residue", StaticResidueBlock::new);
+	public static final DeferredBlock<Block> WALLBARRIER = register("wallbarrier", WallbarrierBlock::new);
+	public static final DeferredBlock<Block> FLOORBARRIER = register("floorbarrier", FloorbarrierBlock::new);
 
 	// Start of user code block custom blocks
 	// End of user code block custom blocks

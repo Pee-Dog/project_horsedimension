@@ -95,6 +95,12 @@ public class ProjectHorsedimensionModTabs {
 				tabData.accept(ProjectHorsedimensionModBlocks.HORSERECEPTACLE.get().asItem());
 				tabData.accept(ProjectHorsedimensionModBlocks.NOISEFLOOR.get().asItem());
 				tabData.accept(ProjectHorsedimensionModBlocks.NOISEWALL.get().asItem());
+				tabData.accept(ProjectHorsedimensionModBlocks.STATIC_RESIDUE.get().asItem());
+				tabData.accept(ProjectHorsedimensionModBlocks.WALLBARRIER.get().asItem());
+				tabData.accept(ProjectHorsedimensionModBlocks.FLOORBARRIER.get().asItem());
+				tabData.accept(ProjectHorsedimensionModItems.BIRDWINGS_CHESTPLATE.get());
+				tabData.accept(ProjectHorsedimensionModItems.BIRDWINGSOPEN_CHESTPLATE.get());
+				tabData.accept(ProjectHorsedimensionModItems.CORRUPTEDWINGS_CHESTPLATE.get());
 			}).build());
 
 	@SubscribeEvent
@@ -181,6 +187,9 @@ public class ProjectHorsedimensionModTabs {
 			tabData.accept(ProjectHorsedimensionModBlocks.LIGHTBULB.get().asItem());
 		} else if (tabData.getTabKey() == CreativeModeTabs.COMBAT) {
 			tabData.accept(ProjectHorsedimensionModItems.PEASHOOTER.get());
+			tabData.accept(ProjectHorsedimensionModItems.BIRDWINGS_CHESTPLATE.get());
+			tabData.accept(ProjectHorsedimensionModItems.BIRDWINGSOPEN_CHESTPLATE.get());
+			tabData.accept(ProjectHorsedimensionModItems.CORRUPTEDWINGS_CHESTPLATE.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.FUNCTIONAL_BLOCKS) {
 			tabData.accept(ProjectHorsedimensionModBlocks.LIGHTBULB.get().asItem());
 		}
