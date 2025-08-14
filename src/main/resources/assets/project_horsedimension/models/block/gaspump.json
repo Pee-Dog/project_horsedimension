@@ -1,0 +1,20 @@
+{
+  "parent": "neoforge:item/default",
+  "loader": "neoforge:composite",
+  "children": {
+    "part1": {
+      "loader": "neoforge:obj",
+      "render_type": "cutout",
+      "model": "project_horsedimension:models/item/gaspump.obj",
+      "emissive_ambient": true,
+      "textures": {
+        "Material.005": "project_horsedimension:block/gasstationpump",
+        "particle": "project_horsedimension:block/gasstationpump"
+      }
+    }
+  },
+  "textures": {
+    "particle": "project_horsedimension:block/gasstationpump"
+  },
+  "render_type": "cutout"
+}

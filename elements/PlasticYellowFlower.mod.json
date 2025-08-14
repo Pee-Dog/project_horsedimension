@@ -5,7 +5,7 @@
     "renderType": 3,
     "texture": "ranunculus",
     "textureBottom": "",
-    "customModelName": "flower1:default",
+    "customModelName": "ranunculus:default",
     "itemTexture": "",
     "particleTexture": "",
     "tintType": "No tint",

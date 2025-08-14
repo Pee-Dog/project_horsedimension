@@ -1,0 +1,15 @@
+{
+  "_fv": 79,
+  "_type": "keybind",
+  "definition": {
+    "triggerKey": "W",
+    "keyBindingName": "Moveforward",
+    "keyBindingCategoryKey": "gameplay",
+    "onKeyPressed": {
+      "name": "MoveforwardOnKeyPressed"
+    },
+    "onKeyReleased": {
+      "name": "MoveforwardOnKeyReleased"
+    }
+  }
+}

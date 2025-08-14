@@ -12,6 +12,7 @@ import net.minecraft.client.renderer.entity.ThrownItemRenderer;
 
 import net.mcreator.projecthorsedimension.client.renderer.RatRenderer;
 import net.mcreator.projecthorsedimension.client.renderer.PoolgatorRenderer;
+import net.mcreator.projecthorsedimension.client.renderer.PeeramidRenderer;
 import net.mcreator.projecthorsedimension.client.renderer.PeajakRenderer;
 import net.mcreator.projecthorsedimension.client.renderer.NoiseCloudRenderer;
 import net.mcreator.projecthorsedimension.client.renderer.MealwormentityRenderer;
@@ -21,9 +22,13 @@ import net.mcreator.projecthorsedimension.client.renderer.GibentityRenderer;
 import net.mcreator.projecthorsedimension.client.renderer.GeckoRenderer;
 import net.mcreator.projecthorsedimension.client.renderer.FishRenderer;
 import net.mcreator.projecthorsedimension.client.renderer.EquineRenderer;
+import net.mcreator.projecthorsedimension.client.renderer.DromedaryRenderer;
 import net.mcreator.projecthorsedimension.client.renderer.CricketentityRenderer;
-import net.mcreator.projecthorsedimension.client.renderer.CowFarmerRenderer;
+import net.mcreator.projecthorsedimension.client.renderer.CowHeadRenderer;
+import net.mcreator.projecthorsedimension.client.renderer.CanisLatransRenderer;
 import net.mcreator.projecthorsedimension.client.renderer.BunnyRenderer;
+import net.mcreator.projecthorsedimension.client.renderer.BoxRenderer;
+import net.mcreator.projecthorsedimension.client.renderer.BovineRenderer;
 import net.mcreator.projecthorsedimension.client.renderer.BoulderRenderer;
 import net.mcreator.projecthorsedimension.client.renderer.BirdRenderer;
 import net.mcreator.projecthorsedimension.client.renderer.BarndoorRenderer;
@@ -40,7 +45,6 @@ public class ProjectHorsedimensionModEntityRenderers {
 		event.registerEntityRenderer(ProjectHorsedimensionModEntities.BIRD.get(), BirdRenderer::new);
 		event.registerEntityRenderer(ProjectHorsedimensionModEntities.PEAJECTILE.get(), ThrownItemRenderer::new);
 		event.registerEntityRenderer(ProjectHorsedimensionModEntities.RAT.get(), RatRenderer::new);
-		event.registerEntityRenderer(ProjectHorsedimensionModEntities.COW_FARMER.get(), CowFarmerRenderer::new);
 		event.registerEntityRenderer(ProjectHorsedimensionModEntities.GECKO.get(), GeckoRenderer::new);
 		event.registerEntityRenderer(ProjectHorsedimensionModEntities.HORSECOINPROJECTILE.get(), ThrownItemRenderer::new);
 		event.registerEntityRenderer(ProjectHorsedimensionModEntities.MEALWORMENTITY.get(), MealwormentityRenderer::new);
@@ -51,5 +55,11 @@ public class ProjectHorsedimensionModEntityRenderers {
 		event.registerEntityRenderer(ProjectHorsedimensionModEntities.BARNDOOR.get(), BarndoorRenderer::new);
 		event.registerEntityRenderer(ProjectHorsedimensionModEntities.GNOME.get(), GnomeRenderer::new);
 		event.registerEntityRenderer(ProjectHorsedimensionModEntities.NOISE_CLOUD.get(), NoiseCloudRenderer::new);
+		event.registerEntityRenderer(ProjectHorsedimensionModEntities.DROMEDARY.get(), DromedaryRenderer::new);
+		event.registerEntityRenderer(ProjectHorsedimensionModEntities.BOX.get(), BoxRenderer::new);
+		event.registerEntityRenderer(ProjectHorsedimensionModEntities.COW_HEAD.get(), CowHeadRenderer::new);
+		event.registerEntityRenderer(ProjectHorsedimensionModEntities.BOVINE.get(), BovineRenderer::new);
+		event.registerEntityRenderer(ProjectHorsedimensionModEntities.CANIS_LATRANS.get(), CanisLatransRenderer::new);
+		event.registerEntityRenderer(ProjectHorsedimensionModEntities.PEERAMID.get(), PeeramidRenderer::new);
 	}
 }

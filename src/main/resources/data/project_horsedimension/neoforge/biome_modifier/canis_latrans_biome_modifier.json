@@ -1,0 +1,10 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": "project_horsedimension:pasture",
+  "spawners": {
+    "type": "project_horsedimension:canis_latrans",
+    "weight": 2,
+    "minCount": 3,
+    "maxCount": 5
+  }
+}

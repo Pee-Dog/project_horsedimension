@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "Bactria_camel_mat": "bactrian_camel_diffuse"
+      },
+      "name": "default"
+    }
+  }
+}

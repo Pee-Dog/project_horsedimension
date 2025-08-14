@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "project_horsedimension:block/pillow"
+    },
+    "facing=east": {
+      "model": "project_horsedimension:block/pillow",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "project_horsedimension:block/pillow",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "project_horsedimension:block/pillow",
+      "y": 270
+    }
+  }
+}

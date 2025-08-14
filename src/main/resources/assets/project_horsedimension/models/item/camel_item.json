@@ -1,0 +1,10 @@
+{
+  "forge_marker": 1,
+  "parent": "neoforge:item/default",
+  "loader": "neoforge:obj",
+  "model": "project_horsedimension:models/item/camel.obj",
+  "textures": {
+    "Bactria_camel_mat": "project_horsedimension:block/bactrian_camel_diffuse",
+    "particle": "project_horsedimension:item/cow_render"
+  }
+}

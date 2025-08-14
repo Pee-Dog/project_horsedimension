@@ -1,6 +1,5 @@
 package net.mcreator.projecthorsedimension.procedures;
 
-import net.minecraft.world.phys.Vec3;
 import net.minecraft.world.level.LevelAccessor;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.entity.EntitySpawnReason;
@@ -17,7 +16,6 @@ public class BirdOnEntityTickUpdateProcedure {
 	public static void execute(LevelAccessor world, double x, double y, double z, Entity entity) {
 		if (entity == null)
 			return;
-		entity.setDeltaMovement(new Vec3((entity.getLookAngle().x * 0.25), (entity.getDeltaMovement().y()), (entity.getLookAngle().z * 0.25)));
 		if (world.getBlockState(BlockPos.containing(x, y - 5, z)).canOcclude()) {
 			entity.push((entity.getDeltaMovement().x()), 0.2, (entity.getDeltaMovement().z()));
 		}

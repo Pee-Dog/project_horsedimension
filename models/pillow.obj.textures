@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "Material.007": "pillow"
+      },
+      "name": "default"
+    }
+  }
+}

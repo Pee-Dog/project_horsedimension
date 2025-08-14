@@ -32,7 +32,7 @@ public class PeajakPlayerCollidesWithThisEntityProcedure {
 					if (entity instanceof PeajakEntity _datEntSetI)
 						_datEntSetI.getEntityData().set(PeajakEntity.DATA_stomped, 1);
 					ProjectHorsedimensionMod.queueServerWork(1, () -> {
-						sourceentity.setDeltaMovement(new Vec3((sourceentity.getDeltaMovement().x()), 0.5, (sourceentity.getDeltaMovement().z())));
+						sourceentity.push((sourceentity.getDeltaMovement().x()), 0.5, (sourceentity.getDeltaMovement().z()));
 						if (entity instanceof LivingEntity _livingEntity7 && _livingEntity7.getAttributes().hasAttribute(Attributes.MOVEMENT_SPEED))
 							_livingEntity7.getAttribute(Attributes.MOVEMENT_SPEED).setBaseValue(0);
 						if (world instanceof Level _level) {

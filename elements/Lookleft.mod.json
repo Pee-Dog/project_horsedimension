@@ -1,0 +1,15 @@
+{
+  "_fv": 79,
+  "_type": "keybind",
+  "definition": {
+    "triggerKey": "A",
+    "keyBindingName": "Lookleft",
+    "keyBindingCategoryKey": "gameplay",
+    "onKeyPressed": {
+      "name": "LookLeftKeyPress"
+    },
+    "onKeyReleased": {
+      "name": "LookLeftKeyRelease"
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": "project_horsedimension:oasis",
+  "spawners": {
+    "type": "project_horsedimension:dromedary",
+    "weight": 5,
+    "minCount": 1,
+    "maxCount": 4
+  }
+}

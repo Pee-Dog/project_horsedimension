@@ -1,0 +1,8 @@
+newmtl Material
+map_Kd null
+newmtl Material.001
+map_Kd null
+map_d B:/Users/mracc/Desktop/others_0012_1k_FP2Yn7/others_0012_color_1k.png
+newmtl Material.002
+map_Kd null
+map_d decals_0007_1k_QS9q79.png

@@ -64,6 +64,10 @@ public class ProjectHorsedimensionModVariables {
 			if (!event.isWasDeath()) {
 				clone.coincount = original.coincount;
 				clone.noiseframe = original.noiseframe;
+				clone.headyaw = original.headyaw;
+				clone.goforward = original.goforward;
+				clone.lookright = original.lookright;
+				clone.lookleft = original.lookleft;
 			}
 			event.getEntity().setData(PLAYER_VARIABLES, clone);
 		}
@@ -73,6 +77,10 @@ public class ProjectHorsedimensionModVariables {
 		public double coincount = 0;
 		public double noiseframe = 0;
 		public boolean portalwings = false;
+		public double headyaw = 0;
+		public boolean goforward = false;
+		public boolean lookright = false;
+		public boolean lookleft = false;
 
 		@Override
 		public CompoundTag serializeNBT(HolderLookup.Provider lookupProvider) {
@@ -80,6 +88,10 @@ public class ProjectHorsedimensionModVariables {
 			nbt.putDouble("coincount", coincount);
 			nbt.putDouble("noiseframe", noiseframe);
 			nbt.putBoolean("portalwings", portalwings);
+			nbt.putDouble("headyaw", headyaw);
+			nbt.putBoolean("goforward", goforward);
+			nbt.putBoolean("lookright", lookright);
+			nbt.putBoolean("lookleft", lookleft);
 			return nbt;
 		}
 
@@ -88,6 +100,10 @@ public class ProjectHorsedimensionModVariables {
 			coincount = nbt.getDouble("coincount");
 			noiseframe = nbt.getDouble("noiseframe");
 			portalwings = nbt.getBoolean("portalwings");
+			headyaw = nbt.getDouble("headyaw");
+			goforward = nbt.getBoolean("goforward");
+			lookright = nbt.getBoolean("lookright");
+			lookleft = nbt.getBoolean("lookleft");
 		}
 
 		public void syncPlayerVariables(Entity entity) {

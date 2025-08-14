@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "project_horsedimension:block/ranunculus"
+    "layer0": "project_horsedimension:block/whiteflower"
   }
 }

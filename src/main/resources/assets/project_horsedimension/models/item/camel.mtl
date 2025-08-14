@@ -1,0 +1,4 @@
+newmtl Bactria_camel_mat
+map_Kd Bactria_camel_mat
+map_Ns C:/Bactrian_Camel_Roughness.png
+bump -bm 0.5 C:/Bactrian_Camel_Normal.png

@@ -77,7 +77,7 @@ public abstract class CorruptedwingsItem extends ArmorItem {
 		public void inventoryTick(ItemStack itemstack, Level world, Entity entity, int slot, boolean selected) {
 			super.inventoryTick(itemstack, world, entity, slot, selected);
 			if (entity instanceof Player player && Iterables.contains(player.getArmorSlots(), itemstack)) {
-				CorruptedwingsChestplateTickEventProcedure.execute(entity);
+				CorruptedwingsChestplateTickEventProcedure.execute(world, entity, itemstack);
 			}
 		}
 	}

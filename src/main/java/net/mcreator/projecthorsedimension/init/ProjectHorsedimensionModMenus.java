@@ -16,6 +16,7 @@ import net.minecraft.core.registries.Registries;
 import net.minecraft.client.Minecraft;
 
 import net.mcreator.projecthorsedimension.world.inventory.HorsekeyGUIMenu;
+import net.mcreator.projecthorsedimension.world.inventory.CowUIMenu;
 import net.mcreator.projecthorsedimension.network.MenuStateUpdateMessage;
 import net.mcreator.projecthorsedimension.ProjectHorsedimensionMod;
 
@@ -24,6 +25,7 @@ import java.util.Map;
 public class ProjectHorsedimensionModMenus {
 	public static final DeferredRegister<MenuType<?>> REGISTRY = DeferredRegister.create(Registries.MENU, ProjectHorsedimensionMod.MODID);
 	public static final DeferredHolder<MenuType<?>, MenuType<HorsekeyGUIMenu>> HORSEKEY_GUI = REGISTRY.register("horsekey_gui", () -> IMenuTypeExtension.create(HorsekeyGUIMenu::new));
+	public static final DeferredHolder<MenuType<?>, MenuType<CowUIMenu>> COW_UI = REGISTRY.register("cow_ui", () -> IMenuTypeExtension.create(CowUIMenu::new));
 
 	public interface MenuAccessor {
 		Map<String, Object> getMenuState();

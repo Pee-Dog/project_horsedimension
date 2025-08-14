@@ -5,16 +5,16 @@
     "part1": {
       "loader": "neoforge:obj",
       "render_type": "cutout",
-      "model": "project_horsedimension:models/item/flower.obj",
+      "model": "project_horsedimension:models/item/whitefliower.obj",
       "emissive_ambient": true,
       "textures": {
-        "Material": "project_horsedimension:block/flowercolors",
-        "particle": "project_horsedimension:block/ranunculus"
+        "Material.003": "project_horsedimension:block/whiteflower",
+        "particle": "project_horsedimension:block/whiteflower"
       }
     }
   },
   "textures": {
-    "particle": "project_horsedimension:block/ranunculus"
+    "particle": "project_horsedimension:block/whiteflower"
   },
   "render_type": "cutout"
 }

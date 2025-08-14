@@ -14,7 +14,9 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.item.DoubleHighBlockItem;
 import net.minecraft.world.item.BlockItem;
 
+import net.mcreator.projecthorsedimension.item.StaffItem;
 import net.mcreator.projecthorsedimension.item.RatitemItem;
+import net.mcreator.projecthorsedimension.item.PeeramiditemItem;
 import net.mcreator.projecthorsedimension.item.PeashooterItem;
 import net.mcreator.projecthorsedimension.item.PeajakitemItem;
 import net.mcreator.projecthorsedimension.item.Peajakitem2Item;
@@ -37,8 +39,13 @@ import net.mcreator.projecthorsedimension.item.GeckoItemItem;
 import net.mcreator.projecthorsedimension.item.FishitemItem;
 import net.mcreator.projecthorsedimension.item.CricketitemItem;
 import net.mcreator.projecthorsedimension.item.CricketheaditemItem;
+import net.mcreator.projecthorsedimension.item.CowsleepitemItem;
+import net.mcreator.projecthorsedimension.item.CowheaditemItem;
 import net.mcreator.projecthorsedimension.item.CowfarmeritemItem;
 import net.mcreator.projecthorsedimension.item.CorruptedwingsItem;
+import net.mcreator.projecthorsedimension.item.CardboardBoxItem;
+import net.mcreator.projecthorsedimension.item.CardboardBoxEntityItemItem;
+import net.mcreator.projecthorsedimension.item.CamelItemItem;
 import net.mcreator.projecthorsedimension.item.BunnyitemItem;
 import net.mcreator.projecthorsedimension.item.Bunnyitem3Item;
 import net.mcreator.projecthorsedimension.item.Bunnyitem2Item;
@@ -115,7 +122,6 @@ public class ProjectHorsedimensionModItems {
 	public static final DeferredItem<Item> RAT_SPAWN_EGG = register("rat_spawn_egg", properties -> new SpawnEggItem(ProjectHorsedimensionModEntities.RAT.get(), properties));
 	public static final DeferredItem<Item> RATITEM = register("ratitem", RatitemItem::new);
 	public static final DeferredItem<Item> COWFARMERITEM = register("cowfarmeritem", CowfarmeritemItem::new);
-	public static final DeferredItem<Item> COW_FARMER_SPAWN_EGG = register("cow_farmer_spawn_egg", properties -> new SpawnEggItem(ProjectHorsedimensionModEntities.COW_FARMER.get(), properties));
 	public static final DeferredItem<Item> LIGHTBULB = block(ProjectHorsedimensionModBlocks.LIGHTBULB);
 	public static final DeferredItem<Item> GIB = register("gib", GibItem::new);
 	public static final DeferredItem<Item> BARNHOUSE_PLANKS = block(ProjectHorsedimensionModBlocks.BARNHOUSE_PLANKS);
@@ -176,6 +182,21 @@ public class ProjectHorsedimensionModItems {
 	public static final DeferredItem<Item> BIRDWINGS_CHESTPLATE = register("birdwings_chestplate", BirdwingsItem.Chestplate::new);
 	public static final DeferredItem<Item> BIRDWINGSOPEN_CHESTPLATE = register("birdwingsopen_chestplate", BirdwingsopenItem.Chestplate::new);
 	public static final DeferredItem<Item> CORRUPTEDWINGS_CHESTPLATE = register("corruptedwings_chestplate", CorruptedwingsItem.Chestplate::new);
+	public static final DeferredItem<Item> CAMEL_ITEM = register("camel_item", CamelItemItem::new);
+	public static final DeferredItem<Item> DROMEDARY_SPAWN_EGG = register("dromedary_spawn_egg", properties -> new SpawnEggItem(ProjectHorsedimensionModEntities.DROMEDARY.get(), properties));
+	public static final DeferredItem<Item> CARDBOARD_BOX_ENTITY_ITEM = register("cardboard_box_entity_item", CardboardBoxEntityItemItem::new);
+	public static final DeferredItem<Item> BOX_SPAWN_EGG = register("box_spawn_egg", properties -> new SpawnEggItem(ProjectHorsedimensionModEntities.BOX.get(), properties));
+	public static final DeferredItem<Item> CARDBOARD_BOX = register("cardboard_box", CardboardBoxItem::new);
+	public static final DeferredItem<Item> GASPUMP = block(ProjectHorsedimensionModBlocks.GASPUMP);
+	public static final DeferredItem<Item> TRASHCAN = block(ProjectHorsedimensionModBlocks.TRASHCAN);
+	public static final DeferredItem<Item> COWSLEEPITEM = register("cowsleepitem", CowsleepitemItem::new);
+	public static final DeferredItem<Item> PILLOW = block(ProjectHorsedimensionModBlocks.PILLOW);
+	public static final DeferredItem<Item> COWHEADITEM = register("cowheaditem", CowheaditemItem::new);
+	public static final DeferredItem<Item> BOVINE_SPAWN_EGG = register("bovine_spawn_egg", properties -> new SpawnEggItem(ProjectHorsedimensionModEntities.BOVINE.get(), properties));
+	public static final DeferredItem<Item> STAFF = register("staff", StaffItem::new);
+	public static final DeferredItem<Item> CANIS_LATRANS_SPAWN_EGG = register("canis_latrans_spawn_egg", properties -> new SpawnEggItem(ProjectHorsedimensionModEntities.CANIS_LATRANS.get(), properties));
+	public static final DeferredItem<Item> PEERAMIDITEM = register("peeramiditem", PeeramiditemItem::new);
+	public static final DeferredItem<Item> PEERAMID_SPAWN_EGG = register("peeramid_spawn_egg", properties -> new SpawnEggItem(ProjectHorsedimensionModEntities.PEERAMID.get(), properties));
 
 	// Start of user code block custom items
 	// End of user code block custom items

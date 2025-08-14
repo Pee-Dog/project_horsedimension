@@ -1,9 +1,6 @@
 {
   "type": "neoforge:add_spawns",
-  "biomes": [
-    "project_horsedimension:pasture",
-    "project_horsedimension:garden"
-  ],
+  "biomes": "project_horsedimension:garden",
   "spawners": {
     "type": "project_horsedimension:peajak",
     "weight": 1,

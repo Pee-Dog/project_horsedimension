@@ -9,7 +9,7 @@ public class HorsecoincounterProcedure {
 		if (entity == null)
 			return "";
 		if (entity.getData(ProjectHorsedimensionModVariables.PLAYER_VARIABLES).coincount > 0) {
-			return (("" + entity.getData(ProjectHorsedimensionModVariables.PLAYER_VARIABLES).coincount).replaceAll("[.00]", "")).strip();
+			return ("" + entity.getData(ProjectHorsedimensionModVariables.PLAYER_VARIABLES).coincount).substring(0, ("" + entity.getData(ProjectHorsedimensionModVariables.PLAYER_VARIABLES).coincount).indexOf(".", 0));
 		}
 		return "0";
 	}

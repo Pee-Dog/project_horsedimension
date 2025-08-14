@@ -5,10 +5,10 @@
     "part1": {
       "loader": "neoforge:obj",
       "render_type": "cutout",
-      "model": "project_horsedimension:models/item/rdtree_mesh.obj",
+      "model": "project_horsedimension:models/item/rdtreenew.obj",
       "emissive_ambient": true,
       "textures": {
-        "Material.001": "project_horsedimension:block/rubydung_tree_new_flipped",
+        "material_atlas_00003_1": "project_horsedimension:block/tree_atlas",
         "particle": "project_horsedimension:block/rubydung_tree"
       }
     }

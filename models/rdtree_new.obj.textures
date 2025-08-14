@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "material_atlas_00003_1": "tree_atlas",
+        "Bactria_camel_mat.001": "horsenoise"
+      },
+      "name": "default"
+    }
+  }
+}

@@ -16,6 +16,7 @@ import net.minecraft.world.level.block.entity.BlockEntity;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.core.registries.BuiltInRegistries;
 
+import net.mcreator.projecthorsedimension.block.entity.PillowBlockEntity;
 import net.mcreator.projecthorsedimension.block.entity.HdportaldiamondBlockEntity;
 import net.mcreator.projecthorsedimension.block.entity.HdportalcenterBlockEntity;
 import net.mcreator.projecthorsedimension.ProjectHorsedimensionMod;
@@ -25,6 +26,7 @@ public class ProjectHorsedimensionModBlockEntities {
 	public static final DeferredRegister<BlockEntityType<?>> REGISTRY = DeferredRegister.create(BuiltInRegistries.BLOCK_ENTITY_TYPE, ProjectHorsedimensionMod.MODID);
 	public static final DeferredHolder<BlockEntityType<?>, BlockEntityType<HdportalcenterBlockEntity>> HDPORTALCENTER = register("hdportalcenter", ProjectHorsedimensionModBlocks.HDPORTALCENTER, HdportalcenterBlockEntity::new);
 	public static final DeferredHolder<BlockEntityType<?>, BlockEntityType<HdportaldiamondBlockEntity>> HDPORTALDIAMOND = register("hdportaldiamond", ProjectHorsedimensionModBlocks.HDPORTALDIAMOND, HdportaldiamondBlockEntity::new);
+	public static final DeferredHolder<BlockEntityType<?>, BlockEntityType<PillowBlockEntity>> PILLOW = register("pillow", ProjectHorsedimensionModBlocks.PILLOW, PillowBlockEntity::new);
 
 	// Start of user code block custom block entities
 	// End of user code block custom block entities
@@ -36,5 +38,6 @@ public class ProjectHorsedimensionModBlockEntities {
 	public static void registerCapabilities(RegisterCapabilitiesEvent event) {
 		event.registerBlockEntity(Capabilities.ItemHandler.BLOCK, HDPORTALCENTER.get(), SidedInvWrapper::new);
 		event.registerBlockEntity(Capabilities.ItemHandler.BLOCK, HDPORTALDIAMOND.get(), SidedInvWrapper::new);
+		event.registerBlockEntity(Capabilities.ItemHandler.BLOCK, PILLOW.get(), SidedInvWrapper::new);
 	}
 }

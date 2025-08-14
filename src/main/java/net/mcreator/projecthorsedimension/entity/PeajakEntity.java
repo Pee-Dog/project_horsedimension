@@ -60,7 +60,7 @@ public class PeajakEntity extends Monster implements RangedAttackMob {
 	@Override
 	protected void defineSynchedData(SynchedEntityData.Builder builder) {
 		super.defineSynchedData(builder);
-		builder.define(DATA_stomped, 0);
+		builder.define(DATA_stomped, 90);
 	}
 
 	@Override

@@ -1,0 +1,10 @@
+{
+  "forge_marker": 1,
+  "parent": "neoforge:item/default",
+  "loader": "neoforge:obj",
+  "model": "project_horsedimension:models/item/pyramid.obj",
+  "textures": {
+    "material_atlas_00001_1": "project_horsedimension:block/pyramid_atlas",
+    "particle": "project_horsedimension:item/placeholder_boy"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "project_horsedimension:custom/dd",
+  "textures": {
+    "0": "project_horsedimension:block/cosmic_microwave_background_cmb",
+    "particle": "project_horsedimension:item/cow_render"
+  }
+}

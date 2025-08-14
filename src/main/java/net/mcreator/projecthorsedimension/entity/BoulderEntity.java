@@ -4,6 +4,7 @@ import net.neoforged.neoforge.event.entity.RegisterSpawnPlacementsEvent;
 import net.neoforged.neoforge.common.NeoForgeMod;
 
 import net.minecraft.world.phys.Vec3;
+import net.minecraft.world.level.levelgen.Heightmap;
 import net.minecraft.world.level.ServerLevelAccessor;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.Explosion;
@@ -13,6 +14,7 @@ import net.minecraft.world.entity.projectile.AbstractArrow;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.entity.ai.attributes.Attributes;
 import net.minecraft.world.entity.ai.attributes.AttributeSupplier;
+import net.minecraft.world.entity.SpawnPlacementTypes;
 import net.minecraft.world.entity.SpawnGroupData;
 import net.minecraft.world.entity.PathfinderMob;
 import net.minecraft.world.entity.Mob;
@@ -26,6 +28,7 @@ import net.minecraft.world.damagesource.DamageSource;
 import net.minecraft.world.InteractionResult;
 import net.minecraft.world.InteractionHand;
 import net.minecraft.world.DifficultyInstance;
+import net.minecraft.tags.BlockTags;
 import net.minecraft.server.level.ServerLevel;
 import net.minecraft.network.syncher.SynchedEntityData;
 import net.minecraft.network.syncher.EntityDataSerializers;
@@ -36,6 +39,7 @@ import net.mcreator.projecthorsedimension.procedures.BoulderPushProcedure;
 import net.mcreator.projecthorsedimension.procedures.BoulderOnInitialEntitySpawnProcedure;
 import net.mcreator.projecthorsedimension.procedures.BoulderOnEntityTickUpdateProcedure;
 import net.mcreator.projecthorsedimension.init.ProjectHorsedimensionModItems;
+import net.mcreator.projecthorsedimension.init.ProjectHorsedimensionModEntities;
 
 import javax.annotation.Nullable;
 
@@ -116,7 +120,7 @@ public class BoulderEntity extends PathfinderMob {
 	@Override
 	public SpawnGroupData finalizeSpawn(ServerLevelAccessor world, DifficultyInstance difficulty, EntitySpawnReason reason, @Nullable SpawnGroupData livingdata) {
 		SpawnGroupData retval = super.finalizeSpawn(world, difficulty, reason, livingdata);
-		BoulderOnInitialEntitySpawnProcedure.execute();
+		BoulderOnInitialEntitySpawnProcedure.execute(this);
 		return retval;
 	}
 
@@ -165,6 +169,8 @@ public class BoulderEntity extends PathfinderMob {
 	}
 
 	public static void init(RegisterSpawnPlacementsEvent event) {
+		event.register(ProjectHorsedimensionModEntities.BOULDER.get(), SpawnPlacementTypes.ON_GROUND, Heightmap.Types.MOTION_BLOCKING_NO_LEAVES,
+				(entityType, world, reason, pos, random) -> (world.getBlockState(pos.below()).is(BlockTags.ANIMALS_SPAWNABLE_ON) && world.getRawBrightness(pos, 0) > 8), RegisterSpawnPlacementsEvent.Operation.REPLACE);
 	}
 
 	public static AttributeSupplier.Builder createAttributes() {

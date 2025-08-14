@@ -1,0 +1,12 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "Material.002": "decals_0007_1k_qs9q79",
+        "Material.001": "tape",
+        "Material": "cardboard"
+      },
+      "name": "default"
+    }
+  }
+}

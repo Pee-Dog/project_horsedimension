@@ -151,7 +151,7 @@
     "rangedItemType": "Default item",
     "rangedAttackInterval": 20,
     "rangedAttackRadius": 10.0,
-    "spawnThisMob": false,
+    "spawnThisMob": true,
     "doesDespawnWhenIdle": false,
     "spawningProbability": 15,
     "mobSpawningType": "creature",

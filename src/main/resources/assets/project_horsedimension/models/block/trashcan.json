@@ -1,0 +1,20 @@
+{
+  "parent": "neoforge:item/default",
+  "loader": "neoforge:composite",
+  "children": {
+    "part1": {
+      "loader": "neoforge:obj",
+      "render_type": "cutout",
+      "model": "project_horsedimension:models/item/trashcan.obj",
+      "emissive_ambient": true,
+      "textures": {
+        "Material.006": "project_horsedimension:block/trashcan",
+        "particle": "project_horsedimension:block/toadstool"
+      }
+    }
+  },
+  "textures": {
+    "particle": "project_horsedimension:block/toadstool"
+  },
+  "render_type": "cutout"
+}

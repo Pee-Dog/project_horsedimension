@@ -8,6 +8,6 @@ public class BoulderModelVisualScaleProcedure {
 	public static double execute(Entity entity) {
 		if (entity == null)
 			return 0;
-		return (entity instanceof BoulderEntity _datEntI ? _datEntI.getEntityData().get(BoulderEntity.DATA_rockscale) : 0) * 0.1;
+		return (entity instanceof BoulderEntity _datEntI ? _datEntI.getEntityData().get(BoulderEntity.DATA_rockscale) : 0) * 0.01;
 	}
 }

@@ -1,0 +1,12 @@
+{
+  "forge_marker": 1,
+  "parent": "neoforge:item/default",
+  "loader": "neoforge:obj",
+  "model": "project_horsedimension:models/item/box.obj",
+  "textures": {
+    "Material.002": "project_horsedimension:block/decals_0007_1k_qs9q79",
+    "Material.001": "project_horsedimension:block/tape",
+    "Material": "project_horsedimension:block/cardboard",
+    "particle": "project_horsedimension:item/cow_render"
+  }
+}

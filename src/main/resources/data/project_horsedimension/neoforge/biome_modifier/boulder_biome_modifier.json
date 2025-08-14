@@ -1,0 +1,10 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": "project_horsedimension:deep_blue",
+  "spawners": {
+    "type": "project_horsedimension:boulder",
+    "weight": 15,
+    "minCount": 1,
+    "maxCount": 3
+  }
+}

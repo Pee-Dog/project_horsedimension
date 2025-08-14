@@ -1,0 +1,20 @@
+{
+  "parent": "neoforge:item/default",
+  "loader": "neoforge:composite",
+  "children": {
+    "part1": {
+      "loader": "neoforge:obj",
+      "render_type": "solid",
+      "model": "project_horsedimension:models/item/pillow.obj",
+      "emissive_ambient": true,
+      "textures": {
+        "Material.007": "project_horsedimension:block/pillow",
+        "particle": "project_horsedimension:block/pillow"
+      }
+    }
+  },
+  "textures": {
+    "particle": "project_horsedimension:block/pillow"
+  },
+  "render_type": "solid"
+}

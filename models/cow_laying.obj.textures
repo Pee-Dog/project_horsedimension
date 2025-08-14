@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "tornado_cow_material": "cowflipped"
+      },
+      "name": "default"
+    }
+  }
+}

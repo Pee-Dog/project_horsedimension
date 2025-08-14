@@ -21,4 +21,6 @@ public class ProjectHorsedimensionModParticleTypes {
 	public static final DeferredHolder<ParticleType<?>, SimpleParticleType> PACKINGPEANUT = REGISTRY.register("packingpeanut", () -> new SimpleParticleType(false));
 	public static final DeferredHolder<ParticleType<?>, SimpleParticleType> DEEPBUBBLE = REGISTRY.register("deepbubble", () -> new SimpleParticleType(false));
 	public static final DeferredHolder<ParticleType<?>, SimpleParticleType> NOISEPARTICLE = REGISTRY.register("noiseparticle", () -> new SimpleParticleType(false));
+	public static final DeferredHolder<ParticleType<?>, SimpleParticleType> COYOTE = REGISTRY.register("coyote", () -> new SimpleParticleType(true));
+	public static final DeferredHolder<ParticleType<?>, SimpleParticleType> CARDBOARDBITS = REGISTRY.register("cardboardbits", () -> new SimpleParticleType(false));
 }

@@ -14,6 +14,8 @@ import net.mcreator.projecthorsedimension.client.particle.NoiseparticleParticle;
 import net.mcreator.projecthorsedimension.client.particle.HorsecoinparticlesParticle;
 import net.mcreator.projecthorsedimension.client.particle.HorsecoinParticle;
 import net.mcreator.projecthorsedimension.client.particle.DeepbubbleParticle;
+import net.mcreator.projecthorsedimension.client.particle.CoyoteParticle;
+import net.mcreator.projecthorsedimension.client.particle.CardboardbitsParticle;
 import net.mcreator.projecthorsedimension.client.particle.BloodtrailParticle;
 
 @EventBusSubscriber(bus = EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
@@ -27,5 +29,7 @@ public class ProjectHorsedimensionModParticles {
 		event.registerSpriteSet(ProjectHorsedimensionModParticleTypes.PACKINGPEANUT.get(), PackingpeanutParticle::provider);
 		event.registerSpriteSet(ProjectHorsedimensionModParticleTypes.DEEPBUBBLE.get(), DeepbubbleParticle::provider);
 		event.registerSpriteSet(ProjectHorsedimensionModParticleTypes.NOISEPARTICLE.get(), NoiseparticleParticle::provider);
+		event.registerSpriteSet(ProjectHorsedimensionModParticleTypes.COYOTE.get(), CoyoteParticle::provider);
+		event.registerSpriteSet(ProjectHorsedimensionModParticleTypes.CARDBOARDBITS.get(), CardboardbitsParticle::provider);
 	}
 }

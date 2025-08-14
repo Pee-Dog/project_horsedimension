@@ -1,0 +1,10 @@
+{
+  "forge_marker": 1,
+  "parent": "neoforge:item/default",
+  "loader": "neoforge:obj",
+  "model": "project_horsedimension:models/item/cow_laying.obj",
+  "textures": {
+    "tornado_cow_material": "project_horsedimension:block/cowflipped",
+    "particle": "project_horsedimension:item/cow_render"
+  }
+}

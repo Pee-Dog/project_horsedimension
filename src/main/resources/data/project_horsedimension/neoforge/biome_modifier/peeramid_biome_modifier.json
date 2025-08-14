@@ -1,0 +1,13 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": [
+    "project_horsedimension:pasture",
+    "project_horsedimension:oasis"
+  ],
+  "spawners": {
+    "type": "project_horsedimension:peeramid",
+    "weight": 2,
+    "minCount": 1,
+    "maxCount": 1
+  }
+}

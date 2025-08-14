@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "cosmic_microwave_background_cmb"
+      },
+      "name": "default"
+    }
+  }
+}

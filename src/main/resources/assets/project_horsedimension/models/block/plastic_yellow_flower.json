@@ -5,10 +5,10 @@
     "part1": {
       "loader": "neoforge:obj",
       "render_type": "cutout",
-      "model": "project_horsedimension:models/item/flower1.obj",
+      "model": "project_horsedimension:models/item/ranunculus.obj",
       "emissive_ambient": true,
       "textures": {
-        "Material": "project_horsedimension:block/yellowflowercolors",
+        "Material.003": "project_horsedimension:block/ranunculus",
         "particle": "project_horsedimension:block/ranunculus"
       }
     }

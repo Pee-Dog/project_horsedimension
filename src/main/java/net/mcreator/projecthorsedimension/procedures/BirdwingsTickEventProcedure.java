@@ -34,6 +34,10 @@ public class BirdwingsTickEventProcedure {
 			}
 			new ItemStack(ProjectHorsedimensionModItems.BIRDWINGS_CHESTPLATE.get()).applyComponents(itemstack.getComponents());
 			if (world instanceof ServerLevel _level) {
+				new ItemStack(ProjectHorsedimensionModItems.BIRDWINGS_CHESTPLATE.get()).hurtAndBreak(5, _level, null, _stkprov -> {
+				});
+			}
+			if (world instanceof ServerLevel _level) {
 				new ItemStack(ProjectHorsedimensionModItems.BIRDWINGS_CHESTPLATE.get()).hurtAndBreak(itemstack.getDamageValue(), _level, null, _stkprov -> {
 				});
 			}

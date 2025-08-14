@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "Material.005": "gasstationpump"
+      },
+      "name": "default"
+    }
+  }
+}

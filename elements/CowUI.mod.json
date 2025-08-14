@@ -1,0 +1,131 @@
+{
+  "_fv": 79,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 218,
+    "height": 178,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 192,
+    "renderBgLayer": false,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "sprite",
+        "data": {
+          "sprite": "cowshop.png",
+          "spritesCount": 1,
+          "spriteIndex": {
+            "fixedValue": 0.0
+          },
+          "x": 43,
+          "y": -46,
+          "locked": true
+        }
+      },
+      {
+        "type": "entitymodel",
+        "data": {
+          "entityModel": {
+            "name": "CowFarmerRightClickedOnEntity"
+          },
+          "scale": 20,
+          "rotationX": 0,
+          "followMouseMovement": true,
+          "x": 156,
+          "y": 59,
+          "locked": false
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 0,
+          "disablePickup": {
+            "fixedValue": false
+          },
+          "dropItemsWhenNotBound": false,
+          "x": 68,
+          "y": -303,
+          "locked": false
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 1,
+          "disablePickup": {
+            "fixedValue": false
+          },
+          "dropItemsWhenNotBound": false,
+          "x": 155,
+          "y": -301,
+          "locked": false
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 2,
+          "disablePickup": {
+            "fixedValue": false
+          },
+          "dropItemsWhenNotBound": false,
+          "x": 323,
+          "y": -304,
+          "locked": false
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 3,
+          "disablePickup": {
+            "fixedValue": false
+          },
+          "dropItemsWhenNotBound": false,
+          "x": 405,
+          "y": -302,
+          "locked": false
+        }
+      },
+      {
+        "type": "sprite",
+        "data": {
+          "sprite": "cowlongitems.png",
+          "spritesCount": 2,
+          "spriteIndex": {
+            "fixedValue": 1.0,
+            "name": "Item1buy"
+          },
+          "x": 164,
+          "y": 109,
+          "locked": false
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_empty",
+          "text": "",
+          "isUndecorated": true,
+          "onClick": {
+            "name": "Itembuy"
+          },
+          "width": 112,
+          "height": 20,
+          "x": 169,
+          "y": 148,
+          "locked": false
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

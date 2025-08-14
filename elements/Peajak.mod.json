@@ -129,7 +129,7 @@
         "max": 2147483647,
         "name": "stomped",
         "type": "integer",
-        "value": 0
+        "value": 90
       }
     ],
     "whenMobDies": {
@@ -164,9 +164,6 @@
     "minNumberOfMobsPerGroup": 1,
     "maxNumberOfMobsPerGroup": 1,
     "restrictionBiomes": [
-      {
-        "value": "CUSTOM:Pasture"
-      },
       {
         "value": "CUSTOM:Garden"
       }

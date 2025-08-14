@@ -15,6 +15,7 @@ import net.mcreator.projecthorsedimension.block.WhiteDrywallBlock;
 import net.mcreator.projecthorsedimension.block.WhiteBeadBlockBlock;
 import net.mcreator.projecthorsedimension.block.WeakCosmicNoiseBlock;
 import net.mcreator.projecthorsedimension.block.WallbarrierBlock;
+import net.mcreator.projecthorsedimension.block.TrashcanBlock;
 import net.mcreator.projecthorsedimension.block.ToadstoolBlock;
 import net.mcreator.projecthorsedimension.block.StaticResidueBlock;
 import net.mcreator.projecthorsedimension.block.ShrubBlock;
@@ -29,6 +30,7 @@ import net.mcreator.projecthorsedimension.block.PlasticYellowFlowerBlock;
 import net.mcreator.projecthorsedimension.block.PlankfenceBlock;
 import net.mcreator.projecthorsedimension.block.PlankSlopeBlock;
 import net.mcreator.projecthorsedimension.block.PinetreeBlock;
+import net.mcreator.projecthorsedimension.block.PillowBlock;
 import net.mcreator.projecthorsedimension.block.PalmTreeBlock;
 import net.mcreator.projecthorsedimension.block.NoisewallBlock;
 import net.mcreator.projecthorsedimension.block.NoisefloorBlock;
@@ -54,6 +56,7 @@ import net.mcreator.projecthorsedimension.block.HorseapplebuttonBlock;
 import net.mcreator.projecthorsedimension.block.HedgeBlock;
 import net.mcreator.projecthorsedimension.block.HdportaldiamondBlock;
 import net.mcreator.projecthorsedimension.block.HdportalcenterBlock;
+import net.mcreator.projecthorsedimension.block.GaspumpBlock;
 import net.mcreator.projecthorsedimension.block.FlowrringAstroturfBlock;
 import net.mcreator.projecthorsedimension.block.FloorbarrierBlock;
 import net.mcreator.projecthorsedimension.block.FarnBlock;
@@ -151,6 +154,9 @@ public class ProjectHorsedimensionModBlocks {
 	public static final DeferredBlock<Block> STATIC_RESIDUE = register("static_residue", StaticResidueBlock::new);
 	public static final DeferredBlock<Block> WALLBARRIER = register("wallbarrier", WallbarrierBlock::new);
 	public static final DeferredBlock<Block> FLOORBARRIER = register("floorbarrier", FloorbarrierBlock::new);
+	public static final DeferredBlock<Block> GASPUMP = register("gaspump", GaspumpBlock::new);
+	public static final DeferredBlock<Block> TRASHCAN = register("trashcan", TrashcanBlock::new);
+	public static final DeferredBlock<Block> PILLOW = register("pillow", PillowBlock::new);
 
 	// Start of user code block custom blocks
 	// End of user code block custom blocks

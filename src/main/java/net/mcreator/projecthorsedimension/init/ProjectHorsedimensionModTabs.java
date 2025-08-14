@@ -61,7 +61,6 @@ public class ProjectHorsedimensionModTabs {
 				tabData.accept(ProjectHorsedimensionModBlocks.POPCORNCEILING.get().asItem());
 				tabData.accept(ProjectHorsedimensionModBlocks.WHITE_DRYWALL.get().asItem());
 				tabData.accept(ProjectHorsedimensionModItems.RAT_SPAWN_EGG.get());
-				tabData.accept(ProjectHorsedimensionModItems.COW_FARMER_SPAWN_EGG.get());
 				tabData.accept(ProjectHorsedimensionModBlocks.LIGHTBULB.get().asItem());
 				tabData.accept(ProjectHorsedimensionModBlocks.BARNHOUSE_PLANKS.get().asItem());
 				tabData.accept(ProjectHorsedimensionModBlocks.BARNHOUSE_PLANK_SLOPE.get().asItem());
@@ -101,6 +100,10 @@ public class ProjectHorsedimensionModTabs {
 				tabData.accept(ProjectHorsedimensionModItems.BIRDWINGS_CHESTPLATE.get());
 				tabData.accept(ProjectHorsedimensionModItems.BIRDWINGSOPEN_CHESTPLATE.get());
 				tabData.accept(ProjectHorsedimensionModItems.CORRUPTEDWINGS_CHESTPLATE.get());
+				tabData.accept(ProjectHorsedimensionModItems.DROMEDARY_SPAWN_EGG.get());
+				tabData.accept(ProjectHorsedimensionModItems.BOX_SPAWN_EGG.get());
+				tabData.accept(ProjectHorsedimensionModBlocks.GASPUMP.get().asItem());
+				tabData.accept(ProjectHorsedimensionModBlocks.TRASHCAN.get().asItem());
 			}).build());
 
 	@SubscribeEvent
@@ -113,13 +116,16 @@ public class ProjectHorsedimensionModTabs {
 			tabData.accept(ProjectHorsedimensionModItems.GIBENTITY_SPAWN_EGG.get());
 			tabData.accept(ProjectHorsedimensionModItems.BIRD_SPAWN_EGG.get());
 			tabData.accept(ProjectHorsedimensionModItems.RAT_SPAWN_EGG.get());
-			tabData.accept(ProjectHorsedimensionModItems.COW_FARMER_SPAWN_EGG.get());
 			tabData.accept(ProjectHorsedimensionModItems.GECKO_SPAWN_EGG.get());
 			tabData.accept(ProjectHorsedimensionModItems.MEALWORMENTITY_SPAWN_EGG.get());
 			tabData.accept(ProjectHorsedimensionModItems.CRICKETENTITY_SPAWN_EGG.get());
 			tabData.accept(ProjectHorsedimensionModItems.POOLGATOR_SPAWN_EGG.get());
 			tabData.accept(ProjectHorsedimensionModItems.FISH_SPAWN_EGG.get());
 			tabData.accept(ProjectHorsedimensionModItems.GNOME_SPAWN_EGG.get());
+			tabData.accept(ProjectHorsedimensionModItems.DROMEDARY_SPAWN_EGG.get());
+			tabData.accept(ProjectHorsedimensionModItems.BOVINE_SPAWN_EGG.get());
+			tabData.accept(ProjectHorsedimensionModItems.CANIS_LATRANS_SPAWN_EGG.get());
+			tabData.accept(ProjectHorsedimensionModItems.PEERAMID_SPAWN_EGG.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
 			tabData.accept(ProjectHorsedimensionModBlocks.ASTROTURF.get().asItem());
 			tabData.accept(ProjectHorsedimensionModBlocks.ASPHALT.get().asItem());
@@ -175,6 +181,7 @@ public class ProjectHorsedimensionModTabs {
 			tabData.accept(ProjectHorsedimensionModBlocks.MULCH.get().asItem());
 		} else if (tabData.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
 			tabData.accept(ProjectHorsedimensionModBlocks.HORSEBLOCK.get().asItem());
+			tabData.accept(ProjectHorsedimensionModItems.STAFF.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.FOOD_AND_DRINKS) {
 			tabData.accept(ProjectHorsedimensionModItems.PEA.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.COLORED_BLOCKS) {

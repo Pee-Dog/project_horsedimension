@@ -3,9 +3,9 @@
   "_type": "plant",
   "definition": {
     "renderType": 3,
-    "texture": "ranunculus",
+    "texture": "whiteflower",
     "textureBottom": "",
-    "customModelName": "flower:default",
+    "customModelName": "whitefliower:default",
     "itemTexture": "",
     "particleTexture": "",
     "tintType": "No tint",

@@ -81,7 +81,7 @@
       "value": ""
     },
     "offsetType": "NONE",
-    "aiPathNodeType": "DEFAULT",
+    "aiPathNodeType": "DOOR_WOOD_CLOSED",
     "ignitedByLava": false,
     "flammability": 20,
     "fireSpreadSpeed": 0,

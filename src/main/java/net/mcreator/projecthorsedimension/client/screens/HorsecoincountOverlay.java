@@ -36,11 +36,11 @@ public class HorsecoincountOverlay {
 		}
 		if (HorsecoincountDisplayOverlayIngameProcedure.execute(entity)) {
 
-			event.getGuiGraphics().blit(RenderType::guiTextured, ResourceLocation.parse("project_horsedimension:textures/screens/horsecoin.png"), 1, 1, 0, 0, 32, 32, 32, 32);
+			event.getGuiGraphics().blit(RenderType::guiTextured, ResourceLocation.parse("project_horsedimension:textures/screens/horsecoin.png"), 10, 9, 0, 0, 32, 32, 32, 32);
 
 			event.getGuiGraphics().drawString(Minecraft.getInstance().font,
 
-					HorsecoincounterProcedure.execute(entity), 35, 11, -205, false);
+					HorsecoincounterProcedure.execute(entity), 44, 20, -205, false);
 		}
 	}
 }

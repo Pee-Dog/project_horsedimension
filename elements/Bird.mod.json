@@ -122,9 +122,18 @@
     "raidCelebrationSound": {
       "value": ""
     },
-    "entityDataEntries": [],
+    "entityDataEntries": [
+      {
+        "name": "flying",
+        "type": "logic",
+        "value": true
+      }
+    ],
     "whenMobDies": {
       "name": "BirdEntityDies"
+    },
+    "onRightClickedOn": {
+      "name": "BirdRightClickedOnEntity"
     },
     "onMobTickUpdate": {
       "name": "BirdOnEntityTickUpdate"
@@ -134,7 +143,7 @@
     },
     "hasAI": true,
     "aiBase": "(none)",
-    "aixml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"aitasks_container\" deletable=\"false\" x=\"40\" y=\"40\"><next><block type=\"fly\"><field name=\"speed\">1</field><field name=\"condition\">null,null</field><next><block type=\"attack_action\"><field name=\"callhelp\">TRUE</field><field name=\"condition\">null,null</field><next><block type=\"attack_fly\"><field name=\"radius\">16</field><field name=\"speed\">1</field><field name=\"condition\">null,null</field><next><block type=\"breed\"><field name=\"speed\">1</field><field name=\"condition\">null,null</field><next><block type=\"follow_item_in_hands\"><field name=\"speed\">1</field><field name=\"scared\">FALSE</field><field name=\"condition\">null,null</field><value name=\"item\"><block type=\"mcitem_all\"><field name=\"value\">Items.WHEAT_SEEDS</field></block></value></block></next></block></next></block></next></block></next></block></next></block><block type=\"follow_entity\" x=\"841\" y=\"272\"><field name=\"speed\">1</field><field name=\"maxrange\">25</field><field name=\"followarea\">5</field><field name=\"condition\">null,null</field></block></xml>",
+    "aixml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"aitasks_container\" deletable=\"false\" x=\"40\" y=\"40\"><next><block type=\"fly\"><field name=\"speed\">2</field><field name=\"condition\">Birdrest,null</field><next><block type=\"attack_action\"><field name=\"callhelp\">TRUE</field><field name=\"condition\">null,null</field><next><block type=\"attack_fly\"><field name=\"radius\">16</field><field name=\"speed\">1</field><field name=\"condition\">null,null</field><next><block type=\"breed\"><field name=\"speed\">1</field><field name=\"condition\">null,null</field><next><block type=\"follow_item_in_hands\"><field name=\"speed\">1</field><field name=\"scared\">FALSE</field><field name=\"condition\">null,null</field><value name=\"item\"><block type=\"mcitem_all\"><field name=\"value\">Items.WHEAT_SEEDS</field></block></value></block></next></block></next></block></next></block></next></block></next></block><block type=\"follow_entity\" x=\"841\" y=\"272\"><field name=\"speed\">1</field><field name=\"maxrange\">25</field><field name=\"followarea\">5</field><field name=\"condition\">null,null</field></block></xml>",
     "breedable": true,
     "tameable": false,
     "breedTriggerItems": [

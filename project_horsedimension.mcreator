@@ -2143,21 +2143,8 @@
           "src/main/resources/assets/project_horsedimension/items/cowfarmeritem.json",
           "src/main/java/net/mcreator/projecthorsedimension/item/CowfarmeritemItem.java"
         ]
-      }
-    },
-    {
-      "name": "CowFarmer",
-      "type": "livingentity",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "cow_farmer",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/project_horsedimension/items/cow_farmer_spawn_egg.json",
-          "src/main/java/net/mcreator/projecthorsedimension/entity/CowFarmerEntity.java",
-          "src/main/java/net/mcreator/projecthorsedimension/client/renderer/CowFarmerRenderer.java"
-        ]
-      }
+      },
+      "path": "~/bovine"
     },
     {
       "name": "HorthDimensionCreativeTab",
@@ -2677,7 +2664,8 @@
         "files": [
           "src/main/java/net/mcreator/projecthorsedimension/procedures/BirdEntityDiesProcedure.java"
         ]
-      }
+      },
+      "path": "~/bird"
     },
     {
       "name": "Mealwormentity",
@@ -3027,7 +3015,8 @@
           "src/main/java/net/mcreator/projecthorsedimension/item/BoulderitemItem.java",
           "src/main/resources/assets/project_horsedimension/models/item/boulderitem.json"
         ]
-      }
+      },
+      "path": "~/boulder"
     },
     {
       "name": "BoulderOnInitialEntitySpawn",
@@ -3036,11 +3025,17 @@
       "locked_code": false,
       "registry_name": "boulder_on_initial_entity_spawn",
       "metadata": {
-        "dependencies": [],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
         "files": [
           "src/main/java/net/mcreator/projecthorsedimension/procedures/BoulderOnInitialEntitySpawnProcedure.java"
         ]
-      }
+      },
+      "path": "~/boulder"
     },
     {
       "name": "Boulder",
@@ -3051,10 +3046,12 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/projecthorsedimension/entity/BoulderEntity.java",
+          "src/main/resources/data/project_horsedimension/neoforge/biome_modifier/boulder_biome_modifier.json",
           "src/main/resources/assets/project_horsedimension/items/boulder_spawn_egg.json",
           "src/main/java/net/mcreator/projecthorsedimension/client/renderer/BoulderRenderer.java"
         ]
-      }
+      },
+      "path": "~/boulder"
     },
     {
       "name": "BoulderOnEntityTickUpdate",
@@ -3067,7 +3064,8 @@
         "files": [
           "src/main/java/net/mcreator/projecthorsedimension/procedures/BoulderOnEntityTickUpdateProcedure.java"
         ]
-      }
+      },
+      "path": "~/boulder"
     },
     {
       "name": "BoulderPush",
@@ -3089,7 +3087,8 @@
         "files": [
           "src/main/java/net/mcreator/projecthorsedimension/procedures/BoulderPushProcedure.java"
         ]
-      }
+      },
+      "path": "~/boulder"
     },
     {
       "name": "BoulderModelVisualScale",
@@ -3108,7 +3107,8 @@
         "files": [
           "src/main/java/net/mcreator/projecthorsedimension/procedures/BoulderModelVisualScaleProcedure.java"
         ]
-      }
+      },
+      "path": "~/boulder"
     },
     {
       "name": "Barndoor",
@@ -3290,7 +3290,8 @@
           "src/main/resources/assets/project_horsedimension/models/item/gnomeitem.json",
           "src/main/java/net/mcreator/projecthorsedimension/item/GnomeitemItem.java"
         ]
-      }
+      },
+      "path": "~/gnome"
     },
     {
       "name": "Gnome",
@@ -3305,7 +3306,8 @@
           "src/main/resources/assets/project_horsedimension/items/gnome_spawn_egg.json",
           "src/main/resources/data/project_horsedimension/neoforge/biome_modifier/gnome_biome_modifier.json"
         ]
-      }
+      },
+      "path": "~/gnome"
     },
     {
       "name": "PlasticYellowFlower",
@@ -3468,7 +3470,8 @@
           "src/main/resources/assets/project_horsedimension/models/item/hdportalcenter.json",
           "src/main/resources/assets/project_horsedimension/items/hdportalcenter.json"
         ]
-      }
+      },
+      "path": "~/portal"
     },
     {
       "name": "Hdportaldiamond",
@@ -3486,7 +3489,8 @@
           "src/main/resources/assets/project_horsedimension/blockstates/hdportaldiamond.json",
           "src/main/resources/assets/project_horsedimension/models/block/hdportaldiamond.json"
         ]
-      }
+      },
+      "path": "~/portal"
     },
     {
       "name": "Prismreceptacle",
@@ -3503,7 +3507,8 @@
           "src/main/resources/assets/project_horsedimension/blockstates/prismreceptacle.json",
           "src/main/resources/assets/project_horsedimension/models/block/prismreceptacle.json"
         ]
-      }
+      },
+      "path": "~/portal"
     },
     {
       "name": "PrismreceptacleNeighbourBlockChanges",
@@ -3533,7 +3538,8 @@
         "files": [
           "src/main/java/net/mcreator/projecthorsedimension/procedures/PrismreceptacleNeighbourBlockChangesProcedure.java"
         ]
-      }
+      },
+      "path": "~/portal"
     },
     {
       "name": "PortalShapes",
@@ -3547,7 +3553,8 @@
           "src/main/resources/assets/project_horsedimension/models/block/portal_shapes_blockstate_1.json",
           "src/main/resources/assets/project_horsedimension/models/block/portal_shapes_blockstate_0.json"
         ]
-      }
+      },
+      "path": "~/portal"
     },
     {
       "name": "HdportaldiamondOnBlockRightClicked",
@@ -3577,7 +3584,8 @@
         "files": [
           "src/main/java/net/mcreator/projecthorsedimension/procedures/HdportaldiamondOnBlockRightClickedProcedure.java"
         ]
-      }
+      },
+      "path": "~/portal"
     },
     {
       "name": "EnergeticCosmicNoise",
@@ -3643,7 +3651,8 @@
           "src/main/resources/data/project_horsedimension/neoforge/biome_modifier/pyramid_biome_modifier.json",
           "src/main/resources/data/project_horsedimension/worldgen/configured_feature/pyramid.json"
         ]
-      }
+      },
+      "path": "~/portal"
     },
     {
       "name": "Horsereceptacle",
@@ -3660,7 +3669,8 @@
           "src/main/resources/assets/project_horsedimension/blockstates/horsereceptacle.json",
           "src/main/resources/assets/project_horsedimension/models/block/horsereceptacle.json"
         ]
-      }
+      },
+      "path": "~/portal"
     },
     {
       "name": "HorseReceptacleOnBlockRightClicked",
@@ -3694,7 +3704,8 @@
         "files": [
           "src/main/java/net/mcreator/projecthorsedimension/procedures/HorseReceptacleOnBlockRightClickedProcedure.java"
         ]
-      }
+      },
+      "path": "~/portal"
     },
     {
       "name": "HorseWalksOnBlock",
@@ -3728,7 +3739,8 @@
         "files": [
           "src/main/java/net/mcreator/projecthorsedimension/procedures/HorseWalksOnBlockProcedure.java"
         ]
-      }
+      },
+      "path": "~/portal"
     },
     {
       "name": "HdportalcenterEntityCollidesInTheBlock",
@@ -3762,7 +3774,8 @@
         "files": [
           "src/main/java/net/mcreator/projecthorsedimension/procedures/HdportalcenterEntityCollidesInTheBlockProcedure.java"
         ]
-      }
+      },
+      "path": "~/portal"
     },
     {
       "name": "HdportalcenterBlockAdded",
@@ -3792,7 +3805,8 @@
         "files": [
           "src/main/java/net/mcreator/projecthorsedimension/procedures/HdportalcenterBlockAddedProcedure.java"
         ]
-      }
+      },
+      "path": "~/portal"
     },
     {
       "name": "HdportalcenterOnBlockRightClicked",
@@ -3805,7 +3819,8 @@
         "files": [
           "src/main/java/net/mcreator/projecthorsedimension/procedures/HdportalcenterOnBlockRightClickedProcedure.java"
         ]
-      }
+      },
+      "path": "~/portal"
     },
     {
       "name": "Ruinedportalprisms",
@@ -3834,7 +3849,8 @@
           "src/main/java/net/mcreator/projecthorsedimension/block/NoisefloorBlock.java",
           "src/main/resources/assets/project_horsedimension/models/block/noisefloor.json"
         ]
-      }
+      },
+      "path": "~/portal"
     },
     {
       "name": "Noisewall",
@@ -3851,7 +3867,8 @@
           "src/main/java/net/mcreator/projecthorsedimension/block/NoisewallBlock.java",
           "src/main/resources/data/project_horsedimension/loot_table/blocks/noisewall.json"
         ]
-      }
+      },
+      "path": "~/portal"
     },
     {
       "name": "HdportalpotionOnEffectActiveTick",
@@ -3870,7 +3887,8 @@
         "files": [
           "src/main/java/net/mcreator/projecthorsedimension/procedures/HdportalpotionOnEffectActiveTickProcedure.java"
         ]
-      }
+      },
+      "path": "~/portal"
     },
     {
       "name": "HdportalpotionEffectStartedapplied",
@@ -3888,7 +3906,8 @@
         "files": [
           "src/main/java/net/mcreator/projecthorsedimension/procedures/HdportalpotionEffectStartedappliedProcedure.java"
         ]
-      }
+      },
+      "path": "~/portal"
     },
     {
       "name": "S",
@@ -3900,7 +3919,8 @@
         "files": [
           "src/main/java/net/mcreator/projecthorsedimension/client/screens/SOverlay.java"
         ]
-      }
+      },
+      "path": "~/portal"
     },
     {
       "name": "HdportalpotionOnEffectActiveTick2",
@@ -3919,7 +3939,8 @@
         "files": [
           "src/main/java/net/mcreator/projecthorsedimension/procedures/HdportalpotionOnEffectActiveTick2Procedure.java"
         ]
-      }
+      },
+      "path": "~/portal"
     },
     {
       "name": "Noiseoverlayfadeprocedure",
@@ -3937,7 +3958,8 @@
         "files": [
           "src/main/java/net/mcreator/projecthorsedimension/procedures/NoiseoverlayfadeprocedureProcedure.java"
         ]
-      }
+      },
+      "path": "~/portal"
     },
     {
       "name": "Noiseoverlayfadeoutprocedure",
@@ -3959,7 +3981,8 @@
         "files": [
           "src/main/java/net/mcreator/projecthorsedimension/procedures/NoiseoverlayfadeoutprocedureProcedure.java"
         ]
-      }
+      },
+      "path": "~/portal"
     },
     {
       "name": "Noiseparticle",
@@ -4290,7 +4313,8 @@
           "src/main/resources/data/project_horsedimension/loot_table/blocks/wallbarrier.json",
           "src/main/resources/assets/project_horsedimension/blockstates/wallbarrier.json"
         ]
-      }
+      },
+      "path": "~/portal"
     },
     {
       "name": "Floorbarrier",
@@ -4307,7 +4331,8 @@
           "src/main/resources/assets/project_horsedimension/items/floorbarrier.json",
           "src/main/resources/assets/project_horsedimension/blockstates/floorbarrier.json"
         ]
-      }
+      },
+      "path": "~/portal"
     },
     {
       "name": "BirdwingsTickEvent",
@@ -4333,7 +4358,8 @@
         "files": [
           "src/main/java/net/mcreator/projecthorsedimension/procedures/BirdwingsTickEventProcedure.java"
         ]
-      }
+      },
+      "path": "~/wings"
     },
     {
       "name": "Birdwings",
@@ -4351,7 +4377,8 @@
           "src/main/resources/assets/project_horsedimension/models/item/birdwings_chestplate.json",
           "src/main/java/net/mcreator/projecthorsedimension/item/BirdwingsItem.java"
         ]
-      }
+      },
+      "path": "~/wings"
     },
     {
       "name": "Birdwingsopen",
@@ -4369,7 +4396,8 @@
           "src/main/resources/assets/project_horsedimension/models/item/birdwingsopen_chestplate.json",
           "src/main/resources/assets/project_horsedimension/equipment/birdwingsopen.json"
         ]
-      }
+      },
+      "path": "~/wings"
     },
     {
       "name": "Corruptedwings",
@@ -4387,7 +4415,8 @@
           "src/main/resources/assets/project_horsedimension/items/corruptedwings_chestplate.json",
           "src/main/java/net/mcreator/projecthorsedimension/item/CorruptedwingsItem.java"
         ]
-      }
+      },
+      "path": "~/wings"
     },
     {
       "name": "CorruptedwingsChestplateTickEvent",
@@ -4400,12 +4429,997 @@
           {
             "name": "entity",
             "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "world",
+            "type": "world"
           }
         ],
         "files": [
           "src/main/java/net/mcreator/projecthorsedimension/procedures/CorruptedwingsChestplateTickEventProcedure.java"
         ]
-      }
+      },
+      "path": "~/wings"
+    },
+    {
+      "name": "CamelItem",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "camel_item",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/project_horsedimension/models/item/camel_item.json",
+          "src/main/resources/assets/project_horsedimension/items/camel_item.json",
+          "src/main/java/net/mcreator/projecthorsedimension/item/CamelItemItem.java"
+        ]
+      },
+      "path": "~/dromedary"
+    },
+    {
+      "name": "Dromedary",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dromedary",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/projecthorsedimension/entity/DromedaryEntity.java",
+          "src/main/resources/data/project_horsedimension/neoforge/biome_modifier/dromedary_biome_modifier.json",
+          "src/main/java/net/mcreator/projecthorsedimension/client/renderer/DromedaryRenderer.java",
+          "src/main/resources/assets/project_horsedimension/items/dromedary_spawn_egg.json"
+        ]
+      },
+      "path": "~/dromedary"
+    },
+    {
+      "name": "CardboardBoxEntityItem",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cardboard_box_entity_item",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/project_horsedimension/items/cardboard_box_entity_item.json",
+          "src/main/java/net/mcreator/projecthorsedimension/item/CardboardBoxEntityItemItem.java",
+          "src/main/resources/assets/project_horsedimension/models/item/cardboard_box_entity_item.json"
+        ]
+      },
+      "path": "~/cardboard box"
+    },
+    {
+      "name": "Box",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "box",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/project_horsedimension/neoforge/biome_modifier/box_biome_modifier.json",
+          "src/main/java/net/mcreator/projecthorsedimension/entity/BoxEntity.java",
+          "src/main/resources/assets/project_horsedimension/items/box_spawn_egg.json",
+          "src/main/java/net/mcreator/projecthorsedimension/client/renderer/BoxRenderer.java"
+        ]
+      },
+      "path": "~/cardboard box"
+    },
+    {
+      "name": "Boxcarry",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "boxcarry",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/projecthorsedimension/procedures/BoxcarryProcedure.java"
+        ]
+      },
+      "path": "~/cardboard box"
+    },
+    {
+      "name": "BoxOnEntityTickUpdate",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "box_on_entity_tick_update",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/projecthorsedimension/procedures/BoxOnEntityTickUpdateProcedure.java"
+        ]
+      },
+      "path": "~/cardboard box"
+    },
+    {
+      "name": "CardboardBox",
+      "type": "item",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "cardboard_box",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/project_horsedimension/models/item/cardboard_box.json",
+          "src/main/java/net/mcreator/projecthorsedimension/item/CardboardBoxItem.java",
+          "src/main/resources/assets/project_horsedimension/items/cardboard_box.json"
+        ]
+      },
+      "path": "~/cardboard box"
+    },
+    {
+      "name": "Gaspump",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gaspump",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/project_horsedimension/models/block/gaspump.json",
+          "src/main/resources/assets/project_horsedimension/items/gaspump.json",
+          "src/main/resources/assets/project_horsedimension/models/item/gaspump.json",
+          "src/main/resources/assets/project_horsedimension/blockstates/gaspump.json",
+          "src/main/resources/data/project_horsedimension/loot_table/blocks/gaspump.json",
+          "src/main/java/net/mcreator/projecthorsedimension/block/GaspumpBlock.java"
+        ]
+      },
+      "path": "~/gas station"
+    },
+    {
+      "name": "Trashcan",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "trashcan",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/project_horsedimension/loot_table/blocks/trashcan.json",
+          "src/main/resources/assets/project_horsedimension/blockstates/trashcan.json",
+          "src/main/java/net/mcreator/projecthorsedimension/block/TrashcanBlock.java",
+          "src/main/resources/assets/project_horsedimension/models/block/trashcan.json",
+          "src/main/resources/assets/project_horsedimension/models/item/trashcan.json",
+          "src/main/resources/assets/project_horsedimension/items/trashcan.json"
+        ]
+      },
+      "path": "~/gas station"
+    },
+    {
+      "name": "Birdrest",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "birdrest",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/projecthorsedimension/procedures/BirdrestProcedure.java"
+        ]
+      },
+      "path": "~/bird"
+    },
+    {
+      "name": "BirdRightClickedOnEntity",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bird_right_clicked_on_entity",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/projecthorsedimension/procedures/BirdRightClickedOnEntityProcedure.java"
+        ]
+      },
+      "path": "~/bird"
+    },
+    {
+      "name": "CowFarmerOnInitialEntitySpawn",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cow_farmer_on_initial_entity_spawn",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/projecthorsedimension/procedures/CowFarmerOnInitialEntitySpawnProcedure.java"
+        ]
+      },
+      "path": "~/bovine"
+    },
+    {
+      "name": "CowFarmerOnEntityTickUpdate",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cow_farmer_on_entity_tick_update",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/projecthorsedimension/procedures/CowFarmerOnEntityTickUpdateProcedure.java"
+        ]
+      },
+      "path": "~/bovine"
+    },
+    {
+      "name": "Cowsleepitem",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cowsleepitem",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/project_horsedimension/items/cowsleepitem.json",
+          "src/main/java/net/mcreator/projecthorsedimension/item/CowsleepitemItem.java",
+          "src/main/resources/assets/project_horsedimension/models/item/cowsleepitem.json"
+        ]
+      },
+      "path": "~/bovine"
+    },
+    {
+      "name": "Pillow",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pillow",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/project_horsedimension/blockstates/pillow.json",
+          "src/main/java/net/mcreator/projecthorsedimension/block/entity/PillowBlockEntity.java",
+          "src/main/resources/data/project_horsedimension/loot_table/blocks/pillow.json",
+          "src/main/resources/assets/project_horsedimension/models/block/pillow.json",
+          "src/main/java/net/mcreator/projecthorsedimension/block/PillowBlock.java",
+          "src/main/resources/assets/project_horsedimension/items/pillow.json",
+          "src/main/resources/assets/project_horsedimension/models/item/pillow.json"
+        ]
+      },
+      "path": "~/bovine"
+    },
+    {
+      "name": "CowUI",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cow_ui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/projecthorsedimension/client/gui/CowUIScreen.java",
+          "src/main/java/net/mcreator/projecthorsedimension/network/CowUIButtonMessage.java",
+          "src/main/java/net/mcreator/projecthorsedimension/world/inventory/CowUIMenu.java"
+        ]
+      },
+      "path": "~/bovine"
+    },
+    {
+      "name": "CowFarmerRightClickedOnEntity",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cow_farmer_right_clicked_on_entity",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "return_type": "entity",
+        "files": [
+          "src/main/java/net/mcreator/projecthorsedimension/procedures/CowFarmerRightClickedOnEntityProcedure.java"
+        ]
+      },
+      "path": "~/bovine"
+    },
+    {
+      "name": "CowHead",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cow_head",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/projecthorsedimension/entity/CowHeadEntity.java",
+          "src/main/java/net/mcreator/projecthorsedimension/client/renderer/CowHeadRenderer.java"
+        ]
+      },
+      "path": "~/bovine"
+    },
+    {
+      "name": "Cowheaditem",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cowheaditem",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/projecthorsedimension/item/CowheaditemItem.java",
+          "src/main/resources/assets/project_horsedimension/models/item/cowheaditem.json",
+          "src/main/resources/assets/project_horsedimension/items/cowheaditem.json"
+        ]
+      },
+      "path": "~/bovine"
+    },
+    {
+      "name": "CowFarmerSleep",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cow_farmer_sleep",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/projecthorsedimension/procedures/CowFarmerSleepProcedure.java"
+        ]
+      },
+      "path": "~/bovine"
+    },
+    {
+      "name": "Bovine",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bovine",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/projecthorsedimension/entity/BovineEntity.java",
+          "src/main/java/net/mcreator/projecthorsedimension/client/renderer/BovineRenderer.java",
+          "src/main/resources/assets/project_horsedimension/items/bovine_spawn_egg.json",
+          "src/main/resources/data/project_horsedimension/neoforge/biome_modifier/bovine_biome_modifier.json"
+        ]
+      },
+      "path": "~/bovine"
+    },
+    {
+      "name": "BovineRightClickedOnEntity",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bovine_right_clicked_on_entity",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/projecthorsedimension/procedures/BovineRightClickedOnEntityProcedure.java"
+        ]
+      },
+      "path": "~/bovine"
+    },
+    {
+      "name": "Enablebuy",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enablebuy",
+      "metadata": {
+        "dependencies": [],
+        "files": [
+          "src/main/java/net/mcreator/projecthorsedimension/procedures/EnablebuyProcedure.java"
+        ]
+      },
+      "path": "~/bovine"
+    },
+    {
+      "name": "Itembuy",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "itembuy",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/projecthorsedimension/procedures/ItembuyProcedure.java"
+        ]
+      },
+      "path": "~/bovine"
+    },
+    {
+      "name": "StaffRightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "staff_rightclicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/projecthorsedimension/procedures/StaffRightclickedProcedure.java"
+        ]
+      },
+      "path": "~/bovine"
+    },
+    {
+      "name": "Staff",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "staff",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/project_horsedimension/items/staff.json",
+          "src/main/resources/assets/project_horsedimension/models/item/staff.json",
+          "src/main/java/net/mcreator/projecthorsedimension/item/StaffItem.java"
+        ]
+      },
+      "path": "~/bovine"
+    },
+    {
+      "name": "Item1buy",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "item_1buy",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "return_type": "number",
+        "files": [
+          "src/main/java/net/mcreator/projecthorsedimension/procedures/Item1buyProcedure.java"
+        ]
+      },
+      "path": "~/bovine"
+    },
+    {
+      "name": "Coyote",
+      "type": "particle",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "coyote",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/projecthorsedimension/client/particle/CoyoteParticle.java",
+          "src/main/resources/assets/project_horsedimension/particles/coyote.json"
+        ]
+      },
+      "path": "~/canis latrans"
+    },
+    {
+      "name": "CanisLatransOnEntityTickUpdate",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "canis_latrans_on_entity_tick_update",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/projecthorsedimension/procedures/CanisLatransOnEntityTickUpdateProcedure.java"
+        ]
+      },
+      "path": "~/canis latrans"
+    },
+    {
+      "name": "CanisLatrans",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "canis_latrans",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/project_horsedimension/items/canis_latrans_spawn_egg.json",
+          "src/main/java/net/mcreator/projecthorsedimension/client/renderer/CanisLatransRenderer.java",
+          "src/main/java/net/mcreator/projecthorsedimension/entity/CanisLatransEntity.java",
+          "src/main/resources/data/project_horsedimension/neoforge/biome_modifier/canis_latrans_biome_modifier.json"
+        ]
+      },
+      "path": "~/canis latrans"
+    },
+    {
+      "name": "Movementspeed",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "movementspeed",
+      "metadata": {
+        "dependencies": [],
+        "files": [
+          "src/main/java/net/mcreator/projecthorsedimension/procedures/MovementspeedProcedure.java"
+        ]
+      },
+      "path": "~/movement"
+    },
+    {
+      "name": "MoveforwardOnKeyPressed",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "moveforward_on_key_pressed",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/projecthorsedimension/procedures/MoveforwardOnKeyPressedProcedure.java"
+        ]
+      },
+      "path": "~/movement"
+    },
+    {
+      "name": "Moveforward",
+      "type": "keybind",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "moveforward",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/projecthorsedimension/network/MoveforwardMessage.java"
+        ]
+      },
+      "path": "~/movement"
+    },
+    {
+      "name": "Lookleft",
+      "type": "keybind",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lookleft",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/projecthorsedimension/network/LookleftMessage.java"
+        ]
+      },
+      "path": "~/movement"
+    },
+    {
+      "name": "LookLeftKeyPress",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "look_left_key_press",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/projecthorsedimension/procedures/LookLeftKeyPressProcedure.java"
+        ]
+      },
+      "path": "~/movement"
+    },
+    {
+      "name": "LookRighKeyPress",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "look_righ_key_press",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/projecthorsedimension/procedures/LookRighKeyPressProcedure.java"
+        ]
+      },
+      "path": "~/movement"
+    },
+    {
+      "name": "Lookright",
+      "type": "keybind",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lookright",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/projecthorsedimension/network/LookrightMessage.java"
+        ]
+      },
+      "path": "~/movement"
+    },
+    {
+      "name": "MoveforwardOnKeyReleased",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "moveforward_on_key_released",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/projecthorsedimension/procedures/MoveforwardOnKeyReleasedProcedure.java"
+        ]
+      },
+      "path": "~/movement"
+    },
+    {
+      "name": "LookRighKeyRelease",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "look_righ_key_release",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/projecthorsedimension/procedures/LookRighKeyReleaseProcedure.java"
+        ]
+      },
+      "path": "~/movement"
+    },
+    {
+      "name": "LookLeftKeyRelease",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "look_left_key_release",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/projecthorsedimension/procedures/LookLeftKeyReleaseProcedure.java"
+        ]
+      },
+      "path": "~/movement"
+    },
+    {
+      "name": "Peeramiditem",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "peeramiditem",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/projecthorsedimension/item/PeeramiditemItem.java",
+          "src/main/resources/assets/project_horsedimension/models/item/peeramiditem.json",
+          "src/main/resources/assets/project_horsedimension/items/peeramiditem.json"
+        ]
+      },
+      "path": "~/peeramid"
+    },
+    {
+      "name": "Peeramid",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "peeramid",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/project_horsedimension/items/peeramid_spawn_egg.json",
+          "src/main/resources/data/project_horsedimension/neoforge/biome_modifier/peeramid_biome_modifier.json",
+          "src/main/java/net/mcreator/projecthorsedimension/entity/PeeramidEntity.java",
+          "src/main/java/net/mcreator/projecthorsedimension/client/renderer/PeeramidRenderer.java"
+        ]
+      },
+      "path": "~/peeramid"
+    },
+    {
+      "name": "PeeramidOnEntityTickUpdate",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "peeramid_on_entity_tick_update",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/projecthorsedimension/procedures/PeeramidOnEntityTickUpdateProcedure.java"
+        ]
+      },
+      "path": "~/peeramid"
+    },
+    {
+      "name": "Playerraytracetest",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "playerraytracetest",
+      "metadata": {
+        "dependencies": [],
+        "files": [
+          "src/main/java/net/mcreator/projecthorsedimension/procedures/PlayerraytracetestProcedure.java"
+        ]
+      },
+      "path": "~/peeramid"
+    },
+    {
+      "name": "Cardboardbits",
+      "type": "particle",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cardboardbits",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/projecthorsedimension/client/particle/CardboardbitsParticle.java",
+          "src/main/resources/assets/project_horsedimension/particles/cardboardbits.json"
+        ]
+      },
+      "path": "~/cardboard box"
+    },
+    {
+      "name": "BoxEntityDies",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "box_entity_dies",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/projecthorsedimension/procedures/BoxEntityDiesProcedure.java"
+        ]
+      },
+      "path": "~/cardboard box"
+    },
+    {
+      "name": "BoxEntityIsHurt",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "box_entity_is_hurt",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/projecthorsedimension/procedures/BoxEntityIsHurtProcedure.java"
+        ]
+      },
+      "path": "~/cardboard box"
+    },
+    {
+      "name": "PillowBlockAdded",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pillow_block_added",
+      "metadata": {
+        "dependencies": [],
+        "files": [
+          "src/main/java/net/mcreator/projecthorsedimension/procedures/PillowBlockAddedProcedure.java"
+        ]
+      },
+      "path": "~/bovine"
+    },
+    {
+      "name": "PillowOnTickUpdate",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pillow_on_tick_update",
+      "metadata": {
+        "dependencies": [],
+        "files": [
+          "src/main/java/net/mcreator/projecthorsedimension/procedures/PillowOnTickUpdateProcedure.java"
+        ]
+      },
+      "path": "~/bovine"
     }
   ],
   "variable_elements": [
@@ -4425,6 +5439,30 @@
       "name": "portalwings",
       "type": "logic",
       "scope": "player_persistent",
+      "value": "false"
+    },
+    {
+      "name": "headyaw",
+      "type": "number",
+      "scope": "player_lifetime",
+      "value": "0"
+    },
+    {
+      "name": "goforward",
+      "type": "logic",
+      "scope": "player_lifetime",
+      "value": "false"
+    },
+    {
+      "name": "lookright",
+      "type": "logic",
+      "scope": "player_lifetime",
+      "value": "false"
+    },
+    {
+      "name": "lookleft",
+      "type": "logic",
+      "scope": "player_lifetime",
       "value": "false"
     }
   ],
@@ -4712,6 +5750,8 @@
       "Items.BEETROOT_SEEDS"
     ],
     "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:Trashcan",
+      "~CUSTOM:Gaspump",
       "~CUSTOM:Floorbarrier",
       "~CUSTOM:Wallbarrier",
       "~CUSTOM:Noisewall",
@@ -4742,6 +5782,9 @@
       "~CUSTOM:Corruptedwings.body",
       "~CUSTOM:Birdwingsopen.body",
       "~CUSTOM:Birdwings.body"
+    ],
+    "ITEMS:minecraft:pickaxes": [
+      "~CUSTOM:Staff"
     ]
   },
   "tab_element_order": {},
@@ -4838,8 +5881,6 @@
       "entity.project_horsedimension.rat": "Rat",
       "item.project_horsedimension.ratitem": "Ratitem",
       "item.project_horsedimension.cowfarmeritem": "Cowitem",
-      "entity.project_horsedimension.cow_farmer": "Cow Farmer",
-      "item.project_horsedimension.cow_farmer_spawn_egg": "Cow Farmer Spawn Egg",
       "item_group.project_horsedimension.horth_dimension_creative_tab": "The Horth Dimension",
       "item.project_horsedimension.lightbulb": "Incandescent Lightbulb",
       "item.project_horsedimension.gib": "Gib",
@@ -4922,8 +5963,37 @@
       "item.project_horsedimension.wallbarrier": "Wall Barrier",
       "item.project_horsedimension.floorbarrier": "Floor Barrier",
       "item.project_horsedimension.birdwings_chestplate": "Bird Wings",
-      "item.project_horsedimension.birdwingsopen_chestplate": "Bird Wings open",
-      "item.project_horsedimension.corruptedwings_chestplate": "Corrupted wings"
+      "item.project_horsedimension.birdwingsopen_chestplate": "Bird Wings",
+      "item.project_horsedimension.corruptedwings_chestplate": "Corrupted wings",
+      "item.project_horsedimension.camel_item": "Camelitem",
+      "entity.project_horsedimension.dromedary": "Dromedary",
+      "item.project_horsedimension.dromedary_spawn_egg": "Dromedary Spawn Egg",
+      "item.project_horsedimension.cardboard_box_entity_item": "BoxEntityItem",
+      "item.project_horsedimension.box_spawn_egg": "Box Spawn Egg",
+      "entity.project_horsedimension.box": "Box",
+      "item.project_horsedimension.cardboard_box": "BoxEntityItem",
+      "item.project_horsedimension.gaspump": "Gas Pump",
+      "item.project_horsedimension.trashcan": "Trash Can",
+      "item.project_horsedimension.cowsleepitem": "Cowitem",
+      "item.project_horsedimension.pillow": "Pillow",
+      "entity.project_horsedimension.cow_head": "Cow Head",
+      "item.project_horsedimension.cowheaditem": "Cowitem",
+      "gui.project_horsedimension.cow_ui.button_empty": "",
+      "gui.project_horsedimension.cow_ui.button_empty2": "",
+      "gui.project_horsedimension.cow_ui.button_empty1": "",
+      "entity.project_horsedimension.bovine": "Bovine",
+      "item.project_horsedimension.bovine_spawn_egg": "Bovine Spawn Egg",
+      "entity.project_horsedimension.cow_farmer": "Cow Farmer",
+      "item.project_horsedimension.cow_farmer_spawn_egg": "Cow Farmer Spawn Egg",
+      "item.project_horsedimension.staff": "Staff",
+      "entity.project_horsedimension.canis_latrans": "Canis Latrans",
+      "item.project_horsedimension.canis_latrans_spawn_egg": "Canis Latrans Spawn Egg",
+      "key.project_horsedimension.moveforward": "Moveforward",
+      "key.project_horsedimension.lookleft": "Lookleft",
+      "key.project_horsedimension.lookright": "lookright",
+      "item.project_horsedimension.peeramiditem": "Peeramiditem",
+      "entity.project_horsedimension.peeramid": "Peeramid",
+      "item.project_horsedimension.peeramid_spawn_egg": "Peeramid Spawn Egg"
     }
   },
   "metadata": {
@@ -4944,6 +6014,7 @@
       "src/main/java/net/mcreator/projecthorsedimension/network/MenuStateUpdateMessage.java",
       "src/main/java/net/mcreator/projecthorsedimension/init/ProjectHorsedimensionModScreens.java",
       "src/main/java/net/mcreator/projecthorsedimension/init/ProjectHorsedimensionModMenus.java",
+      "src/main/java/net/mcreator/projecthorsedimension/init/ProjectHorsedimensionModKeyMappings.java",
       "src/main/java/net/mcreator/projecthorsedimension/init/ProjectHorsedimensionModParticles.java",
       "src/main/java/net/mcreator/projecthorsedimension/init/ProjectHorsedimensionModParticleTypes.java",
       "src/main/java/net/mcreator/projecthorsedimension/init/ProjectHorsedimensionModMobEffects.java",
@@ -5020,6 +6091,54 @@
       },
       {
         "name": "loottables",
+        "children": []
+      },
+      {
+        "name": "oasis",
+        "children": []
+      },
+      {
+        "name": "boulder",
+        "children": []
+      },
+      {
+        "name": "wings",
+        "children": []
+      },
+      {
+        "name": "gas station",
+        "children": []
+      },
+      {
+        "name": "dromedary",
+        "children": []
+      },
+      {
+        "name": "cardboard box",
+        "children": []
+      },
+      {
+        "name": "portal",
+        "children": []
+      },
+      {
+        "name": "gnome",
+        "children": []
+      },
+      {
+        "name": "bovine",
+        "children": []
+      },
+      {
+        "name": "canis latrans",
+        "children": []
+      },
+      {
+        "name": "movement",
+        "children": []
+      },
+      {
+        "name": "peeramid",
         "children": []
       }
     ]

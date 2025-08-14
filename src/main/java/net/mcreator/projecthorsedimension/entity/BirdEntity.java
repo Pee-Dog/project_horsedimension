@@ -10,6 +10,7 @@ import net.minecraft.world.level.Level;
 import net.minecraft.world.item.crafting.Ingredient;
 import net.minecraft.world.item.Items;
 import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.entity.animal.Animal;
 import net.minecraft.world.entity.ai.navigation.PathNavigation;
 import net.minecraft.world.entity.ai.navigation.FlyingPathNavigation;
@@ -31,6 +32,8 @@ import net.minecraft.world.entity.EntitySpawnReason;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.world.entity.AgeableMob;
 import net.minecraft.world.damagesource.DamageSource;
+import net.minecraft.world.InteractionResult;
+import net.minecraft.world.InteractionHand;
 import net.minecraft.world.DifficultyInstance;
 import net.minecraft.util.RandomSource;
 import net.minecraft.tags.ItemTags;
@@ -38,10 +41,16 @@ import net.minecraft.tags.BlockTags;
 import net.minecraft.sounds.SoundEvent;
 import net.minecraft.server.level.ServerLevel;
 import net.minecraft.resources.ResourceLocation;
+import net.minecraft.network.syncher.SynchedEntityData;
+import net.minecraft.network.syncher.EntityDataSerializers;
+import net.minecraft.network.syncher.EntityDataAccessor;
+import net.minecraft.nbt.CompoundTag;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.core.HolderSet;
 import net.minecraft.core.BlockPos;
 
+import net.mcreator.projecthorsedimension.procedures.BirdrestProcedure;
+import net.mcreator.projecthorsedimension.procedures.BirdRightClickedOnEntityProcedure;
 import net.mcreator.projecthorsedimension.procedures.BirdOnInitialEntitySpawnProcedure;
 import net.mcreator.projecthorsedimension.procedures.BirdOnEntityTickUpdateProcedure;
 import net.mcreator.projecthorsedimension.procedures.BirdEntityDiesProcedure;
@@ -53,12 +62,20 @@ import javax.annotation.Nullable;
 import java.util.EnumSet;
 
 public class BirdEntity extends Animal {
+	public static final EntityDataAccessor<Boolean> DATA_flying = SynchedEntityData.defineId(BirdEntity.class, EntityDataSerializers.BOOLEAN);
+
 	public BirdEntity(EntityType<BirdEntity> type, Level world) {
 		super(type, world);
 		xpReward = 10;
 		setNoAi(false);
 		this.setItemSlot(EquipmentSlot.HEAD, new ItemStack(ProjectHorsedimensionModItems.BIRDITEM.get()));
 		this.moveControl = new FlyingMoveControl(this, 10, true);
+	}
+
+	@Override
+	protected void defineSynchedData(SynchedEntityData.Builder builder) {
+		super.defineSynchedData(builder);
+		builder.define(DATA_flying, true);
 	}
 
 	@Override
@@ -69,7 +86,7 @@ public class BirdEntity extends Animal {
 	@Override
 	protected void registerGoals() {
 		super.registerGoals();
-		this.goalSelector.addGoal(1, new RandomStrollGoal(this, 1, 20) {
+		this.goalSelector.addGoal(1, new RandomStrollGoal(this, 2, 20) {
 			@Override
 			protected Vec3 getPosition() {
 				RandomSource random = BirdEntity.this.getRandom();
@@ -78,6 +95,17 @@ public class BirdEntity extends Animal {
 				double dir_z = BirdEntity.this.getZ() + ((random.nextFloat() * 2 - 1) * 16);
 				return new Vec3(dir_x, dir_y, dir_z);
 			}
+
+			@Override
+			public boolean canUse() {
+				double x = BirdEntity.this.getX();
+				double y = BirdEntity.this.getY();
+				double z = BirdEntity.this.getZ();
+				Entity entity = BirdEntity.this;
+				Level world = BirdEntity.this.level();
+				return super.canUse() && BirdrestProcedure.execute(entity);
+			}
+
 		});
 		this.targetSelector.addGoal(2, new HurtByTargetGoal(this).setAlertOthers());
 		this.goalSelector.addGoal(3, new Goal() {
@@ -158,6 +186,34 @@ public class BirdEntity extends Animal {
 	public SpawnGroupData finalizeSpawn(ServerLevelAccessor world, DifficultyInstance difficulty, EntitySpawnReason reason, @Nullable SpawnGroupData livingdata) {
 		SpawnGroupData retval = super.finalizeSpawn(world, difficulty, reason, livingdata);
 		BirdOnInitialEntitySpawnProcedure.execute(this.getX(), this.getY(), this.getZ(), this);
+		return retval;
+	}
+
+	@Override
+	public void addAdditionalSaveData(CompoundTag compound) {
+		super.addAdditionalSaveData(compound);
+		compound.putBoolean("Dataflying", this.entityData.get(DATA_flying));
+	}
+
+	@Override
+	public void readAdditionalSaveData(CompoundTag compound) {
+		super.readAdditionalSaveData(compound);
+		if (compound.contains("Dataflying"))
+			this.entityData.set(DATA_flying, compound.getBoolean("Dataflying"));
+	}
+
+	@Override
+	public InteractionResult mobInteract(Player sourceentity, InteractionHand hand) {
+		ItemStack itemstack = sourceentity.getItemInHand(hand);
+		InteractionResult retval = InteractionResult.SUCCESS;
+		super.mobInteract(sourceentity, hand);
+		double x = this.getX();
+		double y = this.getY();
+		double z = this.getZ();
+		Entity entity = this;
+		Level world = this.level();
+
+		BirdRightClickedOnEntityProcedure.execute(entity);
 		return retval;
 	}
 
